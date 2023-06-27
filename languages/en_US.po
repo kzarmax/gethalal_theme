@@ -1,0 +1,1623 @@
+# <!=Copyright (C) 2021 Automattic
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Gethalal 1.0.0\n"
+"POT-Creation-Date: 2022-01-05 11:13+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-01-05 11:14+0800\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_html_x;_n\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: classes/class-gethalal-customize-notice-control.php:38
+#: classes/class-gethalal-dark-mode.php:176
+msgid "https://wordpress.org/support/article/gethalal/#dark-mode-support"
+msgstr ""
+
+#: classes/class-gethalal-customize.php:73
+msgid "Display Site Title & Tagline"
+msgstr ""
+
+#: classes/class-gethalal-customize.php:83
+msgid "Excerpt Settings"
+msgstr ""
+
+#: classes/class-gethalal-customize.php:104
+msgid "On Archive Pages, posts show:"
+msgstr ""
+
+#: classes/class-gethalal-customize.php:106
+msgid "Summary"
+msgstr ""
+
+#: classes/class-gethalal-customize.php:107
+msgid "Full text"
+msgstr ""
+
+#: classes/class-gethalal-customize.php:136
+msgid "Background color"
+msgstr ""
+
+#: classes/class-gethalal-dark-mode.php:132
+msgid "Colors & Dark Mode"
+msgstr ""
+
+#: classes/class-gethalal-dark-mode.php:175
+#, php-format
+msgid ""
+"Dark Mode is a device setting. If a visitor to your site requests it, your "
+"site will be shown with a dark background and light text. <a href=\"%s"
+"\">Learn more about Dark Mode.</a>"
+msgstr ""
+
+#: classes/class-gethalal-dark-mode.php:179
+msgid ""
+"Dark Mode can also be turned on and off with a button that you can find in "
+"the bottom right corner of the page."
+msgstr ""
+
+#: classes/class-gethalal-dark-mode.php:186
+msgid "Dark Mode support"
+msgstr ""
+
+#: classes/class-gethalal-dark-mode.php:319
+#, php-format
+msgid "Dark Mode: %s"
+msgstr ""
+
+#: classes/class-gethalal-dark-mode.php:376
+msgid "Get Halal uses LocalStorage when Dark Mode support is enabled."
+msgstr ""
+
+#: classes/class-gethalal-dark-mode.php:377
+msgid "Suggested text:"
+msgstr ""
+
+#: classes/class-gethalal-dark-mode.php:378
+msgid ""
+"This website uses LocalStorage to save the setting when Dark Mode support is "
+"turned on or off.<br> LocalStorage is necessary for the setting to work and "
+"is only used when a user clicks on the Dark Mode button.<br> No data is "
+"saved in the database or transferred."
+msgstr ""
+
+#: classes/class-gethalal-utils.php:20
+msgid "Placed"
+msgstr ""
+
+#: classes/class-gethalal-utils.php:21
+msgid "Preparing"
+msgstr ""
+
+#: classes/class-gethalal-utils.php:22
+msgid "Shipping"
+msgstr ""
+
+#: classes/class-gethalal-utils.php:23
+msgid "Delivered"
+msgstr ""
+
+#: classes/class-gethalal-utils.php:29
+msgid "Once Time"
+msgstr ""
+
+#: classes/class-gethalal-utils.php:30
+msgid "Weekly"
+msgstr ""
+
+#: classes/class-gethalal-utils.php:31
+msgid "Monthly"
+msgstr ""
+
+#: classes/class-gethalal-utils.php:38
+msgid "11-12 AM"
+msgstr ""
+
+#: classes/class-gethalal-utils.php:39
+msgid "1-2 PM"
+msgstr ""
+
+#: classes/class-gethalal-utils.php:40
+msgid "3-4 PM"
+msgstr ""
+
+#: classes/class-gethalal-utils.php:41
+msgid "5-6 PM"
+msgstr ""
+
+#: comments.php:60
+msgid "Page"
+msgstr ""
+
+#: comments.php:65
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:69
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:85
+msgid "Leave a comment"
+msgstr ""
+
+#: footer.php:44
+msgid ""
+"We Provide all Halal groceries, Halal fresh meat, fish, vegetables and "
+"fruits."
+msgstr ""
+
+#: footer.php:61
+msgid "Top Categories"
+msgstr ""
+
+#: footer.php:75
+msgid "About GetHalal"
+msgstr ""
+
+#: footer.php:81 footer.php:84 footer.php:87
+msgid "About Us"
+msgstr ""
+
+#: footer.php:82 footer.php:85 footer.php:88
+msgid "FAQ"
+msgstr ""
+
+#: footer.php:90
+msgid "Press"
+msgstr ""
+
+#: footer.php:91
+msgid "Imprint"
+msgstr ""
+
+#: footer.php:95
+msgid "Need Help?"
+msgstr ""
+
+#: footer.php:97
+msgid "Text us"
+msgstr ""
+
+#: footer.php:103
+msgid "Download GetHalal"
+msgstr ""
+
+#: footer.php:112
+msgid "Terms & Condtions"
+msgstr ""
+
+#: footer.php:113
+msgid "Privacy"
+msgstr ""
+
+#: functions.php:74 inc/starter-content.php:152
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:75 inc/starter-content.php:163
+msgid "Secondary menu"
+msgstr ""
+
+#: functions.php:148
+msgid "Extra small"
+msgstr ""
+
+#: functions.php:149
+msgid "XS"
+msgstr ""
+
+#: functions.php:154
+msgid "Small"
+msgstr ""
+
+#: functions.php:155
+msgid "S"
+msgstr ""
+
+#: functions.php:160
+msgid "Normal"
+msgstr ""
+
+#: functions.php:161
+msgid "M"
+msgstr ""
+
+#: functions.php:166
+msgid "Large"
+msgstr ""
+
+#: functions.php:167
+msgid "L"
+msgstr ""
+
+#: functions.php:172
+msgid "Extra large"
+msgstr ""
+
+#: functions.php:173
+msgid "XL"
+msgstr ""
+
+#: functions.php:178
+msgid "Huge"
+msgstr ""
+
+#: functions.php:179
+msgid "XXL"
+msgstr ""
+
+#: functions.php:184
+msgid "Gigantic"
+msgstr ""
+
+#: functions.php:185
+msgid "XXXL"
+msgstr ""
+
+#: functions.php:216
+msgid "Black"
+msgstr ""
+
+#: functions.php:221 inc/block-styles.php:105
+msgid "Dark gray"
+msgstr ""
+
+#: functions.php:226
+msgid "Gray"
+msgstr ""
+
+#: functions.php:231
+msgid "Green"
+msgstr ""
+
+#: functions.php:236
+msgid "Blue"
+msgstr ""
+
+#: functions.php:241
+msgid "Purple"
+msgstr ""
+
+#: functions.php:246
+msgid "Red"
+msgstr ""
+
+#: functions.php:251
+msgid "Orange"
+msgstr ""
+
+#: functions.php:256
+msgid "Yellow"
+msgstr ""
+
+#: functions.php:261
+msgid "White"
+msgstr ""
+
+#: functions.php:272
+msgid "Purple to yellow"
+msgstr ""
+
+#: functions.php:277
+msgid "Yellow to purple"
+msgstr ""
+
+#: functions.php:282
+msgid "Green to yellow"
+msgstr ""
+
+#: functions.php:287
+msgid "Yellow to green"
+msgstr ""
+
+#: functions.php:292
+msgid "Red to yellow"
+msgstr ""
+
+#: functions.php:297
+msgid "Yellow to red"
+msgstr ""
+
+#: functions.php:302
+msgid "Purple to red"
+msgstr ""
+
+#: functions.php:307
+msgid "Red to purple"
+msgstr ""
+
+#: functions.php:360
+msgid "Footer"
+msgstr ""
+
+#: functions.php:362
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:850
+msgid "Join Now"
+msgstr ""
+
+#: functions.php:867 inc/menu-functions.php:115
+#: woocommerce/myaccount/form-edit-account.php:29
+msgid "My Account"
+msgstr ""
+
+#: functions.php:871 inc/menu-functions.php:116
+#: woocommerce/myaccount/orders.php:32
+msgid "My Orders"
+msgstr ""
+
+#: functions.php:875
+msgid "My payment options"
+msgstr ""
+
+#: functions.php:879 woocommerce/checkout/form-checkout-address.php:34
+#: woocommerce/checkout/form-checkout-payment.php:30
+#: woocommerce/checkout/thankyou.php:28
+#: woocommerce/myaccount/form-edit-address.php:27
+msgid "My Address"
+msgstr ""
+
+#: functions.php:887
+msgid "Change Passwords"
+msgstr ""
+
+#: functions.php:891 inc/menu-functions.php:121
+#: woocommerce/myaccount/form-terms-policy.php:34
+msgid "Terms & Policy"
+msgstr ""
+
+#: functions.php:895
+msgid "Logout"
+msgstr ""
+
+#: functions.php:935
+msgid "Display Name"
+msgstr ""
+
+#: functions.php:942
+msgid "First name"
+msgstr ""
+
+#: functions.php:949
+msgid "Street address"
+msgstr ""
+
+#: functions.php:959
+msgid "Email"
+msgstr ""
+
+#: functions.php:967
+msgid "Phone"
+msgstr ""
+
+#: functions.php:974 inc/api-functions.php:44 inc/mobile-functions.php:177
+msgid "Address"
+msgstr ""
+
+#: functions.php:984
+msgid "Country / Region"
+msgstr ""
+
+#: functions.php:991
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: functions.php:999 inc/api-functions.php:46 inc/mobile-functions.php:180
+msgid "City"
+msgstr ""
+
+#: functions.php:1006 inc/api-functions.php:47 inc/mobile-functions.php:181
+msgid "Floor"
+msgstr ""
+
+#: functions.php:1029 woocommerce/myaccount/form-edit-account.php:34
+msgid "Personal  Information"
+msgstr ""
+
+#: functions.php:1033
+msgid "Name*"
+msgstr ""
+
+#: functions.php:1038
+msgid "Phone Number*"
+msgstr ""
+
+#: functions.php:1046
+msgid "Delivery Address"
+msgstr ""
+
+#: functions.php:1050
+msgid "Address*"
+msgstr ""
+
+#: functions.php:1060
+msgid "Country*"
+msgstr ""
+
+#: functions.php:1068
+msgid "Update country / region"
+msgstr ""
+
+#: functions.php:1076
+msgid "Enter Your zip code*"
+msgstr ""
+
+#: functions.php:1082
+msgid "City*"
+msgstr ""
+
+#: functions.php:1087
+msgid "Floor*"
+msgstr ""
+
+#: functions.php:1097
+msgid "Set it as Default"
+msgstr ""
+
+#: functions.php:1103
+msgid "Save"
+msgstr ""
+
+#: functions.php:1217 functions.php:1222
+msgid "Default"
+msgstr ""
+
+#: functions.php:1232
+msgid "Edit"
+msgstr ""
+
+#: functions.php:1281
+msgid "Change Your Location"
+msgstr ""
+
+#: functions.php:1289
+msgid "Enter Your Zip code"
+msgstr ""
+
+#: functions.php:1551 index.php:18
+msgid "Categories"
+msgstr ""
+
+#: functions.php:1574 woocommerce/cart/cart-empty.php:38
+msgid "Shop Now"
+msgstr ""
+
+#: functions.php:1632
+msgid "Add a Coupon"
+msgstr ""
+
+#: functions.php:1668 woocommerce/checkout/form-checkout-payment.php:49
+msgid "Delivery Date & Time"
+msgstr ""
+
+#: functions.php:1788
+msgid "Invalid Delivery Time."
+msgstr ""
+
+#: functions.php:1917
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr ""
+
+#: functions.php:1921
+#, php-format
+msgid "Recovery Mode &#8212; %s"
+msgstr ""
+
+#: functions.php:1979
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:2005
+msgid ""
+"Usage of the title attribute on the login logo is not recommended for "
+"accessibility reasons. Use the link text instead."
+msgstr ""
+
+#: functions.php:2008
+msgid "Powered by WordPress"
+msgstr ""
+
+#: image.php:46 template-parts/content/content-page.php:34
+#: template-parts/content/content-single.php:28
+#: template-parts/content/content.php:34
+msgid "Page %"
+msgstr ""
+
+#: image.php:59
+#, php-format
+msgid "Published in %s"
+msgstr ""
+
+#: image.php:68 image.php:93 inc/template-tags.php:90 inc/template-tags.php:133
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: image.php:81
+msgid "Full size"
+msgstr ""
+
+#: inc/api-functions.php:41 inc/api-functions.php:179
+#: inc/mobile-functions.php:174
+msgid "Display name"
+msgstr ""
+
+#: inc/api-functions.php:42 inc/api-functions.php:180
+#: inc/mobile-functions.php:175
+msgid "Email address"
+msgstr ""
+
+#: inc/api-functions.php:43 inc/api-functions.php:193
+#: inc/mobile-functions.php:176
+msgid "Phone Number"
+msgstr ""
+
+#: inc/api-functions.php:45 inc/mobile-functions.php:179
+msgid "Zip Code"
+msgstr ""
+
+#: inc/api-functions.php:54 inc/api-functions.php:187
+#: inc/mobile-functions.php:187
+#, php-format
+msgid "%s is a required field."
+msgstr ""
+
+#: inc/api-functions.php:62
+msgid "Zip Code is a not valid."
+msgstr ""
+
+#: inc/api-functions.php:117
+msgid "Account address saved successfully."
+msgstr ""
+
+#: inc/api-functions.php:172
+msgid "Display name cannot be changed to email address due to privacy concern."
+msgstr ""
+
+#: inc/api-functions.php:193
+#, php-format
+msgid "%s is not a valid phone number."
+msgstr ""
+
+#: inc/api-functions.php:199
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: inc/api-functions.php:201
+msgid "This email address is already registered."
+msgstr ""
+
+#: inc/api-functions.php:210
+msgid "Account details changed successfully."
+msgstr ""
+
+#: inc/api-functions.php:235
+msgid "This address is not registered."
+msgstr ""
+
+#: inc/api-functions.php:407
+msgid "Details"
+msgstr ""
+
+#: inc/api-functions.php:411
+msgid "Description"
+msgstr ""
+
+#: inc/api-functions.php:440
+#, php-format
+msgid "Sorry, \"%s\" is not in stock. This product was removed from cart."
+msgstr ""
+
+#: inc/api-functions.php:500
+msgid "Please input valid postcode"
+msgstr ""
+
+#: inc/api-functions.php:503
+msgid "Please input postcode"
+msgstr ""
+
+#: inc/api-functions.php:540
+msgid "Why you need to cancel?"
+msgstr ""
+
+#: inc/api-functions.php:545
+msgid "Other"
+msgstr ""
+
+#: inc/api-functions.php:550
+msgid "Yes, Cancel the Order"
+msgstr ""
+
+#: inc/api-functions.php:551
+msgid "No, i need the order"
+msgstr ""
+
+#: inc/back-compat.php:40 inc/back-compat.php:59 inc/back-compat.php:84
+#, php-format
+msgid ""
+"This theme requires WordPress 5.3 or newer. You are running version %s. "
+"Please upgrade."
+msgstr ""
+
+#: inc/block-patterns.php:18
+msgid "Get Halal"
+msgstr ""
+
+#: inc/block-patterns.php:31
+msgid "Large text"
+msgstr ""
+
+#: inc/block-patterns.php:34
+msgid "A new portfolio default theme for WordPress"
+msgstr ""
+
+#: inc/block-patterns.php:42
+msgid "Links area"
+msgstr ""
+
+#: inc/block-patterns.php:45
+msgid "A huge text followed by social networks and email address links."
+msgstr ""
+
+#: inc/block-patterns.php:46
+msgid "Let&#8217;s Connect."
+msgstr ""
+
+#: inc/block-patterns.php:46
+msgid "Twitter"
+msgstr ""
+
+#: inc/block-patterns.php:46
+msgid "Instagram"
+msgstr ""
+
+#: inc/block-patterns.php:46
+msgid "Dribbble"
+msgstr ""
+
+#: inc/block-patterns.php:46 inc/block-patterns.php:115
+msgid "example@example.com"
+msgstr ""
+
+#: inc/block-patterns.php:54
+msgid "Media and text article title"
+msgstr ""
+
+#: inc/block-patterns.php:57
+msgid ""
+"A Media & Text block with a big image on the left and a heading on the "
+"right. The heading is followed by a separator and a description paragraph."
+msgstr ""
+
+#: inc/block-patterns.php:58
+msgid "Playing in the Sand"
+msgstr ""
+
+#: inc/block-patterns.php:58
+msgid "Berthe Morisot<br>(French, 1841-1895)"
+msgstr ""
+
+#: inc/block-patterns.php:66
+msgid "Overlapping images"
+msgstr ""
+
+#: inc/block-patterns.php:69
+msgid "Three images inside an overlapping columns block."
+msgstr ""
+
+#: inc/block-patterns.php:78
+msgid "Two images showcase"
+msgstr ""
+
+#: inc/block-patterns.php:81
+msgid ""
+"A media & text block with a big image on the left and a smaller one with "
+"bordered frame on the right."
+msgstr ""
+
+#: inc/block-patterns.php:90
+msgid "Overlapping images and text"
+msgstr ""
+
+#: inc/block-patterns.php:93
+msgid "An overlapping columns block with two images and a text description."
+msgstr ""
+
+#: inc/block-patterns.php:94
+msgid "Beautiful gardens painted by Berthe Morisot in the late 1800s"
+msgstr ""
+
+#: inc/block-patterns.php:102
+msgid "Portfolio list"
+msgstr ""
+
+#: inc/block-patterns.php:104
+msgid "A list of projects with thumbnail images."
+msgstr ""
+
+#: inc/block-patterns.php:105
+msgid "Roses Trémières"
+msgstr ""
+
+#: inc/block-patterns.php:105
+msgid "Villa with Orange Trees, Nice"
+msgstr ""
+
+#: inc/block-patterns.php:105
+msgid "In the Bois de Boulogne"
+msgstr ""
+
+#: inc/block-patterns.php:105
+msgid "The Garden at Bougival"
+msgstr ""
+
+#: inc/block-patterns.php:105
+msgid "Young Woman in Mauve"
+msgstr ""
+
+#: inc/block-patterns.php:105
+msgid "Reading"
+msgstr ""
+
+#: inc/block-patterns.php:112
+msgid "Contact information"
+msgstr ""
+
+#: inc/block-patterns.php:114
+msgid ""
+"A block with 3 columns that display contact information and social media "
+"links."
+msgstr ""
+
+#: inc/block-patterns.php:115
+msgid "123-456-7890"
+msgstr ""
+
+#: inc/block-patterns.php:115
+msgid "123 Main Street"
+msgstr ""
+
+#: inc/block-patterns.php:115
+msgid "Cambridge, MA, 02139"
+msgstr ""
+
+#: inc/block-styles.php:24
+msgid "Overlap"
+msgstr ""
+
+#: inc/block-styles.php:33 inc/block-styles.php:42 inc/block-styles.php:51
+#: inc/block-styles.php:78 inc/block-styles.php:87
+msgid "Borders"
+msgstr ""
+
+#: inc/block-styles.php:60
+msgid "Frame"
+msgstr ""
+
+#: inc/block-styles.php:69
+msgid "Dividers"
+msgstr ""
+
+#: inc/block-styles.php:96
+msgid "Thick"
+msgstr ""
+
+#: inc/main-functions.php:35
+msgid "<strong>Error</strong>: Please enter a username."
+msgstr ""
+
+#: inc/main-functions.php:37
+msgid ""
+"<strong>Error</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+#: inc/main-functions.php:40
+msgid ""
+"<strong>Error</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+
+#: inc/main-functions.php:46
+msgid "<strong>Error</strong>: Sorry, that username is not allowed."
+msgstr ""
+
+#: inc/main-functions.php:52
+msgid "<strong>Error</strong>: Please type your email address."
+msgstr ""
+
+#: inc/main-functions.php:54
+msgid "<strong>Error</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: inc/main-functions.php:57
+msgid ""
+"<strong>Error</strong>: This email is already registered. Please choose "
+"another one."
+msgstr ""
+
+#: inc/main-functions.php:101
+#, php-format
+msgid ""
+"<strong>Error</strong>: Couldn&#8217;t register you&hellip; please contact "
+"the <a href=\"mailto:%s\">site admin</a>!"
+msgstr ""
+
+#: inc/menu-functions.php:32
+msgid "Open menu"
+msgstr ""
+
+#: inc/menu-functions.php:117
+msgid "Payment methods"
+msgstr ""
+
+#: inc/menu-functions.php:118
+msgid "My Addresses"
+msgstr ""
+
+#: inc/menu-functions.php:120 woocommerce/myaccount/form-change-password.php:23
+msgid "Change Password"
+msgstr ""
+
+#: inc/mobile-functions.php:178
+msgid "Country"
+msgstr ""
+
+#: inc/mobile-functions.php:375
+msgid "Payment Method 'payment_method' is required."
+msgstr ""
+
+#: inc/mobile-functions.php:379
+msgid "Order ID 'order_id' is required."
+msgstr ""
+
+#: inc/mobile-functions.php:382
+msgid "Order ID 'order_id' is invalid. Order does not exist."
+msgstr ""
+
+#: inc/mobile-functions.php:385
+msgid ""
+"Order status is NOT 'pending', meaning order had already received payment. "
+"Multiple payment to the same order is not allowed. "
+msgstr ""
+
+#: inc/mobile-functions.php:389
+msgid "Payment Token 'payment_token' is required."
+msgstr ""
+
+#: inc/mobile-functions.php:399
+msgid "Your Payment was Successful"
+msgstr ""
+
+#: inc/mobile-functions.php:403
+msgid "Please enter valid card details"
+msgstr ""
+
+#: inc/mobile-functions.php:407
+msgid ""
+"Please select an available payment method. Supported payment method can be "
+"found at https://wordpress.org/plugins/wc-rest-payment/#description"
+msgstr ""
+
+#: inc/mobile-functions.php:496
+msgid "Order cancelled by customer."
+msgstr ""
+
+#: inc/mobile-functions.php:519
+msgid "You has requested a password reset for the following account:"
+msgstr ""
+
+#: inc/mobile-functions.php:521
+#, php-format
+msgid "Site Name: %s"
+msgstr ""
+
+#: inc/mobile-functions.php:523
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: inc/mobile-functions.php:524
+msgid "To reset your password, please use this authentication code:"
+msgstr ""
+
+#: inc/starter-content.php:28 inc/starter-content.php:31
+msgid "Create your website with blocks"
+msgstr ""
+
+#: inc/starter-content.php:71
+msgid "Add block patterns"
+msgstr ""
+
+#: inc/starter-content.php:75
+msgid ""
+"Block patterns are pre-designed groups of blocks. To add one, select the Add "
+"Block button [+] in the toolbar at the top of the editor. Switch to the "
+"Patterns tab underneath the search bar, and choose a pattern."
+msgstr ""
+
+#: inc/starter-content.php:81
+msgid "Frame your images"
+msgstr ""
+
+#: inc/starter-content.php:85
+msgid ""
+"Get Halal includes stylish borders for your content. With an Image block "
+"selected, open the \"Styles\" panel within the Editor sidebar. Select the "
+"\"Frame\" block style to activate it."
+msgstr ""
+
+#: inc/starter-content.php:91
+msgid "Overlap columns"
+msgstr ""
+
+#: inc/starter-content.php:95
+msgid ""
+"Get Halal also includes an overlap style for column blocks. With a Columns "
+"block selected, open the \"Styles\" panel within the Editor sidebar. Choose "
+"the \"Overlap\" block style to try it out."
+msgstr ""
+
+#: inc/starter-content.php:110
+msgid "Need help?"
+msgstr ""
+
+#: inc/starter-content.php:120
+msgid "Read the Theme Documentation"
+msgstr ""
+
+#: inc/starter-content.php:126
+msgid "Check out the Support Forums"
+msgstr ""
+
+#: inc/template-functions.php:136
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: inc/template-functions.php:181
+msgid "Untitled"
+msgstr ""
+
+#: inc/template-functions.php:434
+msgid "This content is password protected. Please enter a password to view."
+msgstr ""
+
+#: inc/template-functions.php:436 login.php:749 login.php:1196
+msgid "Password"
+msgstr ""
+
+#: inc/template-tags.php:27
+#, php-format
+msgid "Published %s"
+msgstr ""
+
+#: inc/template-tags.php:47 template-parts/post/author-bio.php:17
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: inc/template-tags.php:75
+msgid "Featured post"
+msgstr ""
+
+#: inc/template-tags.php:102 inc/template-tags.php:112
+#: inc/template-tags.php:146 inc/template-tags.php:156
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:106 inc/template-tags.php:150
+#, php-format
+msgid "Categorized as %s"
+msgstr ""
+
+#: inc/template-tags.php:116 inc/template-tags.php:160
+#, php-format
+msgid "Tagged %s"
+msgstr ""
+
+#: login.php:233
+msgid "Confirm your administration email"
+msgstr ""
+
+#: login.php:269
+msgid ""
+"https://wordpress.org/support/article/settings-general-screen/#email-address"
+msgstr ""
+
+#: login.php:272
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: login.php:277
+msgid "Why is this important?"
+msgstr ""
+
+#: login.php:288
+#, php-format
+msgid "Current administration email: %s"
+msgstr ""
+
+#: login.php:417
+msgid ""
+"<strong>Error</strong>: Your password reset link appears to be invalid. "
+"Please request a new link below."
+msgstr ""
+
+#: login.php:419
+msgid ""
+"<strong>Error</strong>: Your password reset link has expired. Please request "
+"a new link below."
+msgstr ""
+
+#: login.php:444
+msgid "Lost Password"
+msgstr ""
+
+#: login.php:444
+msgid ""
+"Please enter your username or email address. You will receive an email "
+"message with instructions on how to reset your password."
+msgstr ""
+
+#: login.php:457
+msgid "Forgot your Password?"
+msgstr ""
+
+#: login.php:473
+msgid "We’ll send you a link to reset your password"
+msgstr ""
+
+#: login.php:477
+msgid "Enter Your Email Address"
+msgstr ""
+
+#: login.php:502 login.php:779 login.php:1243
+msgid "Don`t have an account?"
+msgstr ""
+
+#: login.php:502 login.php:1243
+msgid "SignUp"
+msgstr ""
+
+#: login.php:556
+msgid "<strong>Error</strong>: The passwords do not match."
+msgstr ""
+
+#: login.php:571
+msgid "Password Reset"
+msgstr ""
+
+#: login.php:571
+msgid "Your password has been reset."
+msgstr ""
+
+#: login.php:571
+msgid "Log in"
+msgstr ""
+
+#: login.php:579
+msgid "Reset Password"
+msgstr ""
+
+#: login.php:579
+msgid "Enter your new password below or generate one."
+msgstr ""
+
+#: login.php:635
+msgid "Register"
+msgstr ""
+
+#: login.php:700
+msgid "Registration Form"
+msgstr ""
+
+#: login.php:700
+msgid "Register For This Site"
+msgstr ""
+
+#: login.php:706
+msgid "Sign Up"
+msgstr ""
+
+#: login.php:722
+msgid "Welcome to Get Halal"
+msgstr ""
+
+#: login.php:744 login.php:1191
+msgid "Enter your email address"
+msgstr ""
+
+#: login.php:758 login.php:1205
+msgid "Forgot Password?"
+msgstr ""
+
+#: login.php:779 login.php:1154
+msgid "Login"
+msgstr ""
+
+#: login.php:812 login.php:815
+msgid "Authentication Code is invalid. Please check email again"
+msgstr ""
+
+#: login.php:818
+msgid "Authentication Code is invalid. Please check again"
+msgstr ""
+
+#: login.php:835
+msgid "Check your email"
+msgstr ""
+
+#: login.php:840
+msgid "Confirm Your Number"
+msgstr ""
+
+#: login.php:841
+msgid "Enter the 4-digit code sent  to:"
+msgstr ""
+
+#: login.php:854
+msgid "Didn’t get an email?"
+msgstr ""
+
+#: login.php:856
+msgid "Send again"
+msgstr ""
+
+#: login.php:904
+msgid "Missing request ID."
+msgstr ""
+
+#: login.php:908
+msgid "Missing confirm key."
+msgstr ""
+
+#: login.php:936
+msgid "User action confirmed."
+msgstr ""
+
+#: login.php:986
+#, php-format
+msgid ""
+"<strong>Error</strong>: Cookies are blocked due to unexpected output. For "
+"help, please see <a href=\"%1$s\">this documentation</a> or try the <a href="
+"\"%2$s\">support forums</a>."
+msgstr ""
+
+#: login.php:987
+msgid "https://wordpress.org/support/article/cookies/"
+msgstr ""
+
+#: login.php:988
+msgid "https://wordpress.org/support/forums/"
+msgstr ""
+
+#: login.php:997
+#, php-format
+msgid ""
+"<strong>Error</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr ""
+
+#: login.php:998
+msgid ""
+"https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+msgstr ""
+
+#: login.php:1018
+msgid "You have logged in successfully."
+msgstr ""
+
+#: login.php:1092
+msgid "Your session has expired. Please log in to continue where you left off."
+msgstr ""
+
+#: login.php:1097
+msgid "You are now logged out."
+msgstr ""
+
+#: login.php:1099
+msgid "<strong>Error</strong>: User registration is currently not allowed."
+msgstr ""
+
+#: login.php:1101
+msgid ""
+"<strong>You have successfully updated WordPress!</strong> Please log back in "
+"to see what&#8217;s new."
+msgstr ""
+
+#: login.php:1103
+msgid "Recovery Mode Initialized. Please log in to continue."
+msgstr ""
+
+#: login.php:1135
+msgid "Log In"
+msgstr ""
+
+#: single.php:24
+#, php-format
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</"
+"span>"
+msgstr ""
+
+#: single.php:38
+msgid "Next post"
+msgstr ""
+
+#: single.php:39
+msgid "Previous post"
+msgstr ""
+
+#: template-parts/content/content-none.php:16
+msgid "Sorry , no result about"
+msgstr ""
+
+#: template-parts/content/content-none.php:26
+msgid "Continue shopping"
+msgstr ""
+
+#: template-parts/header/site-branding.php:37
+msgid "Search for your Products here..."
+msgstr ""
+
+#: template-parts/post/author-bio.php:29
+#, php-format
+msgid "View all of %s's posts."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:28
+msgid "Your cart is empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:44
+msgid "Most sold Products"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:56
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:57
+msgid "Change address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:68
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:70
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:73
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:76
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:77
+msgid "Enter a different address"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:70
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart.php:96
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout-address.php:35
+#: woocommerce/checkout/form-checkout-payment.php:31
+#: woocommerce/checkout/thankyou.php:29
+msgid "Payment"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout-address.php:36
+#: woocommerce/checkout/form-checkout-payment.php:32
+#: woocommerce/checkout/thankyou.php:30
+msgid "Order Placed"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout-address.php:46
+msgid "Add a new address"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout-address.php:65
+#: woocommerce/myaccount/my-address.php:35
+msgid "Add a new Address"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout-address.php:68
+msgid "Next"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout-payment.php:64
+msgid "Schedule a time"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:24
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:37
+msgid "Postcode is invalid. Please check postcode again."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:40
+msgid "Country is invalid. Please check country again."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:43
+msgid "City is invalid. Please check city again."
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:35
+msgid "Add Coupon"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:26
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:26
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:32
+msgid ""
+"If you have shopped with us before, please enter your details below. If you "
+"are a new customer, please proceed to the Billing section."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:79
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:29
+msgid "Payment Method"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:38
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:38
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:23
+#, php-format
+msgid "For every purchase over %s GetHalal will donate %s to Chairty"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:31
+msgid "Purchase Summary"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:89
+msgid "Place Order"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:58
+msgid "Your order has been placed succuessfully"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:98
+msgid "Shop again"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:100
+msgid "Track Your order"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:111
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:22
+msgid "Add a new card/Debit"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:60
+msgid "Save your card for future purchase"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:30
+msgid "Current password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:33
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:36
+msgid "Confirm new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-notifications.php:25
+#: woocommerce/myaccount/form-terms-policy.php:25
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/form-notifications.php:35
+msgid "Notifications"
+msgstr ""
+
+#: woocommerce/myaccount/form-notifications.php:44
+msgid "No Notifications Yet."
+msgstr ""
+
+#: woocommerce/myaccount/form-notifications.php:46
+msgid "When you got noitigications ,they’ll show up here"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/lost-password-confirmation.php:20
+msgid "Password reset email has been sent."
+msgstr ""
+
+#: woocommerce/myaccount/lost-password-confirmation.php:25
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:29
+msgid "Available downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:39
+#, php-format
+msgid "%s download remaining"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:16
+msgid "Status"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:17
+msgid "Total"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:40
+msgid "Recent orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:45 woocommerce/myaccount/orders.php:41
+#: woocommerce/myaccount/orders.php:44
+msgid "Upcoming"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:46 woocommerce/myaccount/orders.php:42
+#: woocommerce/myaccount/orders.php:45
+msgid "History"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:67
+#, php-format
+msgid "%1$s for %2$s item"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:76
+msgid "R-Order"
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:32
+msgid "Payment Methods"
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:41
+#, php-format
+msgid "%1$s card ......%2$s"
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:65
+msgid "Add a new Card"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:30
+#: woocommerce/myaccount/view-order.php:36
+msgid "Order Status"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:42 woocommerce/order/tracking.php:30
+msgid "Order Information"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:47 woocommerce/order/tracking.php:35
+#, php-format
+msgid "Order id:#%1$s"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:56 woocommerce/order/tracking.php:44
+#, php-format
+msgid "Date: %1$s"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:65
+#, php-format
+msgid "Payment method:%1$s"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:90 woocommerce/order/tracking.php:78
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:30
+#, php-format
+msgid "Customer name:%1$s"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:37
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:46
+#, php-format
+msgid "Mobile no: %1$s"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:56
+msgid "&infin;"
+msgstr ""
+
+#: woocommerce/order/tracking.php:25
+msgid "Order status"
+msgstr ""
+
+#: woocommerce/order/tracking.php:53
+#, php-format
+msgid "Payment method:#%1$s"
+msgstr ""

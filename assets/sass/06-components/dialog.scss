@@ -1,0 +1,222 @@
+.gethalal-site-dialog {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  position: fixed;
+  z-index: 200;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(55, 58, 71, 0.9);
+  transition-duration: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+
+  .modal-content {
+    opacity: 0;
+    max-width: 833px;
+    min-width: 290px;
+    background-color: #fff;
+    position: relative;
+    z-index: 5;
+    border-radius: 16px;
+    overflow-y: auto;
+    padding: 20px;
+    max-height: 500px;
+  }
+
+  @include media(tablet) {
+    .modal-content {
+      max-height: unset;
+      padding: 30px;
+    }
+  }
+}
+
+
+.dialog-open {
+  overflow: hidden;
+
+  .gethalal-site-dialog {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .modal-content {
+    -webkit-animation-name: anim-open;
+    animation-name: anim-open;
+    opacity: 1;
+  }
+}
+
+.dialog-close .modal-content {
+  -webkit-animation-name: anim-close;
+  animation-name: anim-close;
+}
+
+.dialog-open .modal-content,
+.dialog-close .modal-content {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+// Product Summary
+.gethalal-summary {
+  display: flex;
+  flex-direction: column;
+
+  .summary-image {
+    display: contents;
+    img{
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  }
+
+  .summary-content {
+
+    .product-title {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: var(--global--color-black-900);
+    }
+
+    .product-owner {
+      margin-top: 8px;
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--global--color-gray-600);
+    }
+
+    .product-unit-price {
+      margin-top: 4px;
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--global--color-gray-400);
+    }
+
+    .product-cart {
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .product-price {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: var(--global--color-black-900);
+      }
+
+      .actions-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+    }
+
+    .actions-container.remind {
+      justify-content: center;
+    }
+
+    .action-remind {
+      padding: 10px 30px;
+      background-color: var(--global--color-primary-500);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #fff;
+      }
+    }
+
+    .action-minus, .action-plus {
+      padding: 13px;
+      border-radius: 21px;
+      background-color: var(--global--color-primary-500);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      i {
+        color: #fff;
+      }
+      &.disabled{
+        cursor: none;
+      }
+      &.loading{
+        opacity: .25;
+        padding-right: 2.618em;
+      }
+      &.loading:after{
+        color: #ffffff;
+      }
+    }
+
+    .action-quantity {
+      margin: 0 24px;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .product-details {
+      margin-top: 32px;
+
+      span {
+        margin-right: 32px;
+      }
+    }
+
+    .summary-label {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .summary-sub-label {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .product-description {
+      margin-top: 32px;
+
+      .description-content {
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+  }
+
+  .summary-close .dialog-close-icon {
+    cursor: pointer;
+    display: none;
+  }
+
+  @include media(tablet) {
+    flex-direction: row;
+    .summary-image img {
+      margin: unset;
+    }
+    .summary-content{
+      margin-left: 30px;
+    }
+    .summary-close .dialog-close-icon {
+      display: block;
+    }
+  }
+}

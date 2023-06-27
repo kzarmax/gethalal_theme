@@ -1,0 +1,162 @@
+.gethalal-login{
+  form{
+    padding: 30px;
+    border: unset;
+    border-radius: 8px;
+    margin: 0 auto;
+  }
+  .form-header{
+    position: relative;
+    text-align: center;
+    margin-bottom: 8px;
+    .form-title{
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 36px;
+      color: var(--global--color-black-900);
+    }
+    a{
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .form-sub-title{
+      margin-top: 24px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+    }
+    &.reset-header{
+      margin-bottom: 32px;
+    }
+  }
+  .oauth-container{
+    margin-top: 24px;
+    .oauth{
+      position: relative;
+      text-align: center;
+      border: 1px solid #F3F2F2;
+      padding: 13px 0;
+      margin-bottom: 16px;
+      border-radius: 32px;
+      cursor: pointer;
+      img{
+        position: absolute;
+        left: 40px;
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+  .form-separator{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    .left-bar, .right-bar{
+      flex-grow: 1;
+      height: 1px;
+      background-color: #CBCACA;
+    }
+    .or-text{
+      padding: 4px 20px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      background: #fff;
+    }
+  }
+  .user-id-wrap{
+    margin-top: 18px;
+  }
+  .user-id-wrap input[type=text], .user-id-wrap input[type=email], .user-pass-wrap input[type=password], .user-pass-wrap input[type=text], #resetpassform input[type=text]{
+    background: #F3F2F2;
+    border-radius: 8px;
+    padding: 16px;
+    border: unset;
+    font-size: 16px;
+    line-height: 20px;
+    box-shadow: unset;
+  }
+  input[type=submit]{
+    width: 100%;
+    border-radius: 32px;
+    padding: 13px 0 !important;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px !important;
+    color: var(--global--color-white-50) !important;
+    border: unset;
+    margin-top: 24px;
+    float: unset;
+  }
+  .button.wp-hide-pw{
+    width: 52px;
+    height: 52px;
+    background-color: unset !important;
+    color: var(--global--color-gray-600) !important;
+  }
+  .forgot-pass-wrap{
+    text-align: right;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 24px;
+  }
+  .form-bottom-wrap{
+    margin-top: 24px;
+    text-align: center;
+    .bottom-text{
+      font-size: 18px;
+      line-height: 24px;
+      a{
+        color: var(--global--color-primary-500)
+      }
+    }
+  }
+  .auth-wrap{
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    justify-content: center;
+    input[type=text] {
+      background: #F3F2F2;
+      border-radius: 8px;
+      padding: 16px;
+      border: unset;
+      font-size: 20px;
+      line-height: 20px;
+      box-shadow: unset;
+      width: 56px;
+    }
+  }
+  .send-again-wrap{
+    text-align: center;
+    a span{
+      color: var(--global--color-primary-500);
+    }
+  }
+  input[type=button]{
+    width: 100%;
+    border-radius: 32px;
+    padding: 13px 0 !important;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px !important;
+    color: var(--global--color-black-900) !important;
+    border: unset;
+    margin-top: 24px;
+    float: unset;
+    background-color: transparent;
+  }
+  #login{
+    width: 90%;
+  }
+
+  @include media(tablet) {
+    form {
+      width: 540px;
+    }
+
+  }
+}
+

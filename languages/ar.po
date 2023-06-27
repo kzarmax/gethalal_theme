@@ -1,0 +1,1567 @@
+# <!=Copyright (C) 2021 Automattic
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Gethalal 1.0.0\n"
+"POT-Creation-Date: 2021-12-07 21:07+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-12-07 21:16+0800\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_html_x;_n\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Language: ar\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: classes/class-gethalal-customize-notice-control.php:38
+#: classes/class-gethalal-dark-mode.php:176
+msgid "https://wordpress.org/support/article/gethalal/#dark-mode-support"
+msgstr "https://wordpress.org/support/article/gethalal/#dark-mode-support"
+
+#: classes/class-gethalal-customize.php:73
+msgid "Display Site Title & Tagline"
+msgstr "عرض عنوان الموقع والشعار"
+
+#: classes/class-gethalal-customize.php:83
+msgid "Excerpt Settings"
+msgstr "إعدادات المقتطف"
+
+#: classes/class-gethalal-customize.php:104
+msgid "On Archive Pages, posts show:"
+msgstr "في صفحات الأرشيف، تعرض المنشورات:"
+
+#: classes/class-gethalal-customize.php:106
+msgid "Summary"
+msgstr "الملخص"
+
+#: classes/class-gethalal-customize.php:107
+msgid "Full text"
+msgstr "النص الكامل"
+
+#: classes/class-gethalal-customize.php:136
+msgid "Background color"
+msgstr "لون الخلفية"
+
+#: classes/class-gethalal-dark-mode.php:132
+msgid "Colors & Dark Mode"
+msgstr "الألوان والوضع الليلي"
+
+#: classes/class-gethalal-dark-mode.php:175
+#, php-format
+msgid ""
+"Dark Mode is a device setting. If a visitor to your site requests it, your "
+"site will be shown with a dark background and light text. <a href=\"%s"
+"\">Learn more about Dark Mode.</a>"
+msgstr ""
+"الوضع الليلي هو إعداد من إعدادات الجهاز. إذا طلبه زائر موقعك، فسيتم عرض موقعك بخلفية داكنة ونص فاتح. <a href=\"%s\">تعرف على المزيد عن الوضع الليلي.</a>"
+
+#: classes/class-gethalal-dark-mode.php:179
+msgid ""
+"Dark Mode can also be turned on and off with a button that you can find in "
+"the bottom right corner of the page."
+msgstr ""
+"يمكن تشغيل وإيقاف الوضع الليلي أيضًا بزر يمكن أن تجده في الزاوية السفلية اليمنى من الصفحة."
+
+#: classes/class-gethalal-dark-mode.php:186
+msgid "Dark Mode support"
+msgstr "دعم الوضع الليلي"
+
+#: classes/class-gethalal-dark-mode.php:319
+#, php-format
+msgid "Dark Mode: %s"
+msgstr "الوضع الليلي: %s"
+
+#: classes/class-gethalal-dark-mode.php:376
+msgid "Get Halal uses LocalStorage when Dark Mode support is enabled."
+msgstr "يستخدم موقع جيت حلال (GetHalal) مساحة التخزين الداخلية عند تمكين دعم الوضع الليلي."
+
+#: classes/class-gethalal-dark-mode.php:377
+msgid "Suggested text:"
+msgstr "النص المقترح:"
+
+#: classes/class-gethalal-dark-mode.php:378
+msgid ""
+"This website uses LocalStorage to save the setting when Dark Mode support is "
+"turned on or off.<br> LocalStorage is necessary for the setting to work and "
+"is only used when a user clicks on the Dark Mode button.<br> No data is "
+"saved in the database or transferred."
+msgstr ""
+"يستخدم هذا الموقع مساحة التخزين الداخلية لحفظ الإعدادات عند تشغيل أو إيقاف دعم الوضع الليلي.<br> من الضروري استخدام مساحة التخزين الداخلية حتى يعمل هذا الإعداد، ويتم استخدامها فقط عند نقر المستخدم فوق زر الوضع الليلي.<br> لم يتم تخزين أي بيانات في قاعدة البيانات أو نقلها إليها."
+
+#: classes/class-gethalal-utils.php:22
+msgid "Once Time"
+msgstr "مرة واحدة"
+
+#: classes/class-gethalal-utils.php:23
+msgid "Weekly"
+msgstr "أسبوعيًّا"
+
+#: classes/class-gethalal-utils.php:24
+msgid "Monthly"
+msgstr "شهريًا"
+
+#: classes/class-gethalal-utils.php:31
+msgid "11-12 AM"
+msgstr "11-12 صباحًا"
+
+#: classes/class-gethalal-utils.php:32
+msgid "1-2 PM"
+msgstr "1-2 مساءً"
+
+#: classes/class-gethalal-utils.php:33
+msgid "3-4 PM"
+msgstr "3-4 مساءً"
+
+#: classes/class-gethalal-utils.php:34
+msgid "5-6 PM"
+msgstr "5-6 مساءً"
+
+#: comments.php:60 inc/template-tags.php:226
+msgid "Page"
+msgstr "الصفحة"
+
+#: comments.php:65
+msgid "Older comments"
+msgstr "تعليقات أقدم"
+
+#: comments.php:69
+msgid "Newer comments"
+msgstr "تعليقات أجدد"
+
+#: comments.php:85
+msgid "Leave a comment"
+msgstr "إضافة تعليق"
+
+#: footer.php:61
+msgid "Top Categories"
+msgstr "الفئات الأعلى استخدامًا"
+
+#: footer.php:75
+msgid "About GetHalal"
+msgstr "تعرّف على جيت حلال (GetHalal)"
+
+#: footer.php:77
+msgid "About Us"
+msgstr "تعرّف علينا"
+
+#: footer.php:78
+msgid "How it Works"
+msgstr "طريقة العمل"
+
+#: footer.php:79
+msgid "Blogger"
+msgstr "المدونة"
+
+#: footer.php:80
+msgid "Careers"
+msgstr "الوظائف"
+
+#: footer.php:81
+msgid "Impressum"
+msgstr "الحقائق"
+
+#: footer.php:85
+msgid "Need Help?"
+msgstr "هل تحتاج إلى مساعدة؟"
+
+#: footer.php:87
+msgid "Call Us"
+msgstr "اتصل بنا"
+
+#: footer.php:89
+msgid "Help Center"
+msgstr "مركز المساعدة"
+
+#: footer.php:94
+msgid "Download GetHalal"
+msgstr "تنزيل جيت حلال (GetHalal)"
+
+#: functions.php:75 inc/starter-content.php:152
+msgid "Primary menu"
+msgstr "القائمة الرئيسية"
+
+#: functions.php:76 inc/starter-content.php:163
+msgid "Secondary menu"
+msgstr "القائمة الثانوية"
+
+#: functions.php:149
+msgid "Extra small"
+msgstr "صغير جدًا"
+
+#: functions.php:150
+msgid "XS"
+msgstr "XS"
+
+#: functions.php:155
+msgid "Small"
+msgstr "صغير"
+
+#: functions.php:156
+msgid "S"
+msgstr "S"
+
+#: functions.php:161
+msgid "Normal"
+msgstr "عادي"
+
+#: functions.php:162
+msgid "M"
+msgstr "M"
+
+#: functions.php:167
+msgid "Large"
+msgstr "كبير"
+
+#: functions.php:168
+msgid "L"
+msgstr "L"
+
+#: functions.php:173
+msgid "Extra large"
+msgstr "كبير جدًا"
+
+#: functions.php:174
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:179
+msgid "Huge"
+msgstr "ضخم"
+
+#: functions.php:180
+msgid "XXL"
+msgstr "XXL"
+
+#: functions.php:185
+msgid "Gigantic"
+msgstr "عملاق"
+
+#: functions.php:186
+msgid "XXXL"
+msgstr "XXXL"
+
+#: functions.php:217
+msgid "Black"
+msgstr "أسود"
+
+#: functions.php:222 inc/block-styles.php:105
+msgid "Dark gray"
+msgstr "رمادي داكن"
+
+#: functions.php:227
+msgid "Gray"
+msgstr "رمادي"
+
+#: functions.php:232
+msgid "Green"
+msgstr "أخضر"
+
+#: functions.php:237
+msgid "Blue"
+msgstr "أزرق"
+
+#: functions.php:242
+msgid "Purple"
+msgstr "أرجواني"
+
+#: functions.php:247
+msgid "Red"
+msgstr "أحمر"
+
+#: functions.php:252
+msgid "Orange"
+msgstr "برتقالي"
+
+#: functions.php:257
+msgid "Yellow"
+msgstr "أصفر"
+
+#: functions.php:262
+msgid "White"
+msgstr "أبيض"
+
+#: functions.php:273
+msgid "Purple to yellow"
+msgstr "أرجواني مائل إلى الاصفرار"
+
+#: functions.php:278
+msgid "Yellow to purple"
+msgstr "أصفر مائل إلى الأرجواني"
+
+#: functions.php:283
+msgid "Green to yellow"
+msgstr "أخضر مائل إلى الاصفرار"
+
+#: functions.php:288
+msgid "Yellow to green"
+msgstr "أصفر مائل إلى الاخضرار"
+
+#: functions.php:293
+msgid "Red to yellow"
+msgstr "أحمر مائل إلى الاصفرار"
+
+#: functions.php:298
+msgid "Yellow to red"
+msgstr "أصفر مائل إلى الاحمرار"
+
+#: functions.php:303
+msgid "Purple to red"
+msgstr "أرجواني مائل إلى الاحمرار"
+
+#: functions.php:308
+msgid "Red to purple"
+msgstr "أحمر مائل إلى الأرجواني"
+
+#: functions.php:361
+msgid "Footer"
+msgstr "تذييل الصفحة"
+
+#: functions.php:363
+msgid "Add widgets here to appear in your footer."
+msgstr "إضافة عناصر واجهة المستخدم هنا لتظهر في تذييل الصفحة الخاصة بك."
+
+#: functions.php:837
+msgid "Join Now"
+msgstr "انضم الآن"
+
+#: functions.php:854 inc/menu-functions.php:115
+#: woocommerce/myaccount/form-edit-account.php:29
+msgid "My Account"
+msgstr "حسابي"
+
+#: functions.php:858 inc/menu-functions.php:116
+#: woocommerce/myaccount/orders.php:32
+msgid "My Orders"
+msgstr "طلباتي"
+
+#: functions.php:862
+msgid "My payment options"
+msgstr "خيارات الدفع الخاصة بي"
+
+#: functions.php:866 woocommerce/checkout/form-checkout-address.php:35
+#: woocommerce/checkout/form-checkout-payment.php:30
+#: woocommerce/checkout/thankyou.php:28
+#: woocommerce/myaccount/form-edit-address.php:27
+msgid "My Address"
+msgstr "عنواني"
+
+#: functions.php:870 inc/menu-functions.php:119
+#: woocommerce/myaccount/form-notifications.php:35
+msgid "Notifications"
+msgstr "الإشعارات"
+
+#: functions.php:874
+msgid "Change Passwords"
+msgstr "تغيير كلمات المرور"
+
+#: functions.php:878 inc/menu-functions.php:121
+#: woocommerce/myaccount/form-terms-policy.php:34
+msgid "Terms & Policy"
+msgstr "الشروط والسياسة"
+
+#: functions.php:882
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: functions.php:921
+msgid "Display Name"
+msgstr "اسم المستخدم"
+
+#: functions.php:929
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: functions.php:937
+msgid "Phone"
+msgstr "الهاتف"
+
+#: functions.php:945
+msgid "Country / Region"
+msgstr "البلد/المنطقة"
+
+#: functions.php:952 inc/api-functions.php:44
+msgid "Address"
+msgstr "العنوان"
+
+#: functions.php:961 inc/api-functions.php:46
+msgid "Apartment"
+msgstr "الشقة"
+
+#: functions.php:968 inc/api-functions.php:47
+msgid "Floor"
+msgstr "الطابق"
+
+#: functions.php:976 functions.php:1050
+msgid "Land Mark"
+msgstr "علامة مميزة"
+
+#: functions.php:984
+msgid "Postcode / ZIP"
+msgstr "الرمز البريدي/رمز ZIP"
+
+#: functions.php:1007 woocommerce/myaccount/form-edit-account.php:34
+msgid "Personal  Information"
+msgstr "المعلومات الشخصية"
+
+#: functions.php:1011
+msgid "Name*"
+msgstr "الاسم*"
+
+#: functions.php:1016
+msgid "Phone Number*"
+msgstr "رقم الهاتف*"
+
+#: functions.php:1024
+msgid "Delivery Address"
+msgstr "عنوان التوصيل"
+
+#: functions.php:1028
+msgid "Address*"
+msgstr "العنوان*"
+
+#: functions.php:1033
+msgid "Enter Your zip code*"
+msgstr "أدخل رمز ZIP الخاص بك*"
+
+#: functions.php:1039
+msgid "Apartment*"
+msgstr "الشقة*"
+
+#: functions.php:1044
+msgid "Floor*"
+msgstr "الطابق*"
+
+#: functions.php:1059
+msgid "Set is as Default"
+msgstr "تعيين كافتراضي"
+
+#: functions.php:1065
+msgid "Save"
+msgstr "حفظ"
+
+#: functions.php:1123
+msgid "Placed"
+msgstr "تم التأكيد"
+
+#: functions.php:1124
+msgid "Preparing"
+msgstr "جارٍ التحضير"
+
+#: functions.php:1125
+msgid "Shipping"
+msgstr "جارٍ الشحن"
+
+#: functions.php:1126
+msgid "Delivered"
+msgstr "تم التوصيل"
+
+#: functions.php:1155 functions.php:1160
+msgid "Default"
+msgstr "افتراضي"
+
+#: functions.php:1170
+msgid "Edit"
+msgstr "تعديل"
+
+#: functions.php:1219
+msgid "Change Your Location"
+msgstr "تغيير موقعك"
+
+#: functions.php:1227
+msgid "Enter Your Zip code"
+msgstr "أدخل رمز ZIP الخاص بك"
+
+#: functions.php:1255
+msgid "English"
+msgstr "الإنجليزية"
+
+#: functions.php:1256
+msgid "Deutsch"
+msgstr "الألمانية"
+
+#: functions.php:1257
+msgid "Turkish"
+msgstr "التركية"
+
+#: functions.php:1258
+msgid "Arabic"
+msgstr "العربية"
+
+#: functions.php:1416
+msgid "Categories"
+msgstr "الفئات"
+
+#: functions.php:1439 woocommerce/cart/cart-empty.php:38
+msgid "Shop Now"
+msgstr "تسوق الآن"
+
+#: functions.php:1495
+msgid "Add a Coupon"
+msgstr "إضافة كوبون"
+
+#: functions.php:1530 woocommerce/checkout/form-checkout-payment.php:68
+msgid "Delivery Date & Time"
+msgstr "موعد وتاريخ التوصيل"
+
+#: functions.php:1649
+msgid "Invalid Delivery Time."
+msgstr "وقت التسليم غير صحيح."
+
+#: functions.php:1769
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
+
+#: functions.php:1773
+#, php-format
+msgid "Recovery Mode &#8212; %s"
+msgstr "Recovery Mode &#8212; %s"
+
+#: functions.php:1831
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: functions.php:1857
+msgid ""
+"Usage of the title attribute on the login logo is not recommended for "
+"accessibility reasons. Use the link text instead."
+msgstr ""
+"لا يوصى باستخدام سمة العنوان على شعار تسجيل الدخول لأسباب تتعلق بإمكانية الوصول. استخدم نص الرابط بدلاً من ذلك."
+
+#: functions.php:1860
+msgid "Powered by WordPress"
+msgstr "تم إنشاؤه بواسطة WordPress"
+
+#: image.php:46 template-parts/content/content-page.php:34
+#: template-parts/content/content-single.php:28
+#: template-parts/content/content.php:34
+msgid "Page %"
+msgstr "الصفحة %"
+
+#: image.php:59
+#, php-format
+msgid "Published in %s"
+msgstr "تم النشر في %s"
+
+#: image.php:68 image.php:93 inc/template-tags.php:90 inc/template-tags.php:133
+#, php-format
+msgid "Edit %s"
+msgstr "تعديل %s"
+
+#: image.php:81
+msgid "Full size"
+msgstr "حجم كامل"
+
+#: inc/api-functions.php:41 inc/api-functions.php:180
+msgid "Display name"
+msgstr "اسم المستخدم"
+
+#: inc/api-functions.php:42 inc/api-functions.php:181
+msgid "Email address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: inc/api-functions.php:43 inc/api-functions.php:194
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+#: inc/api-functions.php:45
+msgid "Zip Code"
+msgstr "رمز ZIP"
+
+#: inc/api-functions.php:54 inc/api-functions.php:188
+#, php-format
+msgid "%s is a required field."
+msgstr "%s حقل مطلوب."
+
+#: inc/api-functions.php:62
+msgid "Zip Code is a not valid."
+msgstr "رمز ZIP غير صحيح."
+
+#: inc/api-functions.php:118
+msgid "Account address saved successfully."
+msgstr "تم حفظ عنوان الحساب بنجاح."
+
+#: inc/api-functions.php:173
+msgid "Display name cannot be changed to email address due to privacy concern."
+msgstr "لا يمكن تغيير اسم المستخدم إلى عنوان البريد الإلكتروني بسبب مشاكل تتعلق بالخصوصية."
+
+#: inc/api-functions.php:194
+#, php-format
+msgid "%s is not a valid phone number."
+msgstr "%s ليس رقم هاتف صحيحًا."
+
+#: inc/api-functions.php:200
+msgid "Please provide a valid email address."
+msgstr "يُرجى إدخال عنوان بريد إلكتروني صحيح."
+
+#: inc/api-functions.php:202
+msgid "This email address is already registered."
+msgstr "عنوان البريد الإلكتروني هذا مسجل بالفعل."
+
+#: inc/api-functions.php:211
+msgid "Account details changed successfully."
+msgstr "تم تغيير تفاصيل الحساب بنجاح."
+
+#: inc/api-functions.php:236
+msgid "This address is not registered."
+msgstr "هذا العنوان غير مسجل."
+
+#: inc/api-functions.php:401
+msgid "Details"
+msgstr "التفاصيل"
+
+#: inc/api-functions.php:405
+msgid "Description"
+msgstr "الوصف"
+
+#: inc/api-functions.php:473
+msgid "Please input valid postcode"
+msgstr "يرجى إدخال رمز بريدي صحيح"
+
+#: inc/api-functions.php:476
+msgid "Please input postcode"
+msgstr "يرجى إدخال رمز بريدي"
+
+#: inc/api-functions.php:513
+msgid "Why you need to cancel?"
+msgstr "لماذا تحتاج إلى الإلغاء؟"
+
+#: inc/api-functions.php:518
+msgid "Other"
+msgstr "أخرى"
+
+#: inc/api-functions.php:523
+msgid "Yes, Cancel the Order"
+msgstr "نعم، إلغاء الطلب"
+
+#: inc/api-functions.php:524
+msgid "No, i need the order"
+msgstr "لا، أحتاج الطلب"
+
+#: inc/back-compat.php:40 inc/back-compat.php:59 inc/back-compat.php:84
+#, php-format
+msgid ""
+"This theme requires WordPress 5.3 or newer. You are running version %s. "
+"Please upgrade."
+msgstr ""
+"هذا التصميم يتطلب إصدار WordPress 5.3 أو أحدث. إصدارك الحالي هو %s. يرجى الترقية."
+
+#: inc/block-patterns.php:18
+msgid "Get Halal"
+msgstr "جيت حلال (GetHalal)"
+
+#: inc/block-patterns.php:31
+msgid "Large text"
+msgstr "نص كبير"
+
+#: inc/block-patterns.php:34
+msgid "A new portfolio default theme for WordPress"
+msgstr "تصميم افتراضي لملف أعمال جديد لـ WordPress"
+
+#: inc/block-patterns.php:42
+msgid "Links area"
+msgstr "منطقة الروابط"
+
+#: inc/block-patterns.php:45
+msgid "A huge text followed by social networks and email address links."
+msgstr "نص ضخم تتبعه روابط شبكات التواصل الاجتماعي وعنوان البريد الإلكتروني."
+
+#: inc/block-patterns.php:46
+msgid "Let&#8217;s Connect."
+msgstr "فلنتواصل."
+
+#: inc/block-patterns.php:46
+msgid "Twitter"
+msgstr "تويتر (Twitter)"
+
+#: inc/block-patterns.php:46
+msgid "Instagram"
+msgstr "إنستجرام (Instagram)"
+
+#: inc/block-patterns.php:46
+msgid "Dribbble"
+msgstr "دريبل (Dribbble)"
+
+#: inc/block-patterns.php:46 inc/block-patterns.php:115
+msgid "example@example.com"
+msgstr "example@example.com"
+
+#: inc/block-patterns.php:54
+msgid "Media and text article title"
+msgstr "عنوان مقالة وسائط ونص"
+
+#: inc/block-patterns.php:57
+msgid ""
+"A Media & Text block with a big image on the left and a heading on the "
+"right. The heading is followed by a separator and a description paragraph."
+msgstr ""
+"كتلة وسائط ونص فيه صورة كبيرة على اليسار وعنوان على اليمين. يوجد بعد العنوان فاصل، وفقرة، وصف."
+
+#: inc/block-patterns.php:58
+msgid "Playing in the Sand"
+msgstr "لعب في الرمال"
+
+#: inc/block-patterns.php:58
+msgid "Berthe Morisot<br>(French, 1841-1895)"
+msgstr "بيرثي ماريسوت<br>(فرنسية، 1841-1895)"
+
+#: inc/block-patterns.php:66
+msgid "Overlapping images"
+msgstr "صور متداخلة"
+
+#: inc/block-patterns.php:69
+msgid "Three images inside an overlapping columns block."
+msgstr "ثلاث صور داخل كتلة أعمدة متداخلة."
+
+#: inc/block-patterns.php:78
+msgid "Two images showcase"
+msgstr "صورتان معروضتان"
+
+#: inc/block-patterns.php:81
+msgid ""
+"A media & text block with a big image on the left and a smaller one with "
+"bordered frame on the right."
+msgstr ""
+"كتلة وسائط ونص فيهما صورة كبيرة على اليسار وصورة أصغر بإطار محفوف على اليمين."
+
+#: inc/block-patterns.php:90
+msgid "Overlapping images and text"
+msgstr "صور متداخلة ونص"
+
+#: inc/block-patterns.php:93
+msgid "An overlapping columns block with two images and a text description."
+msgstr "كتلة أعمدة متداخلة مع صورتين ووصف نص."
+
+#: inc/block-patterns.php:94
+msgid "Beautiful gardens painted by Berthe Morisot in the late 1800s"
+msgstr "حدائق جميلة بريشة بيرثي موريسوت أواخر القرن التاسع عشر"
+
+#: inc/block-patterns.php:102
+msgid "Portfolio list"
+msgstr "قائمة مجموعة الأعمال"
+
+#: inc/block-patterns.php:104
+msgid "A list of projects with thumbnail images."
+msgstr "قائمة بالمشروعات مع صور مصغرة."
+
+#: inc/block-patterns.php:105
+msgid "Roses Trémières"
+msgstr "زهور الخطمية الوردية"
+
+#: inc/block-patterns.php:105
+msgid "Villa with Orange Trees, Nice"
+msgstr "فيلا مع أشجار البرتقال، مدينة نيس"
+
+#: inc/block-patterns.php:105
+msgid "In the Bois de Boulogne"
+msgstr "في غابة بولونيا"
+
+#: inc/block-patterns.php:105
+msgid "The Garden at Bougival"
+msgstr "الحديقة في بوجيفال"
+
+#: inc/block-patterns.php:105
+msgid "Young Woman in Mauve"
+msgstr "امرأة شابة في زِيّ موف"
+
+#: inc/block-patterns.php:105
+msgid "Reading"
+msgstr "تقرأ"
+
+#: inc/block-patterns.php:112
+msgid "Contact information"
+msgstr "بيانات الاتصال"
+
+#: inc/block-patterns.php:114
+msgid ""
+"A block with 3 columns that display contact information and social media "
+"links."
+msgstr ""
+"كتلة فيها 3 أعمدة تعرض معلومات الاتصال وروابط الوسائط الاجتماعية."
+
+#: inc/block-patterns.php:115
+msgid "123-456-7890"
+msgstr "123-456-7890"
+
+#: inc/block-patterns.php:115
+msgid "123 Main Street"
+msgstr "123 Main Street"
+
+#: inc/block-patterns.php:115
+msgid "Cambridge, MA, 02139"
+msgstr "Cambridge, MA, 02139"
+
+#: inc/block-styles.php:24
+msgid "Overlap"
+msgstr "تداخل"
+
+#: inc/block-styles.php:33 inc/block-styles.php:42 inc/block-styles.php:51
+#: inc/block-styles.php:78 inc/block-styles.php:87
+msgid "Borders"
+msgstr "الحدود"
+
+#: inc/block-styles.php:60
+msgid "Frame"
+msgstr "الإطار"
+
+#: inc/block-styles.php:69
+msgid "Dividers"
+msgstr "علامات التقسيم"
+
+#: inc/block-styles.php:96
+msgid "Thick"
+msgstr "سميك"
+
+#: inc/main-functions.php:35
+msgid "<strong>Error</strong>: Please enter a username."
+msgstr "<strong>خطأ</strong>: يرجى إدخال اسم مستخدم."
+
+#: inc/main-functions.php:37
+msgid ""
+"<strong>Error</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+"<strong>خطأ</strong>: اسم المستخدم هذا غير صالح؛ لأنه يستخدم أحرفًا غير مسموح بها. الرجاء إدخال اسم مستخدم صحيح."
+
+#: inc/main-functions.php:40
+msgid ""
+"<strong>Error</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>خطأ</strong>: اسم المستخدم هذا مسجل بالفعل. يرجى اختيار اسم مختلف."
+
+#: inc/main-functions.php:46
+msgid "<strong>Error</strong>: Sorry, that username is not allowed."
+msgstr "<strong>خطأ</strong>: عذرًا، اسم المستخدم هذا غير مسموح به."
+
+#: inc/main-functions.php:52
+msgid "<strong>Error</strong>: Please type your email address."
+msgstr "<strong>خطأ</strong>: يرجى كتابة عنوان بريدك الإلكتروني."
+
+#: inc/main-functions.php:54
+msgid "<strong>Error</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>خطأ</strong>: عنوان البريد الإلكتروني هذا غير صحيح."
+
+#: inc/main-functions.php:57
+msgid ""
+"<strong>Error</strong>: This email is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>خطأ</strong>: عنوان البريد الإلكتروني هذا مسجل بالفعل. يرجى اختيار عنوان بريد إلكتروني مختلف."
+
+#: inc/main-functions.php:101
+#, php-format
+msgid ""
+"<strong>Error</strong>: Couldn&#8217;t register you&hellip; please contact "
+"the <a href=\"mailto:%s\">site admin</a>!"
+msgstr ""
+"<strong>خطأ</strong>: تعذر تسجيلك. يرجى التواصل مع <a href=\"mailto:%s\">مسؤول الموقع</a>!"
+
+#: inc/menu-functions.php:32
+msgid "Open menu"
+msgstr "فتح القائمة"
+
+#: inc/menu-functions.php:117
+msgid "Payment methods"
+msgstr "طرق السداد"
+
+#: inc/menu-functions.php:118
+msgid "My Addresses"
+msgstr "عناويني"
+
+#: inc/menu-functions.php:120 woocommerce/myaccount/form-change-password.php:23
+msgid "Change Password"
+msgstr "تغيير كلمة المرور"
+
+#: inc/starter-content.php:28 inc/starter-content.php:31
+msgid "Create your website with blocks"
+msgstr "أنشئ موقعك الإلكتروني باستخدام الكتل"
+
+#: inc/starter-content.php:71
+msgid "Add block patterns"
+msgstr "إضافة نمط كتل"
+
+#: inc/starter-content.php:75
+msgid ""
+"Block patterns are pre-designed groups of blocks. To add one, select the Add "
+"Block button [+] in the toolbar at the top of the editor. Switch to the "
+"Patterns tab underneath the search bar, and choose a pattern."
+msgstr ""
+"أنماط الكتلة هي مجموعات مصممة مسبقًا من الكتل. لإضافة أحدها، حدد زر إضافة كتلة [+] في شريط الأدوات أعلى المحرر. انتقل إلى علامة تبويب الأنماط أسفل شريط البحث، واختر نمطًا."
+
+#: inc/starter-content.php:81
+msgid "Frame your images"
+msgstr "أطّر صورك"
+
+#: inc/starter-content.php:85
+msgid ""
+"Get Halal includes stylish borders for your content. With an Image block "
+"selected, open the \"Styles\" panel within the Editor sidebar. Select the "
+"\"Frame\" block style to activate it."
+msgstr ""
+"يحتوي Get Halal على أطر أنيقة لمحتواك. افتح لوحة \"Styles\" في الشريط الجانبي للمحرر أثناء تحديد كتلة صورة. حدد نمط كتلة \"Frame\" لتنشيطه."
+
+#: inc/starter-content.php:91
+msgid "Overlap columns"
+msgstr "أعمدة متداخلة"
+
+#: inc/starter-content.php:95
+msgid ""
+"Get Halal also includes an overlap style for column blocks. With a Columns "
+"block selected, open the \"Styles\" panel within the Editor sidebar. Choose "
+"the \"Overlap\" block style to try it out."
+msgstr ""
+"يحتوي Get Halal أيضًا على نمط متداخل لكتل الأعمدة. افتح لوحة \"Styles\" في الشريط الجانبي للمحرر أثناء تحديد كتلة الأعمدة. اختر نمط الكتلة \"Overlap\" لتجربته."
+
+#: inc/starter-content.php:110
+msgid "Need help?"
+msgstr "هل تحتاج إلى مساعدة؟"
+
+#: inc/starter-content.php:120
+msgid "Read the Theme Documentation"
+msgstr "اقرأ وثائق الموضوع"
+
+#: inc/starter-content.php:126
+msgid "Check out the Support Forums"
+msgstr "تفقد منتديات الدعم"
+
+#: inc/template-functions.php:136
+#, php-format
+msgid "Continue reading %s"
+msgstr "متابعة القراءة %s"
+
+#: inc/template-functions.php:181
+msgid "Untitled"
+msgstr "بدون عنوان"
+
+#: inc/template-functions.php:434
+msgid "This content is password protected. Please enter a password to view."
+msgstr "المحتوى محمي بكلمة مرور. يرجى إدخال كلمة المرور لاستعراضه."
+
+#: inc/template-functions.php:436
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: inc/template-tags.php:27
+#, php-format
+msgid "Published %s"
+msgstr "تم النشر %s"
+
+#: inc/template-tags.php:47 template-parts/post/author-bio.php:17
+#, php-format
+msgid "By %s"
+msgstr "من قِبل %s"
+
+#: inc/template-tags.php:75
+msgid "Featured post"
+msgstr "منشور بارز"
+
+#: inc/template-tags.php:102 inc/template-tags.php:112
+#: inc/template-tags.php:146 inc/template-tags.php:156
+msgid ", "
+msgstr "،"
+
+#: inc/template-tags.php:106 inc/template-tags.php:150
+#, php-format
+msgid "Categorized as %s"
+msgstr "مصنف كـ %s"
+
+#: inc/template-tags.php:116 inc/template-tags.php:160
+#, php-format
+msgid "Tagged %s"
+msgstr "مميز بعلامة %s"
+
+#: inc/template-tags.php:232
+msgid "Newer <span class=\"nav-short\">posts</span>"
+msgstr "منشورات <span class=\"nav-short\">أجدد</span>"
+
+#: inc/template-tags.php:243
+msgid "Older <span class=\"nav-short\">posts</span>"
+msgstr "منشورات <span class=\"nav-short\">أقدم</span>"
+
+#: login.php:231
+msgid "Confirm your administration email"
+msgstr "تأكيد بريدك الإلكتروني المسؤول"
+
+#: login.php:267
+msgid ""
+"https://wordpress.org/support/article/settings-general-screen/#email-address"
+msgstr ""
+"https://wordpress.org/support/article/settings-general-screen/#email-address"
+
+#: login.php:270
+msgid "(opens in a new tab)"
+msgstr "(يتم فتحها في علامة تبويب جديدة)"
+
+#: login.php:275
+msgid "Why is this important?"
+msgstr "لماذا هذا مهم؟"
+
+#: login.php:286
+#, php-format
+msgid "Current administration email: %s"
+msgstr "البريد الإلكتروني المسؤول الحالي: %s"
+
+#: login.php:415
+msgid ""
+"<strong>Error</strong>: Your password reset link appears to be invalid. "
+"Please request a new link below."
+msgstr ""
+"<strong>خطأ</strong>: يبدو أن رابط إعادة تعيين كلمة المرور غير صالح. الرجاء طلب رابط جديد مما يلي."
+
+#: login.php:417
+msgid ""
+"<strong>Error</strong>: Your password reset link has expired. Please request "
+"a new link below."
+msgstr ""
+"<strong>خطأ</strong>: يبدو أن رابط إعادة تعيين كلمة المرور قد انتهت صلاحيته. الرجاء طلب رابط جديد مما يلي."
+
+#: login.php:442
+msgid "Lost Password"
+msgstr "كلمة المرور مفقودة"
+
+#: login.php:442
+msgid ""
+"Please enter your username or email address. You will receive an email "
+"message with instructions on how to reset your password."
+msgstr ""
+"الرجاء إدخال اسم المستخدم أو عنوان البريد الإلكتروني الخاص بك. ستتلقى رسالة إلكترونية تحتوي على إرشادات كيفية إعادة تعيين كلمة المرور الخاصة بك."
+
+#: login.php:455
+msgid "Forgot your Password?"
+msgstr "هل نسيت كلمة المرور الخاصة بك؟"
+
+#: login.php:471
+msgid "We’ll send you a link to reset your password"
+msgstr "سنرسل إليك رابطًا لإعادة تعيين كلمة المرور الخاصة بك"
+
+#: login.php:475
+msgid "Enter Your Email Address"
+msgstr "أدخل عنوان بريدك الإلكتروني"
+
+#: login.php:500 login.php:771 login.php:1153
+msgid "Don`t have an account?"
+msgstr "ليس لديك حساب؟"
+
+#: login.php:500 login.php:1153
+msgid "SignUp"
+msgstr "تسجيل"
+
+#: login.php:548
+msgid "<strong>Error</strong>: The passwords do not match."
+msgstr "<strong>خطأ</strong>: كلمات المرور غير متطابقة."
+
+#: login.php:564
+msgid "Password Reset"
+msgstr "إعادة تعيين كلمة المرور"
+
+#: login.php:564
+msgid "Your password has been reset."
+msgstr "تمت إعادة تعيين كلمة المرور الخاصة بك."
+
+#: login.php:564
+msgid "Log in"
+msgstr "تسجيل الدخول"
+
+#: login.php:572
+msgid "Reset Password"
+msgstr "إعادة تعيين كلمة المرور"
+
+#: login.php:572
+msgid "Enter your new password below or generate one."
+msgstr "أدخل كلمة المرور الجديدة أدناه أو أنشئ واحدة."
+
+#: login.php:629
+msgid "Register"
+msgstr "تسجيل"
+
+#: login.php:694
+msgid "Registration Form"
+msgstr "نموذج التسجيل"
+
+#: login.php:694
+msgid "Register For This Site"
+msgstr "سجل في هذا الموقع"
+
+#: login.php:699
+msgid "Sign Up"
+msgstr "تسجيل"
+
+#: login.php:715
+msgid "Welcome to Get Halal"
+msgstr "مرحبًا بك في Get Halal"
+
+#: login.php:721 login.php:1086
+msgid "Continue with Facebook"
+msgstr "متابعة من خلال Facebook"
+
+#: login.php:725 login.php:1090
+msgid "Continue with Google"
+msgstr "متابعة من خلال Google"
+
+#: login.php:731 login.php:1096
+msgid "OR"
+msgstr "أو"
+
+#: login.php:750 login.php:1115
+msgid "Forgot Password?"
+msgstr "هل نسيت كلمة المرور؟"
+
+#: login.php:771 login.php:1065
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: login.php:789
+#, php-format
+msgid ""
+"Check your email for the confirmation link, then visit the <a href=\"%s"
+"\">login page</a>."
+msgstr ""
+"تحقق من صندوق بريدك الإلكتروني للحصول على رابط التأكيد، ثم قم بزيارة <a href=\"%s\">صفحة تسجيل الدخول</a>."
+
+#: login.php:799
+#, php-format
+msgid ""
+"Registration complete. Please check your email, then visit the <a href=\"%s"
+"\">login page</a>."
+msgstr ""
+"اكتمل التسجيل. يرجى التحقق من صندوق بريدك الإلكتروني، ثم قم بزيارة <a href=\"%s\">صفحة تسجيل الدخول</a>."
+
+#: login.php:809
+msgid "Check your email"
+msgstr "تفقد بريدك الإلكتروني"
+
+#: login.php:815
+msgid "Missing request ID."
+msgstr "مُعرّف الطلب مفقود."
+
+#: login.php:819
+msgid "Missing confirm key."
+msgstr "مفتاح التأكيد مطلوب."
+
+#: login.php:847
+msgid "User action confirmed."
+msgstr "تم تأكيد إجراء المستخدم."
+
+#: login.php:897
+#, php-format
+msgid ""
+"<strong>Error</strong>: Cookies are blocked due to unexpected output. For "
+"help, please see <a href=\"%1$s\">this documentation</a> or try the <a href="
+"\"%2$s\">support forums</a>."
+msgstr ""
+"<strong>خطأ</strong>: تم حظر ملفات تعريف الارتباط بسبب الإخراج غير المتوقع. للحصول على المساعدة، يرجى الاطلاع على <a href=\"%1$s\">هذه الوثيقة</a> أو جرب زيارة <a href=\"%2$s\">منتديات الدعم</a>."
+
+#: login.php:898
+msgid "https://wordpress.org/support/article/cookies/"
+msgstr "https://wordpress.org/support/article/cookies/"
+
+#: login.php:899
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://wordpress.org/support/forums/"
+
+#: login.php:908
+#, php-format
+msgid ""
+"<strong>Error</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr ""
+"<strong>خطأ</strong>: ملفات تعريف الارتباط محظورة أو لا يدعمها متصفحك. يجب عليك أن <a href=\"%s\">تتيح ملفات تعريف الارتباط</a> ليتسنى لك استخدام WordPress."
+
+#: login.php:909
+msgid ""
+"https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+msgstr ""
+"https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+
+#: login.php:929
+msgid "You have logged in successfully."
+msgstr "لقد سجلت الدخول بنجاح."
+
+#: login.php:1003
+msgid "Your session has expired. Please log in to continue where you left off."
+msgstr "لقد انتهت صلاحية جلستك. يرجى تسجيل الدخول للاستمرار من حيث توقفت."
+
+#: login.php:1008
+msgid "You are now logged out."
+msgstr "تم تسجيل خروجك الآن."
+
+#: login.php:1010
+msgid "<strong>Error</strong>: User registration is currently not allowed."
+msgstr "<strong>خطأ</strong>: تسجيل المستخدم غير مسموح به حاليًا."
+
+#: login.php:1012
+msgid ""
+"<strong>You have successfully updated WordPress!</strong> Please log back in "
+"to see what&#8217;s new."
+msgstr ""
+"<strong>لقد حدثت WordPress بنجاح!</strong> يرجى إعادة تسجيل الدخول للاطلاع على المستجدات."
+
+#: login.php:1014
+msgid "Recovery Mode Initialized. Please log in to continue."
+msgstr "تمت تهيئة وضع الاسترداد. الرجاء تسجيل الدخول للمتابعة."
+
+#: login.php:1046
+msgid "Log In"
+msgstr "تسجيل الدخول"
+
+#: single.php:24
+#, php-format
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</"
+"span>"
+msgstr ""
+"<span class=\"meta-nav\">تم النشر في</span><span class=\"post-title\">%s</span>"
+
+#: single.php:38
+msgid "Next post"
+msgstr "المنشور التالي"
+
+#: single.php:39
+msgid "Previous post"
+msgstr "المنشور السابق"
+
+#: template-parts/content/content-none.php:16
+msgid "Sorry , no result about"
+msgstr "عذرًا، لا توجد نتائج عن"
+
+#: template-parts/content/content-none.php:26
+msgid "Continue shopping"
+msgstr "مواصلة التسوق"
+
+#: template-parts/post/author-bio.php:29
+#, php-format
+msgid "View all of %s's posts."
+msgstr "عرض جميع منشورات %s."
+
+#: woocommerce/cart/cart-empty.php:28
+msgid "Your cart is empty."
+msgstr "عربة تسوقك فارغة."
+
+#: woocommerce/cart/cart-empty.php:44
+msgid "Most sold Products"
+msgstr "المنتجات الأكثر مبيعًا"
+
+#: woocommerce/cart/cart-shipping.php:56
+#, php-format
+msgid "Shipping to %s."
+msgstr "يشحن إلى %s."
+
+#: woocommerce/cart/cart-shipping.php:57
+msgid "Change address"
+msgstr "تغيير العنوان"
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Shipping options will be updated during checkout."
+msgstr "سيتم تحديث خيارات الشحن أثناء السداد مع الخروج."
+
+#: woocommerce/cart/cart-shipping.php:68
+msgid "Shipping costs are calculated during checkout."
+msgstr "يتم احتساب تكاليف الشحن أثناء السداد مع الخروج."
+
+#: woocommerce/cart/cart-shipping.php:70
+msgid "Enter your address to view shipping options."
+msgstr "أدخل عنوانك لعرض خيارات الشحن."
+
+#: woocommerce/cart/cart-shipping.php:73
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+"لا تتوفر خيارات شحن. يرجى التأكد من إدخال عنوانك بشكل صحيح، أو الاتصال بنا إذا كنت بحاجة إلى أي مساعدة."
+
+#: woocommerce/cart/cart-shipping.php:76
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr "لم يتم العثور على خيارات الشحن لـ %s."
+
+#: woocommerce/cart/cart-shipping.php:77
+msgid "Enter a different address"
+msgstr "أدخل عنوانًا مختلفًا"
+
+#: woocommerce/cart/cart-totals.php:70
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(مُقدر لـ %s)"
+
+#: woocommerce/cart/cart.php:94
+msgid "Available on backorder"
+msgstr "متوفر في الطلبات المؤجلة"
+
+#: woocommerce/checkout/form-checkout-address.php:36
+#: woocommerce/checkout/form-checkout-payment.php:31
+#: woocommerce/checkout/thankyou.php:29
+msgid "Payment"
+msgstr "السداد"
+
+#: woocommerce/checkout/form-checkout-address.php:37
+#: woocommerce/checkout/form-checkout-payment.php:32
+#: woocommerce/checkout/thankyou.php:30
+msgid "Order Placed"
+msgstr "تم تأكيد الطلب"
+
+#: woocommerce/checkout/form-checkout-address.php:47
+msgid "Add a new address"
+msgstr "إضافة عنوان جديد"
+
+#: woocommerce/checkout/form-checkout-address.php:66
+#: woocommerce/myaccount/my-address.php:35
+msgid "Add a new Address"
+msgstr "إضافة عنوان جديد"
+
+#: woocommerce/checkout/form-checkout-address.php:69
+msgid "Next"
+msgstr "التالي"
+
+#: woocommerce/checkout/form-checkout-payment.php:82
+msgid "Schedule a time"
+msgstr "جدولة موعد"
+
+#: woocommerce/checkout/form-checkout.php:24
+msgid "You must be logged in to checkout."
+msgstr "يجب أن تسجل الدخول لدفع الطلب."
+
+#: woocommerce/checkout/form-coupon.php:27
+msgid "Add Coupon"
+msgstr "إضافة كوبون"
+
+#: woocommerce/checkout/form-login.php:26
+msgid "Returning customer?"
+msgstr "عميل سابق؟"
+
+#: woocommerce/checkout/form-login.php:26
+msgid "Click here to login"
+msgstr "انقر هنا لتسجيل الدخول"
+
+#: woocommerce/checkout/form-login.php:32
+msgid ""
+"If you have shopped with us before, please enter your details below. If you "
+"are a new customer, please proceed to the Billing section."
+msgstr ""
+"إذا كنت قد تسوقت معنا من قبل، فيرجى إدخال التفاصيل الخاصة بك فيما يلي. أما إذا كنت عميلاً جديدًا، فيرجى المتابعة إلى قسم الفواتير."
+
+#: woocommerce/checkout/form-pay.php:79
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"عذرًا، يبدو أنه لا توجد طرق دفع متاحة لموقعك. يرجى الاتصال بنا إذا كنت بحاجة إلى مساعدة أو رغبت في إجراء ترتيبات بديلة."
+
+#: woocommerce/checkout/payment.php:28
+msgid "Payment Method"
+msgstr "طريقة السداد"
+
+#: woocommerce/checkout/payment.php:37
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"عذرًا، يبدو أنه لا توجد طرق دفع متاحة لولايتك. يرجى الاتصال بنا إذا كنت بحاجة إلى مساعدة أو رغبت في إجراء ترتيبات بديلة."
+
+#: woocommerce/checkout/payment.php:37
+msgid "Please fill in your details above to see available payment methods."
+msgstr "يرجى إدخال بياناتك أعلاه للاطلاع على طرق الدفع."
+
+#: woocommerce/checkout/review-order.php:23
+#, php-format
+msgid "For every purchase over %s GetHalal will donate %s to Chairty"
+msgstr "ستقدم %s GetHalal تبرعات %s إلى الجمعيات الخيرية نظير كل عملية شراء"
+
+#: woocommerce/checkout/review-order.php:31
+msgid "Purchase Summary"
+msgstr "ملخص الشراء"
+
+#: woocommerce/checkout/review-order.php:96
+msgid "Place Order"
+msgstr "تأكيد طلب"
+
+#: woocommerce/checkout/thankyou.php:58
+msgid "Your order has been placed succuessfully"
+msgstr "تم تأكيد طلبك بنجاح"
+
+#: woocommerce/checkout/thankyou.php:98
+msgid "Shop again"
+msgstr "تسوق مرة أخرى"
+
+#: woocommerce/checkout/thankyou.php:100
+msgid "Track Your order"
+msgstr "تتبع طلبك"
+
+#: woocommerce/checkout/thankyou.php:111
+msgid "Thank you. Your order has been received."
+msgstr "شكرًا لك. لقد تلقينا طلبك."
+
+#: woocommerce/myaccount/form-add-payment-method.php:22
+msgid "Add a new card/Debit"
+msgstr "إضافة بطاقة خصم/ائتمان جديدة"
+
+#: woocommerce/myaccount/form-add-payment-method.php:60
+msgid "Save your card for future purchase"
+msgstr "حفظ بطاقتك لعمليات الشراء المستقبلية"
+
+#: woocommerce/myaccount/form-change-password.php:30
+msgid "Current password"
+msgstr "كلمة المرور الحالية"
+
+#: woocommerce/myaccount/form-change-password.php:33
+msgid "New password"
+msgstr "كلمة المرور الجديدة"
+
+#: woocommerce/myaccount/form-change-password.php:36
+msgid "Confirm new password"
+msgstr "تأكيد كلمة المرور الجديدة"
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"هل فقدت كلمة المرور الخاصة بك؟ يرجى إدخال اسم المستخدم أو عنوان البريد الإلكتروني. سوف تتلقى رابطًا عبر البريد الإلكتروني لإنشاء كلمة مرور جديدة."
+
+#: woocommerce/myaccount/form-notifications.php:25
+#: woocommerce/myaccount/form-terms-policy.php:25
+msgid "Billing address"
+msgstr "عنوان إرسال الفواتير"
+
+#: woocommerce/myaccount/form-notifications.php:44
+msgid "No Notifications Yet."
+msgstr "لا توجد إشعارات حتى الآن."
+
+#: woocommerce/myaccount/form-notifications.php:46
+msgid "When you got noitigications ,they’ll show up here"
+msgstr "ستظهر الإشعارات هنا عندما تتلقاها"
+
+#: woocommerce/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr "أدخل كلمة مرور جديدة تاليًا."
+
+#: woocommerce/myaccount/lost-password-confirmation.php:20
+msgid "Password reset email has been sent."
+msgstr "تم إرسال رسالة بريد إلكتروني لإعادة تعيين كلمة المرور."
+
+#: woocommerce/myaccount/lost-password-confirmation.php:25
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+"تم إرسال رسالة إلكترونية لإعادة تعيين كلمة المرور إلى عنوان البريد الإلكتروني المسجل لحسابك، ولكن قد تستغرق عدة دقائق لتظهر في صندوقك للوارد. يرجى الانتظار لمدة 10 دقائق على الأقل قبل الشروع في محاولة إعادة تعيين أخرى."
+
+#: woocommerce/myaccount/my-downloads.php:29
+msgid "Available downloads"
+msgstr "التنزيلات المتاحة"
+
+#: woocommerce/myaccount/my-downloads.php:39
+#, php-format
+msgid "%s download remaining"
+msgstr "%s تنزيل متبقٍّ"
+
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Order"
+msgstr "الطلب"
+
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Date"
+msgstr "التاريخ"
+
+#: woocommerce/myaccount/my-orders.php:16
+msgid "Status"
+msgstr "الحالة"
+
+#: woocommerce/myaccount/my-orders.php:17
+msgid "Total"
+msgstr "الإجمالي"
+
+#: woocommerce/myaccount/my-orders.php:40
+msgid "Recent orders"
+msgstr "الطلبات الحديثة"
+
+#: woocommerce/myaccount/my-orders.php:45 woocommerce/myaccount/orders.php:40
+msgid "Upcoming"
+msgstr "القادم"
+
+#: woocommerce/myaccount/my-orders.php:46 woocommerce/myaccount/orders.php:41
+msgid "History"
+msgstr "السجل"
+
+#: woocommerce/myaccount/my-orders.php:67
+#, php-format
+msgid "%1$s for %2$s item"
+msgstr "%1$s مقابل %2$s عنصر"
+
+#: woocommerce/myaccount/orders.php:71
+msgid "R-Order"
+msgstr "طلب"
+
+#: woocommerce/myaccount/payment-methods.php:32
+msgid "Payment Methods"
+msgstr "طرق السداد"
+
+#: woocommerce/myaccount/payment-methods.php:41
+#, php-format
+msgid "%1$s card ......%2$s"
+msgstr "%1$s بطاقة......%2$s"
+
+#: woocommerce/myaccount/payment-methods.php:65
+msgid "Add a new Card"
+msgstr "إضافة بطاقة جديدة"
+
+#: woocommerce/myaccount/view-order.php:30
+#: woocommerce/myaccount/view-order.php:36 woocommerce/order/tracking.php:25
+msgid "Order status"
+msgstr "حالة الطلب"
+
+#: woocommerce/myaccount/view-order.php:42 woocommerce/order/tracking.php:30
+msgid "Order Information"
+msgstr "معلومات الطلب"
+
+#: woocommerce/myaccount/view-order.php:47 woocommerce/order/tracking.php:35
+#, php-format
+msgid "Order id:#%1$s"
+msgstr "رقم تعريف الطلب:#%1$s"
+
+#: woocommerce/myaccount/view-order.php:56 woocommerce/order/tracking.php:44
+#, php-format
+msgid "Date: %1$s"
+msgstr "التاريخ: %1$s"
+
+#: woocommerce/myaccount/view-order.php:65 woocommerce/order/tracking.php:53
+#, php-format
+msgid "Payment method:#%1$s"
+msgstr "طريقة السداد:#%1$s"
+
+#: woocommerce/myaccount/view-order.php:90 woocommerce/order/tracking.php:78
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr "l jS \\o\\f F Y, h:ia"
+
+#: woocommerce/order/order-details-customer.php:30
+#, php-format
+msgid "Customer name:%1$s"
+msgstr "اسم العميل:%1$s"
+
+#: woocommerce/order/order-details-customer.php:37
+msgid "N/A"
+msgstr "غير متوفر"
+
+#: woocommerce/order/order-details-customer.php:46
+#, php-format
+msgid "Mobile no: %1$s"
+msgstr "رقم الهاتف المحمول: %1$s"
+
+#: woocommerce/order/order-details.php:104
+msgid "Cancel Your Order"
+msgstr "إلغاء طلبك"
+
+#: woocommerce/order/order-downloads.php:56
+msgid "&infin;"
+msgstr "&infin;"

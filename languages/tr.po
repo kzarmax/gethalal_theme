@@ -1,0 +1,1566 @@
+# <!=Copyright (C) 2021 Automattic
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Gethalal 1.0.0\n"
+"POT-Creation-Date: 2021-12-07 21:07+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-12-07 21:16+0800\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_html_x;_n\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: tr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: classes/class-gethalal-customize-notice-control.php:38
+#: classes/class-gethalal-dark-mode.php:176
+msgid "https://wordpress.org/support/article/gethalal/#dark-mode-support"
+msgstr "https://wordpress.org/support/article/gethalal/#dark-mode-support"
+
+#: classes/class-gethalal-customize.php:73
+msgid "Display Site Title & Tagline"
+msgstr "Site Başlığını ve Reklam Sloganını Görüntüle"
+
+#: classes/class-gethalal-customize.php:83
+msgid "Excerpt Settings"
+msgstr "Alıntı Ayarları"
+
+#: classes/class-gethalal-customize.php:104
+msgid "On Archive Pages, posts show:"
+msgstr "Arşiv Sayfalarında gönderiler şunları gösterir:"
+
+#: classes/class-gethalal-customize.php:106
+msgid "Summary"
+msgstr "Özet"
+
+#: classes/class-gethalal-customize.php:107
+msgid "Full text"
+msgstr "Tam metin"
+
+#: classes/class-gethalal-customize.php:136
+msgid "Background color"
+msgstr "Arka plan rengi"
+
+#: classes/class-gethalal-dark-mode.php:132
+msgid "Colors & Dark Mode"
+msgstr "Renkli ve Karanlık Mod"
+
+#: classes/class-gethalal-dark-mode.php:175
+#, php-format
+msgid ""
+"Dark Mode is a device setting. If a visitor to your site requests it, your "
+"site will be shown with a dark background and light text. <a href=\"%s"
+"\">Learn more about Dark Mode.</a>"
+msgstr ""
+"Karanlık Mod, cihaz ayarıdır. Sitenizin bir ziyaretçisinin istemesi halinde siteniz, koyu renk arka plan ve açık renk metin şeklinde görüntülenir. <a href=\"%s\">Karanlık Mod hakkında daha fazla bilgi alın.</a>"
+
+#: classes/class-gethalal-dark-mode.php:179
+msgid ""
+"Dark Mode can also be turned on and off with a button that you can find in "
+"the bottom right corner of the page."
+msgstr ""
+"Karanlık Mod, sayfanın sağ alt köşesindeki bir düğme ile de açılıp kapatılabilir."
+
+#: classes/class-gethalal-dark-mode.php:186
+msgid "Dark Mode support"
+msgstr "Karanlık Mod desteği"
+
+#: classes/class-gethalal-dark-mode.php:319
+#, php-format
+msgid "Dark Mode: %s"
+msgstr "Karanlık Mod: %s"
+
+#: classes/class-gethalal-dark-mode.php:376
+msgid "Get Halal uses LocalStorage when Dark Mode support is enabled."
+msgstr "Karanlık Mod desteği etkinleştirildiğinde Get Halal, LocalStorage kullanır."
+
+#: classes/class-gethalal-dark-mode.php:377
+msgid "Suggested text:"
+msgstr "Önerilen metin:"
+
+#: classes/class-gethalal-dark-mode.php:378
+msgid ""
+"This website uses LocalStorage to save the setting when Dark Mode support is "
+"turned on or off.<br> LocalStorage is necessary for the setting to work and "
+"is only used when a user clicks on the Dark Mode button.<br> No data is "
+"saved in the database or transferred."
+msgstr ""
+"Bu web sitesi, Karanlık Mod desteği açıldığında veya kapatıldığında ayarı kaydetmek için LocalStorage kullanmaktadır.<br> Ayarın çalışması için gerekli olan LocalStorage yalnızca bir kullanıcı Karanlık Mod düğmesini tıkladığında kullanılır.<br> Veri tabanına hiçbir veri kaydedilmez veya aktarılmaz."
+
+#: classes/class-gethalal-utils.php:22
+msgid "Once Time"
+msgstr "Bir Kez"
+
+#: classes/class-gethalal-utils.php:23
+msgid "Weekly"
+msgstr "Haftalık"
+
+#: classes/class-gethalal-utils.php:24
+msgid "Monthly"
+msgstr "Aylık"
+
+#: classes/class-gethalal-utils.php:31
+msgid "11-12 AM"
+msgstr "11:00-12:00"
+
+#: classes/class-gethalal-utils.php:32
+msgid "1-2 PM"
+msgstr "13:00-14:00"
+
+#: classes/class-gethalal-utils.php:33
+msgid "3-4 PM"
+msgstr "15:00-16:00"
+
+#: classes/class-gethalal-utils.php:34
+msgid "5-6 PM"
+msgstr "17:00-18:00"
+
+#: comments.php:60 inc/template-tags.php:226
+msgid "Page"
+msgstr "Sayfa"
+
+#: comments.php:65
+msgid "Older comments"
+msgstr "Daha eski yorumlar"
+
+#: comments.php:69
+msgid "Newer comments"
+msgstr "Daha yeni yorumlar"
+
+#: comments.php:85
+msgid "Leave a comment"
+msgstr "Yorum yap"
+
+#: footer.php:61
+msgid "Top Categories"
+msgstr "Başlıca Kategoriler"
+
+#: footer.php:75
+msgid "About GetHalal"
+msgstr "GetHalal Hakkında"
+
+#: footer.php:77
+msgid "About Us"
+msgstr "Hakkımızda"
+
+#: footer.php:78
+msgid "How it Works"
+msgstr "Nasıl Çalışır"
+
+#: footer.php:79
+msgid "Blogger"
+msgstr "Blogger"
+
+#: footer.php:80
+msgid "Careers"
+msgstr "Kariyer"
+
+#: footer.php:81
+msgid "Impressum"
+msgstr "Künye"
+
+#: footer.php:85
+msgid "Need Help?"
+msgstr "Yardıma mı ihtiyacınız var?"
+
+#: footer.php:87
+msgid "Call Us"
+msgstr "Bizi Arayın"
+
+#: footer.php:89
+msgid "Help Center"
+msgstr "Yardım Merkezi"
+
+#: footer.php:94
+msgid "Download GetHalal"
+msgstr "GetHalal'i İndirin"
+
+#: functions.php:75 inc/starter-content.php:152
+msgid "Primary menu"
+msgstr "Birincil menü"
+
+#: functions.php:76 inc/starter-content.php:163
+msgid "Secondary menu"
+msgstr "İkincil menü"
+
+#: functions.php:149
+msgid "Extra small"
+msgstr "Ekstra küçük"
+
+#: functions.php:150
+msgid "XS"
+msgstr "XS"
+
+#: functions.php:155
+msgid "Small"
+msgstr "Küçük"
+
+#: functions.php:156
+msgid "S"
+msgstr "S"
+
+#: functions.php:161
+msgid "Normal"
+msgstr "Normal"
+
+#: functions.php:162
+msgid "M"
+msgstr "M"
+
+#: functions.php:167
+msgid "Large"
+msgstr "Büyük"
+
+#: functions.php:168
+msgid "L"
+msgstr "L"
+
+#: functions.php:173
+msgid "Extra large"
+msgstr "Ekstra Büyük"
+
+#: functions.php:174
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:179
+msgid "Huge"
+msgstr "Battal"
+
+#: functions.php:180
+msgid "XXL"
+msgstr "XXL"
+
+#: functions.php:185
+msgid "Gigantic"
+msgstr "Ekstra Battal"
+
+#: functions.php:186
+msgid "XXXL"
+msgstr "XXXL"
+
+#: functions.php:217
+msgid "Black"
+msgstr "Siyah"
+
+#: functions.php:222 inc/block-styles.php:105
+msgid "Dark gray"
+msgstr "Koyu gri"
+
+#: functions.php:227
+msgid "Gray"
+msgstr "Gri"
+
+#: functions.php:232
+msgid "Green"
+msgstr "Yeşil"
+
+#: functions.php:237
+msgid "Blue"
+msgstr "Mavi"
+
+#: functions.php:242
+msgid "Purple"
+msgstr "Mor"
+
+#: functions.php:247
+msgid "Red"
+msgstr "Kırmızı"
+
+#: functions.php:252
+msgid "Orange"
+msgstr "Turuncu"
+
+#: functions.php:257
+msgid "Yellow"
+msgstr "Sarı"
+
+#: functions.php:262
+msgid "White"
+msgstr "Beyaz"
+
+#: functions.php:273
+msgid "Purple to yellow"
+msgstr "Mordan sarıya"
+
+#: functions.php:278
+msgid "Yellow to purple"
+msgstr "Sarıdan mora"
+
+#: functions.php:283
+msgid "Green to yellow"
+msgstr "Yeşilden sarıya"
+
+#: functions.php:288
+msgid "Yellow to green"
+msgstr "Sarıdan yeşile"
+
+#: functions.php:293
+msgid "Red to yellow"
+msgstr "Kırmızıdan sarıya"
+
+#: functions.php:298
+msgid "Yellow to red"
+msgstr "Sarıdan kırmızıya"
+
+#: functions.php:303
+msgid "Purple to red"
+msgstr "Mordan kırmızıya"
+
+#: functions.php:308
+msgid "Red to purple"
+msgstr "Kırmızıdan mora"
+
+#: functions.php:361
+msgid "Footer"
+msgstr "Alt bilgi"
+
+#: functions.php:363
+msgid "Add widgets here to appear in your footer."
+msgstr "Alt bilginizde görüntülenecek widget'ları buraya ekleyin."
+
+#: functions.php:837
+msgid "Join Now"
+msgstr "Şimdi Katıl"
+
+#: functions.php:854 inc/menu-functions.php:115
+#: woocommerce/myaccount/form-edit-account.php:29
+msgid "My Account"
+msgstr "Hesabım"
+
+#: functions.php:858 inc/menu-functions.php:116
+#: woocommerce/myaccount/orders.php:32
+msgid "My Orders"
+msgstr "Siparişlerim"
+
+#: functions.php:862
+msgid "My payment options"
+msgstr "Ödeme seçeneklerim"
+
+#: functions.php:866 woocommerce/checkout/form-checkout-address.php:35
+#: woocommerce/checkout/form-checkout-payment.php:30
+#: woocommerce/checkout/thankyou.php:28
+#: woocommerce/myaccount/form-edit-address.php:27
+msgid "My Address"
+msgstr "Adresim"
+
+#: functions.php:870 inc/menu-functions.php:119
+#: woocommerce/myaccount/form-notifications.php:35
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#: functions.php:874
+msgid "Change Passwords"
+msgstr "Parolaları Değiştir"
+
+#: functions.php:878 inc/menu-functions.php:121
+#: woocommerce/myaccount/form-terms-policy.php:34
+msgid "Terms & Policy"
+msgstr "Şartlar ve Politika"
+
+#: functions.php:882
+msgid "Logout"
+msgstr "Çıkış Yap"
+
+#: functions.php:921
+msgid "Display Name"
+msgstr "Görünen Ad"
+
+#: functions.php:929
+msgid "Email"
+msgstr "E-posta"
+
+#: functions.php:937
+msgid "Phone"
+msgstr "Telefon"
+
+#: functions.php:945
+msgid "Country / Region"
+msgstr "Ülke / Bölge"
+
+#: functions.php:952 inc/api-functions.php:44
+msgid "Address"
+msgstr "Adres"
+
+#: functions.php:961 inc/api-functions.php:46
+msgid "Apartment"
+msgstr "Apartman"
+
+#: functions.php:968 inc/api-functions.php:47
+msgid "Floor"
+msgstr "Kat"
+
+#: functions.php:976 functions.php:1050
+msgid "Land Mark"
+msgstr "Sınır İşareti"
+
+#: functions.php:984
+msgid "Postcode / ZIP"
+msgstr "Posta Kodu"
+
+#: functions.php:1007 woocommerce/myaccount/form-edit-account.php:34
+msgid "Personal  Information"
+msgstr "Kişisel Bilgiler"
+
+#: functions.php:1011
+msgid "Name*"
+msgstr "İsim*"
+
+#: functions.php:1016
+msgid "Phone Number*"
+msgstr "Telefon Numarası*"
+
+#: functions.php:1024
+msgid "Delivery Address"
+msgstr "Teslimat Adresi"
+
+#: functions.php:1028
+msgid "Address*"
+msgstr "Adres*"
+
+#: functions.php:1033
+msgid "Enter Your zip code*"
+msgstr "Posta kodunuzu girin*"
+
+#: functions.php:1039
+msgid "Apartment*"
+msgstr "Apartman*"
+
+#: functions.php:1044
+msgid "Floor*"
+msgstr "Kat*"
+
+#: functions.php:1059
+msgid "Set is as Default"
+msgstr "Varsayılan olarak Ayarla"
+
+#: functions.php:1065
+msgid "Save"
+msgstr "Kaydet"
+
+#: functions.php:1123
+msgid "Placed"
+msgstr "Alındı"
+
+#: functions.php:1124
+msgid "Preparing"
+msgstr "Hazırlanıyor"
+
+#: functions.php:1125
+msgid "Shipping"
+msgstr "Gönderildi"
+
+#: functions.php:1126
+msgid "Delivered"
+msgstr "Teslim Edildi"
+
+#: functions.php:1155 functions.php:1160
+msgid "Default"
+msgstr "Varsayılan"
+
+#: functions.php:1170
+msgid "Edit"
+msgstr "Düzenle"
+
+#: functions.php:1219
+msgid "Change Your Location"
+msgstr "Konumunuzu Değiştirin"
+
+#: functions.php:1227
+msgid "Enter Your Zip code"
+msgstr "Posta kodunuzu girin"
+
+#: functions.php:1255
+msgid "English"
+msgstr "İngilizce"
+
+#: functions.php:1256
+msgid "Deutsch"
+msgstr "Almanca"
+
+#: functions.php:1257
+msgid "Turkish"
+msgstr "Türkçe"
+
+#: functions.php:1258
+msgid "Arabic"
+msgstr "Arapça"
+
+#: functions.php:1416
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: functions.php:1439 woocommerce/cart/cart-empty.php:38
+msgid "Shop Now"
+msgstr "Şimdi Satın Al"
+
+#: functions.php:1495
+msgid "Add a Coupon"
+msgstr "Kupon Ekle"
+
+#: functions.php:1530 woocommerce/checkout/form-checkout-payment.php:68
+msgid "Delivery Date & Time"
+msgstr "Teslimat Tarihi ve Saati"
+
+#: functions.php:1649
+msgid "Invalid Delivery Time."
+msgstr "Geçersiz Teslimat Saati."
+
+#: functions.php:1769
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
+
+#: functions.php:1773
+#, php-format
+msgid "Recovery Mode &#8212; %s"
+msgstr "Kurtarma Modu &#8212; %s"
+
+#: functions.php:1831
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: functions.php:1857
+msgid ""
+"Usage of the title attribute on the login logo is not recommended for "
+"accessibility reasons. Use the link text instead."
+msgstr ""
+"Erişilebilirlik amaçları doğrultusunda, oturum açma logosunda başlık özniteliğinin kullanılması önerilmez. Bunun yerine bağlantı metnini kullanın."
+
+#: functions.php:1860
+msgid "Powered by WordPress"
+msgstr "WordPress tarafından desteklenmektedir"
+
+#: image.php:46 template-parts/content/content-page.php:34
+#: template-parts/content/content-single.php:28
+#: template-parts/content/content.php:34
+msgid "Page %"
+msgstr "Sayfa %"
+
+#: image.php:59
+#, php-format
+msgid "Published in %s"
+msgstr "Yayınlandığı yer: %s"
+
+#: image.php:68 image.php:93 inc/template-tags.php:90 inc/template-tags.php:133
+#, php-format
+msgid "Edit %s"
+msgstr "%s Düzenle"
+
+#: image.php:81
+msgid "Full size"
+msgstr "Tam boy"
+
+#: inc/api-functions.php:41 inc/api-functions.php:180
+msgid "Display name"
+msgstr "Görünen ad"
+
+#: inc/api-functions.php:42 inc/api-functions.php:181
+msgid "Email address"
+msgstr "E-posta adresi"
+
+#: inc/api-functions.php:43 inc/api-functions.php:194
+msgid "Phone Number"
+msgstr "Telefon Numarası"
+
+#: inc/api-functions.php:45
+msgid "Zip Code"
+msgstr "Posta Kodu"
+
+#: inc/api-functions.php:54 inc/api-functions.php:188
+#, php-format
+msgid "%s is a required field."
+msgstr "%s zorunlu bir alandır."
+
+#: inc/api-functions.php:62
+msgid "Zip Code is a not valid."
+msgstr "Posta Kodu geçerli değil."
+
+#: inc/api-functions.php:118
+msgid "Account address saved successfully."
+msgstr "Hesap adresi başarıyla kaydedildi."
+
+#: inc/api-functions.php:173
+msgid "Display name cannot be changed to email address due to privacy concern."
+msgstr "Görünen ad, gizlilik nedeniyle e-posta adresiyle değiştirilemez."
+
+#: inc/api-functions.php:194
+#, php-format
+msgid "%s is not a valid phone number."
+msgstr "%s geçerli bir telefon numarası değil."
+
+#: inc/api-functions.php:200
+msgid "Please provide a valid email address."
+msgstr "Lütfen geçerli bir e-posta adresi girin."
+
+#: inc/api-functions.php:202
+msgid "This email address is already registered."
+msgstr "Bu e-posta adresi zaten kayıtlı."
+
+#: inc/api-functions.php:211
+msgid "Account details changed successfully."
+msgstr "Hesap ayrıntıları başarıyla değiştirildi."
+
+#: inc/api-functions.php:236
+msgid "This address is not registered."
+msgstr "Bu adres kayıtlı değil."
+
+#: inc/api-functions.php:401
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: inc/api-functions.php:405
+msgid "Description"
+msgstr "Açıklama"
+
+#: inc/api-functions.php:473
+msgid "Please input valid postcode"
+msgstr "Lütfen geçerli posta kodunu girin"
+
+#: inc/api-functions.php:476
+msgid "Please input postcode"
+msgstr "Lütfen posta kodunu girin"
+
+#: inc/api-functions.php:513
+msgid "Why you need to cancel?"
+msgstr "Neden iptal etmeniz gerekiyor?"
+
+#: inc/api-functions.php:518
+msgid "Other"
+msgstr "Diğer"
+
+#: inc/api-functions.php:523
+msgid "Yes, Cancel the Order"
+msgstr "Evet, Siparişi İptal Et"
+
+#: inc/api-functions.php:524
+msgid "No, i need the order"
+msgstr "Hayır, sipariş gerekli"
+
+#: inc/back-compat.php:40 inc/back-compat.php:59 inc/back-compat.php:84
+#, php-format
+msgid ""
+"This theme requires WordPress 5.3 or newer. You are running version %s. "
+"Please upgrade."
+msgstr ""
+"Bu tema için WordPress 5.3 veya daha yeni sürümü gereklidir. Mevcut sürümünüz %s. Lütfen sürümü yükseltin."
+
+#: inc/block-patterns.php:18
+msgid "Get Halal"
+msgstr "Get Halal"
+
+#: inc/block-patterns.php:31
+msgid "Large text"
+msgstr "Büyük metin"
+
+#: inc/block-patterns.php:34
+msgid "A new portfolio default theme for WordPress"
+msgstr "WordPress için yeni bir portföy varsayılan teması"
+
+#: inc/block-patterns.php:42
+msgid "Links area"
+msgstr "Bağlantılar alanı"
+
+#: inc/block-patterns.php:45
+msgid "A huge text followed by social networks and email address links."
+msgstr "Büyük bir metin, ardından sosyal ağlar ve e-posta adresi bağlantıları."
+
+#: inc/block-patterns.php:46
+msgid "Let&#8217;s Connect."
+msgstr "Bağlanalım"
+
+#: inc/block-patterns.php:46
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/block-patterns.php:46
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/block-patterns.php:46
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/block-patterns.php:46 inc/block-patterns.php:115
+msgid "example@example.com"
+msgstr "example@example.com"
+
+#: inc/block-patterns.php:54
+msgid "Media and text article title"
+msgstr "Medya ve metin makale başlığı"
+
+#: inc/block-patterns.php:57
+msgid ""
+"A Media & Text block with a big image on the left and a heading on the "
+"right. The heading is followed by a separator and a description paragraph."
+msgstr ""
+"Solda büyük bir resim ve sağda bir başlık bulunan bir Medya ve Metin öbeği. Başlığın ardından bir ayırıcı ve bir açıklama paragrafı gelir."
+
+#: inc/block-patterns.php:58
+msgid "Playing in the Sand"
+msgstr "Playing in the Sand"
+
+#: inc/block-patterns.php:58
+msgid "Berthe Morisot<br>(French, 1841-1895)"
+msgstr "Berthe Morisot<br>(Fransız, 1841-1895)"
+
+#: inc/block-patterns.php:66
+msgid "Overlapping images"
+msgstr "Örtüşen resimler"
+
+#: inc/block-patterns.php:69
+msgid "Three images inside an overlapping columns block."
+msgstr "Örtüşen sütun öbeğinin içindeki üç resim."
+
+#: inc/block-patterns.php:78
+msgid "Two images showcase"
+msgstr "İki resimli vitrin"
+
+#: inc/block-patterns.php:81
+msgid ""
+"A media & text block with a big image on the left and a smaller one with "
+"bordered frame on the right."
+msgstr ""
+"Solda büyük bir resim ve sağda kenarlıklı çerçeveli daha küçük bir resim olan medya ve metin öbeği."
+
+#: inc/block-patterns.php:90
+msgid "Overlapping images and text"
+msgstr "Örtüşen resimler ve metin"
+
+#: inc/block-patterns.php:93
+msgid "An overlapping columns block with two images and a text description."
+msgstr "İki resim ve bir metin açıklaması içeren örtüşen sütun öbeği."
+
+#: inc/block-patterns.php:94
+msgid "Beautiful gardens painted by Berthe Morisot in the late 1800s"
+msgstr "1800'lerin sonlarında Berthe Morisot tarafından resmedilmiş güzel bahçeler"
+
+#: inc/block-patterns.php:102
+msgid "Portfolio list"
+msgstr "Portföy listesi"
+
+#: inc/block-patterns.php:104
+msgid "A list of projects with thumbnail images."
+msgstr "Küçük resimlerle birlikte projelerin listesi."
+
+#: inc/block-patterns.php:105
+msgid "Roses Trémières"
+msgstr "Roses Trémières"
+
+#: inc/block-patterns.php:105
+msgid "Villa with Orange Trees, Nice"
+msgstr "Villa with Orange Trees, Nice"
+
+#: inc/block-patterns.php:105
+msgid "In the Bois de Boulogne"
+msgstr "In the Bois de Boulogne"
+
+#: inc/block-patterns.php:105
+msgid "The Garden at Bougival"
+msgstr "The Garden at Bougival"
+
+#: inc/block-patterns.php:105
+msgid "Young Woman in Mauve"
+msgstr "Young Woman in Mauve"
+
+#: inc/block-patterns.php:105
+msgid "Reading"
+msgstr "Okuma"
+
+#: inc/block-patterns.php:112
+msgid "Contact information"
+msgstr "İletişim bilgileri"
+
+#: inc/block-patterns.php:114
+msgid ""
+"A block with 3 columns that display contact information and social media "
+"links."
+msgstr ""
+"İletişim bilgilerini ve sosyal medya bağlantılarını gösteren 3 sütunlu bir öbek."
+
+#: inc/block-patterns.php:115
+msgid "123-456-7890"
+msgstr "123-456-7890"
+
+#: inc/block-patterns.php:115
+msgid "123 Main Street"
+msgstr "123 Main Street"
+
+#: inc/block-patterns.php:115
+msgid "Cambridge, MA, 02139"
+msgstr "Cambridge, MA, 02139"
+
+#: inc/block-styles.php:24
+msgid "Overlap"
+msgstr "Örtüşme"
+
+#: inc/block-styles.php:33 inc/block-styles.php:42 inc/block-styles.php:51
+#: inc/block-styles.php:78 inc/block-styles.php:87
+msgid "Borders"
+msgstr "Kenarlıklar"
+
+#: inc/block-styles.php:60
+msgid "Frame"
+msgstr "Çerçeve"
+
+#: inc/block-styles.php:69
+msgid "Dividers"
+msgstr "Bölücüler"
+
+#: inc/block-styles.php:96
+msgid "Thick"
+msgstr "Kalın"
+
+#: inc/main-functions.php:35
+msgid "<strong>Error</strong>: Please enter a username."
+msgstr "<strong>Hata</strong>: Lütfen bir kullanıcı adı girin."
+
+#: inc/main-functions.php:37
+msgid ""
+"<strong>Error</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+"<strong>Hata</strong>: Bu kullanıcı adı kabul edilmez karakterler kullandığından geçersizdir. Lütfen geçerli bir kullanıcı adı girin."
+
+#: inc/main-functions.php:40
+msgid ""
+"<strong>Error</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>Hata</strong>: Bu kullanıcı adı zaten kayıtlı. Lütfen başka bir kullanıcı adı seçin."
+
+#: inc/main-functions.php:46
+msgid "<strong>Error</strong>: Sorry, that username is not allowed."
+msgstr "<strong>Hata</strong>: Üzgünüz, bu kullanıcı adına izin verilmiyor."
+
+#: inc/main-functions.php:52
+msgid "<strong>Error</strong>: Please type your email address."
+msgstr "<strong>Hata</strong>: Lütfen e-posta adresinizi girin."
+
+#: inc/main-functions.php:54
+msgid "<strong>Error</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>Hata</strong>: E-posta adresi doğru değil."
+
+#: inc/main-functions.php:57
+msgid ""
+"<strong>Error</strong>: This email is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>Hata</strong>: Bu e-posta zaten kayıtlı. Lütfen başka bir e-posta adresi seçin."
+
+#: inc/main-functions.php:101
+#, php-format
+msgid ""
+"<strong>Error</strong>: Couldn&#8217;t register you&hellip; please contact "
+"the <a href=\"mailto:%s\">site admin</a>!"
+msgstr ""
+"<strong>Hata</strong>: Kaydınız yapılamadı&hellip; lütfen <a href=\"mailto:%s\">site yöneticisiyle </a>iletişime geçin!"
+
+#: inc/menu-functions.php:32
+msgid "Open menu"
+msgstr "Menüyü aç"
+
+#: inc/menu-functions.php:117
+msgid "Payment methods"
+msgstr "Ödeme yöntemleri"
+
+#: inc/menu-functions.php:118
+msgid "My Addresses"
+msgstr "Adreslerim"
+
+#: inc/menu-functions.php:120 woocommerce/myaccount/form-change-password.php:23
+msgid "Change Password"
+msgstr "Parolayı değiştir"
+
+#: inc/starter-content.php:28 inc/starter-content.php:31
+msgid "Create your website with blocks"
+msgstr "Öbeklerle internet sitenizi oluşturun"
+
+#: inc/starter-content.php:71
+msgid "Add block patterns"
+msgstr "Öbek kalıpları ekle"
+
+#: inc/starter-content.php:75
+msgid ""
+"Block patterns are pre-designed groups of blocks. To add one, select the Add "
+"Block button [+] in the toolbar at the top of the editor. Switch to the "
+"Patterns tab underneath the search bar, and choose a pattern."
+msgstr ""
+"Öbek kalıpları önceden tasarlanmış öbek gruplarıdır. Bir öbek kalıbı eklemek için düzenleyicinin üst kısmındaki araç çubuğunda bulunan Öbek Ekle düğmesini [+] seçin. Arama çubuğunun altındaki Kalıplar sekmesine geçin ve bir kalıp seçin."
+
+#: inc/starter-content.php:81
+msgid "Frame your images"
+msgstr "Resimlerinizi çerçeveleyin"
+
+#: inc/starter-content.php:85
+msgid ""
+"Get Halal includes stylish borders for your content. With an Image block "
+"selected, open the \"Styles\" panel within the Editor sidebar. Select the "
+"\"Frame\" block style to activate it."
+msgstr ""
+"Get Halal, içeriğiniz için şık kenarlıklar içerir. Bir Görüntü öbeği seçiliyken Düzenleyici kenar çubuğundaki \"Stiller\" panelini açın. Etkinleştirmek için \"Çerçeve\" öbek stilini seçin."
+
+#: inc/starter-content.php:91
+msgid "Overlap columns"
+msgstr "Sütunları örtüştür"
+
+#: inc/starter-content.php:95
+msgid ""
+"Get Halal also includes an overlap style for column blocks. With a Columns "
+"block selected, open the \"Styles\" panel within the Editor sidebar. Choose "
+"the \"Overlap\" block style to try it out."
+msgstr ""
+"Get Halal ayrıca sütun öbekleri için bir örtüşme stili içerir. Bir Sütun öbeği seçiliyken Düzenleyici kenar çubuğundaki \"Stiller\" panelini açın. Denemek için \"Örtüşme\" öbek stilini seçin."
+
+#: inc/starter-content.php:110
+msgid "Need help?"
+msgstr "Yardıma mı ihtiyacınız var?"
+
+#: inc/starter-content.php:120
+msgid "Read the Theme Documentation"
+msgstr "Tema Belgelerini Okuyun"
+
+#: inc/starter-content.php:126
+msgid "Check out the Support Forums"
+msgstr "Destek Forumlarına göz atın"
+
+#: inc/template-functions.php:136
+#, php-format
+msgid "Continue reading %s"
+msgstr "%s'yi okumaya devam et"
+
+#: inc/template-functions.php:181
+msgid "Untitled"
+msgstr "Başlıksız"
+
+#: inc/template-functions.php:434
+msgid "This content is password protected. Please enter a password to view."
+msgstr "Bu içerik parola korumalıdır. Lütfen görüntülemek için parola girin."
+
+#: inc/template-functions.php:436
+msgid "Password"
+msgstr "Parola"
+
+#: inc/template-tags.php:27
+#, php-format
+msgid "Published %s"
+msgstr "Yayınlanan %s"
+
+#: inc/template-tags.php:47 template-parts/post/author-bio.php:17
+#, php-format
+msgid "By %s"
+msgstr "Kişi %s"
+
+#: inc/template-tags.php:75
+msgid "Featured post"
+msgstr "Öne çıkan gönderi"
+
+#: inc/template-tags.php:102 inc/template-tags.php:112
+#: inc/template-tags.php:146 inc/template-tags.php:156
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:106 inc/template-tags.php:150
+#, php-format
+msgid "Categorized as %s"
+msgstr "%s olarak kategorize edilmiş"
+
+#: inc/template-tags.php:116 inc/template-tags.php:160
+#, php-format
+msgid "Tagged %s"
+msgstr "%s etiketli"
+
+#: inc/template-tags.php:232
+msgid "Newer <span class=\"nav-short\">posts</span>"
+msgstr "Daha yeni <span class=\"nav-short\">gönderiler</span>"
+
+#: inc/template-tags.php:243
+msgid "Older <span class=\"nav-short\">posts</span>"
+msgstr "Daha eski <span class=\"nav-short\">gönderiler</span>"
+
+#: login.php:231
+msgid "Confirm your administration email"
+msgstr "Yönetim e-postanızı onaylayın"
+
+#: login.php:267
+msgid ""
+"https://wordpress.org/support/article/settings-general-screen/#email-address"
+msgstr ""
+"https://wordpress.org/support/article/settings-general-screen/#email-address"
+
+#: login.php:270
+msgid "(opens in a new tab)"
+msgstr "(yeni bir sekmede açılır)"
+
+#: login.php:275
+msgid "Why is this important?"
+msgstr "Bu neden önemli?"
+
+#: login.php:286
+#, php-format
+msgid "Current administration email: %s"
+msgstr "Mevcut yönetim e-postası: %s"
+
+#: login.php:415
+msgid ""
+"<strong>Error</strong>: Your password reset link appears to be invalid. "
+"Please request a new link below."
+msgstr ""
+"<strong>Hata</strong>: Parola sıfırlama bağlantınız geçersiz görünüyor. Lütfen aşağıdan yeni bir bağlantı isteyin."
+
+#: login.php:417
+msgid ""
+"<strong>Error</strong>: Your password reset link has expired. Please request "
+"a new link below."
+msgstr ""
+"<strong>Hata</strong>: Parola sıfırlama bağlantınızın süresi doldu. Lütfen aşağıdan yeni bir bağlantı isteyin."
+
+#: login.php:442
+msgid "Lost Password"
+msgstr "Parolayı Unuttum"
+
+#: login.php:442
+msgid ""
+"Please enter your username or email address. You will receive an email "
+"message with instructions on how to reset your password."
+msgstr ""
+"Lütfen kullanıcı adınızı ya da e-posta adresinizi girin. Parolanızı nasıl sıfırlayacağınıza ilişkin talimatları içeren bir e-posta iletisi alacaksınız."
+
+#: login.php:455
+msgid "Forgot your Password?"
+msgstr "Parolanızı mı unuttunuz?"
+
+#: login.php:471
+msgid "We’ll send you a link to reset your password"
+msgstr "Parolanızı sıfırlamanız için size bir bağlantı göndereceğiz"
+
+#: login.php:475
+msgid "Enter Your Email Address"
+msgstr "E-posta Adresinizi Girin"
+
+#: login.php:500 login.php:771 login.php:1153
+msgid "Don`t have an account?"
+msgstr "Hesabınız yok mu?"
+
+#: login.php:500 login.php:1153
+msgid "SignUp"
+msgstr "Üye olun"
+
+#: login.php:548
+msgid "<strong>Error</strong>: The passwords do not match."
+msgstr "<strong>Hata</strong>: Parolalar eşleşmiyor."
+
+#: login.php:564
+msgid "Password Reset"
+msgstr "Parola Sıfırlama"
+
+#: login.php:564
+msgid "Your password has been reset."
+msgstr "Parolanız sıfırlandı."
+
+#: login.php:564
+msgid "Log in"
+msgstr "Giriş yap"
+
+#: login.php:572
+msgid "Reset Password"
+msgstr "Parolayı Sıfırla"
+
+#: login.php:572
+msgid "Enter your new password below or generate one."
+msgstr "Yeni parolanızı aşağıya girin veya bir parola oluşturun."
+
+#: login.php:629
+msgid "Register"
+msgstr "Kayıt ol"
+
+#: login.php:694
+msgid "Registration Form"
+msgstr "Kayıt Formu"
+
+#: login.php:694
+msgid "Register For This Site"
+msgstr "Bu Siteye Kayıt Ol"
+
+#: login.php:699
+msgid "Sign Up"
+msgstr "Kaydol"
+
+#: login.php:715
+msgid "Welcome to Get Halal"
+msgstr "Gel Halal'a Hoş Geldiniz"
+
+#: login.php:721 login.php:1086
+msgid "Continue with Facebook"
+msgstr "Facebook ile devam et"
+
+#: login.php:725 login.php:1090
+msgid "Continue with Google"
+msgstr "Google ile devam et"
+
+#: login.php:731 login.php:1096
+msgid "OR"
+msgstr "VEYA"
+
+#: login.php:750 login.php:1115
+msgid "Forgot Password?"
+msgstr "Parolanızı mı unuttunuz?"
+
+#: login.php:771 login.php:1065
+msgid "Login"
+msgstr "Giriş yap"
+
+#: login.php:789
+#, php-format
+msgid ""
+"Check your email for the confirmation link, then visit the <a href=\"%s"
+"\">login page</a>."
+msgstr ""
+"Onay bağlantısı için e-postanızı kontrol edin, ardından <a href=\"%s\">oturum açma sayfasına</a> gidin."
+
+#: login.php:799
+#, php-format
+msgid ""
+"Registration complete. Please check your email, then visit the <a href=\"%s"
+"\">login page</a>."
+msgstr ""
+"Kayıt tamamlandı. Lütfen e-postanızı kontrol edin, ardından <a href=\"%s\">oturum açma sayfasına</a> gidin."
+
+#: login.php:809
+msgid "Check your email"
+msgstr "E-postanızı kontrol edin"
+
+#: login.php:815
+msgid "Missing request ID."
+msgstr "İstek kimliği eksik."
+
+#: login.php:819
+msgid "Missing confirm key."
+msgstr "Onay anahtarı eksik."
+
+#: login.php:847
+msgid "User action confirmed."
+msgstr "Kullanıcı eylemi onaylandı."
+
+#: login.php:897
+#, php-format
+msgid ""
+"<strong>Error</strong>: Cookies are blocked due to unexpected output. For "
+"help, please see <a href=\"%1$s\">this documentation</a> or try the <a href="
+"\"%2$s\">support forums</a>."
+msgstr ""
+"<strong>Hata</strong>: Beklenmeyen çıktı nedeniyle çerezler engellendi. Yardım için lütfen <a href=\"%1$s\">bu belgelere</a> bakın veya <a href=\"%2$s\">destek forumlarına</a> göz atın."
+
+#: login.php:898
+msgid "https://wordpress.org/support/article/cookies/"
+msgstr "https://wordpress.org/support/article/cookies/"
+
+#: login.php:899
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://wordpress.org/support/forums/"
+
+#: login.php:908
+#, php-format
+msgid ""
+"<strong>Error</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr ""
+"<strong>Hata</strong>: Çerezler engelleniyor veya tarayıcınız tarafından desteklenmiyor. WordPress'i kullanmak için <a href=\"%s\">çerezleri etkinleştirmelisiniz</a>."
+
+#: login.php:909
+msgid ""
+"https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+msgstr ""
+"https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+
+#: login.php:929
+msgid "You have logged in successfully."
+msgstr "Başarıyla giriş yaptınız."
+
+#: login.php:1003
+msgid "Your session has expired. Please log in to continue where you left off."
+msgstr "Oturumunuz sonlandırıldı. Kaldığınız yerden devam etmek için lütfen giriş yapın."
+
+#: login.php:1008
+msgid "You are now logged out."
+msgstr "Şimdi oturumunuzu kapattınız."
+
+#: login.php:1010
+msgid "<strong>Error</strong>: User registration is currently not allowed."
+msgstr "<strong>Hata</strong>: Kullanıcı kaydına şu anda izin verilmiyor."
+
+#: login.php:1012
+msgid ""
+"<strong>You have successfully updated WordPress!</strong> Please log back in "
+"to see what&#8217;s new."
+msgstr ""
+"<strong>WordPress'i başarıyla güncellediniz!</strong> Yenilikleri görmek için lütfen tekrar giriş yapın."
+
+#: login.php:1014
+msgid "Recovery Mode Initialized. Please log in to continue."
+msgstr "Kurtarma Modu Başlatıldı. Devam etmek için lütfen giriş yapın."
+
+#: login.php:1046
+msgid "Log In"
+msgstr "Giriş Yap"
+
+#: single.php:24
+#, php-format
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</"
+"span>"
+msgstr ""
+"<span class=\"meta-nav\">Yayınlandığı yer:</span><span class=\"post-title\">%s</span>"
+
+#: single.php:38
+msgid "Next post"
+msgstr "Sonraki gönderi"
+
+#: single.php:39
+msgid "Previous post"
+msgstr "Önceki gönderi"
+
+#: template-parts/content/content-none.php:16
+msgid "Sorry , no result about"
+msgstr "Üzgünüz, bunun hakkında sonuç yok"
+
+#: template-parts/content/content-none.php:26
+msgid "Continue shopping"
+msgstr "Alışverişe devam et"
+
+#: template-parts/post/author-bio.php:29
+#, php-format
+msgid "View all of %s's posts."
+msgstr "%s'nin tüm gönderilerini görüntüle."
+
+#: woocommerce/cart/cart-empty.php:28
+msgid "Your cart is empty."
+msgstr "Sepetiniz boş."
+
+#: woocommerce/cart/cart-empty.php:44
+msgid "Most sold Products"
+msgstr "En Çok Satılan Ürünler"
+
+#: woocommerce/cart/cart-shipping.php:56
+#, php-format
+msgid "Shipping to %s."
+msgstr "Gönderim adresi %s."
+
+#: woocommerce/cart/cart-shipping.php:57
+msgid "Change address"
+msgstr "Adresi değiştir"
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Shipping options will be updated during checkout."
+msgstr "Gönderim seçenekleri ödeme sırasında güncellenecektir."
+
+#: woocommerce/cart/cart-shipping.php:68
+msgid "Shipping costs are calculated during checkout."
+msgstr "Gönderim ücreti ödeme sırasında hesaplanır."
+
+#: woocommerce/cart/cart-shipping.php:70
+msgid "Enter your address to view shipping options."
+msgstr "Gönderim seçeneklerini görmek için adresinizi girin."
+
+#: woocommerce/cart/cart-shipping.php:73
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+"Gönderim seçeneği bulunmamaktadır. Lütfen adresinizin doğru girildiğinden emin olun veya yardıma ihtiyacınız varsa bizimle iletişime geçin."
+
+#: woocommerce/cart/cart-shipping.php:76
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr "%s için gönderim seçeneği bulunamadı."
+
+#: woocommerce/cart/cart-shipping.php:77
+msgid "Enter a different address"
+msgstr "Farklı bir adres girin"
+
+#: woocommerce/cart/cart-totals.php:70
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(%s için tahmin edilmiştir)"
+
+#: woocommerce/cart/cart.php:94
+msgid "Available on backorder"
+msgstr "Tekrar siparişte mevcut"
+
+#: woocommerce/checkout/form-checkout-address.php:36
+#: woocommerce/checkout/form-checkout-payment.php:31
+#: woocommerce/checkout/thankyou.php:29
+msgid "Payment"
+msgstr "Ödeme"
+
+#: woocommerce/checkout/form-checkout-address.php:37
+#: woocommerce/checkout/form-checkout-payment.php:32
+#: woocommerce/checkout/thankyou.php:30
+msgid "Order Placed"
+msgstr "Sipariş Verildi"
+
+#: woocommerce/checkout/form-checkout-address.php:47
+msgid "Add a new address"
+msgstr "Yeni bir adres ekleyin"
+
+#: woocommerce/checkout/form-checkout-address.php:66
+#: woocommerce/myaccount/my-address.php:35
+msgid "Add a new Address"
+msgstr "Yeni bir Adres ekleyin"
+
+#: woocommerce/checkout/form-checkout-address.php:69
+msgid "Next"
+msgstr "Sonraki"
+
+#: woocommerce/checkout/form-checkout-payment.php:82
+msgid "Schedule a time"
+msgstr "Bir zaman planlayın"
+
+#: woocommerce/checkout/form-checkout.php:24
+msgid "You must be logged in to checkout."
+msgstr "Ödeme yapmak için giriş yapmalısınız."
+
+#: woocommerce/checkout/form-coupon.php:27
+msgid "Add Coupon"
+msgstr "Kupon Ekle"
+
+#: woocommerce/checkout/form-login.php:26
+msgid "Returning customer?"
+msgstr "Geri dönen müşteri misiniz?"
+
+#: woocommerce/checkout/form-login.php:26
+msgid "Click here to login"
+msgstr "Giriş yapmak için tıklayın"
+
+#: woocommerce/checkout/form-login.php:32
+msgid ""
+"If you have shopped with us before, please enter your details below. If you "
+"are a new customer, please proceed to the Billing section."
+msgstr ""
+"Bizden daha önce alışveriş yaptıysanız lütfen aşağıya bilgilerinizi girin. Yeni bir müşteriyseniz lütfen Faturalandırma bölümüne ilerleyin."
+
+#: woocommerce/checkout/form-pay.php:79
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Maalesef, konumunuza uygun ödeme yöntemi bulunmamaktadır. Yardıma ihtiyacınız varsa veya alternatif düzenlemeler yapmak istiyorsanız lütfen bizimle iletişime geçin."
+
+#: woocommerce/checkout/payment.php:28
+msgid "Payment Method"
+msgstr "Ödeme Yöntemi"
+
+#: woocommerce/checkout/payment.php:37
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Maalesef, bulunduğunuz eyalete uygun ödeme yöntemi bulunmamaktadır. Yardıma ihtiyacınız varsa veya alternatif düzenlemeler yapmak istiyorsanız lütfen bizimle iletişime geçin."
+
+#: woocommerce/checkout/payment.php:37
+msgid "Please fill in your details above to see available payment methods."
+msgstr "Uygun ödeme yöntemlerini görmek için lütfen yukarıdaki bilgilerinizi doldurun."
+
+#: woocommerce/checkout/review-order.php:23
+#, php-format
+msgid "For every purchase over %s GetHalal will donate %s to Chairty"
+msgstr "%s üzerindeki her sipariş için GetHalal, %s tutarında bağışta bulunulacaktır."
+
+#: woocommerce/checkout/review-order.php:31
+msgid "Purchase Summary"
+msgstr "Sipariş Özeti"
+
+#: woocommerce/checkout/review-order.php:96
+msgid "Place Order"
+msgstr "Sipariş Ver"
+
+#: woocommerce/checkout/thankyou.php:58
+msgid "Your order has been placed succuessfully"
+msgstr "Siparişiniz başarıyla verildi"
+
+#: woocommerce/checkout/thankyou.php:98
+msgid "Shop again"
+msgstr "Tekrar alışveriş yap"
+
+#: woocommerce/checkout/thankyou.php:100
+msgid "Track Your order"
+msgstr "Siparişini İzle"
+
+#: woocommerce/checkout/thankyou.php:111
+msgid "Thank you. Your order has been received."
+msgstr "Teşekkürler. Siparişiniz alındı."
+
+#: woocommerce/myaccount/form-add-payment-method.php:22
+msgid "Add a new card/Debit"
+msgstr "Yeni bir kart/Hesap kartı ekle"
+
+#: woocommerce/myaccount/form-add-payment-method.php:60
+msgid "Save your card for future purchase"
+msgstr "Kartınızı ileride yapacağınız alışverişler için kaydedin"
+
+#: woocommerce/myaccount/form-change-password.php:30
+msgid "Current password"
+msgstr "Mevcut parola"
+
+#: woocommerce/myaccount/form-change-password.php:33
+msgid "New password"
+msgstr "Yeni parola"
+
+#: woocommerce/myaccount/form-change-password.php:36
+msgid "Confirm new password"
+msgstr "Yeni parolayı onayla"
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Parolanızı mı unuttunuz? Lütfen kullanıcı adınızı ya da e-posta adresinizi girin. E-posta üzerinden yeni bir parola oluşturma bağlantısı alacaksınız."
+
+#: woocommerce/myaccount/form-notifications.php:25
+#: woocommerce/myaccount/form-terms-policy.php:25
+msgid "Billing address"
+msgstr "Fatura adresi"
+
+#: woocommerce/myaccount/form-notifications.php:44
+msgid "No Notifications Yet."
+msgstr "Henüz Bildirim Yok."
+
+#: woocommerce/myaccount/form-notifications.php:46
+msgid "When you got noitigications ,they’ll show up here"
+msgstr "Bildiriminiz olduğunda, bildirimleriniz burada görünecek"
+
+#: woocommerce/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr "Aşağıya yeni bir parola girin."
+
+#: woocommerce/myaccount/lost-password-confirmation.php:20
+msgid "Password reset email has been sent."
+msgstr "Parola sıfırlama e-postası gönderildi."
+
+#: woocommerce/myaccount/lost-password-confirmation.php:25
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+"Hesabınız için kayıtlı e-posta adresine bir parola sıfırlama e-postası gönderildi, ancak bunun gelen kutunuzda görünmesi birkaç dakika sürebilir. Lütfen tekrar sıfırlamayı denemeden önce en az 10 dakika bekleyin."
+
+#: woocommerce/myaccount/my-downloads.php:29
+msgid "Available downloads"
+msgstr "Mevcut indirmeler"
+
+#: woocommerce/myaccount/my-downloads.php:39
+#, php-format
+msgid "%s download remaining"
+msgstr "%s indirme kaldı"
+
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Order"
+msgstr "Sipariş"
+
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Date"
+msgstr "Tarih"
+
+#: woocommerce/myaccount/my-orders.php:16
+msgid "Status"
+msgstr "Durum"
+
+#: woocommerce/myaccount/my-orders.php:17
+msgid "Total"
+msgstr "Toplam"
+
+#: woocommerce/myaccount/my-orders.php:40
+msgid "Recent orders"
+msgstr "Son siparişler"
+
+#: woocommerce/myaccount/my-orders.php:45 woocommerce/myaccount/orders.php:40
+msgid "Upcoming"
+msgstr "Yaklaşan"
+
+#: woocommerce/myaccount/my-orders.php:46 woocommerce/myaccount/orders.php:41
+msgid "History"
+msgstr "Geçmiş"
+
+#: woocommerce/myaccount/my-orders.php:67
+#, php-format
+msgid "%1$s for %2$s item"
+msgstr "%2$s öge için %1$s"
+
+#: woocommerce/myaccount/orders.php:71
+msgid "R-Order"
+msgstr "R-Sipariş"
+
+#: woocommerce/myaccount/payment-methods.php:32
+msgid "Payment Methods"
+msgstr "Ödeme Yöntemleri"
+
+#: woocommerce/myaccount/payment-methods.php:41
+#, php-format
+msgid "%1$s card ......%2$s"
+msgstr "%1$s kart ......%2$s"
+
+#: woocommerce/myaccount/payment-methods.php:65
+msgid "Add a new Card"
+msgstr "Yeni Kart Ekle"
+
+#: woocommerce/myaccount/view-order.php:30
+#: woocommerce/myaccount/view-order.php:36 woocommerce/order/tracking.php:25
+msgid "Order status"
+msgstr "Sipariş durumu"
+
+#: woocommerce/myaccount/view-order.php:42 woocommerce/order/tracking.php:30
+msgid "Order Information"
+msgstr "Sipariş Bilgileri"
+
+#: woocommerce/myaccount/view-order.php:47 woocommerce/order/tracking.php:35
+#, php-format
+msgid "Order id:#%1$s"
+msgstr "Sipariş kimliği:#%1$s"
+
+#: woocommerce/myaccount/view-order.php:56 woocommerce/order/tracking.php:44
+#, php-format
+msgid "Date: %1$s"
+msgstr "Tarih: %1$s"
+
+#: woocommerce/myaccount/view-order.php:65 woocommerce/order/tracking.php:53
+#, php-format
+msgid "Payment method:#%1$s"
+msgstr "Ödeme yöntemi:#%1$s"
+
+#: woocommerce/myaccount/view-order.php:90 woocommerce/order/tracking.php:78
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr "l jS \\o\\f F Y, h:ia"
+
+#: woocommerce/order/order-details-customer.php:30
+#, php-format
+msgid "Customer name:%1$s"
+msgstr "Müşteri adı:%1$s"
+
+#: woocommerce/order/order-details-customer.php:37
+msgid "N/A"
+msgstr "Yok"
+
+#: woocommerce/order/order-details-customer.php:46
+#, php-format
+msgid "Mobile no: %1$s"
+msgstr "Cep telefonu numarası: %1$s"
+
+#: woocommerce/order/order-details.php:104
+msgid "Cancel Your Order"
+msgstr "Siparişini İptal Et"
+
+#: woocommerce/order/order-downloads.php:56
+msgid "&infin;"
+msgstr "&infin;"

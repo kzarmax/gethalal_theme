@@ -1,0 +1,85 @@
+.account-payment-methods {
+  margin: 0;
+
+  .payment-method {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 16px;
+    &.default-payment-method{
+      border: 1px solid var(--global--color-primary-500);
+    }
+
+    .payment-method-icon {
+      width: 52px;
+      height: 32px;
+      border-radius: 4px;
+    }
+
+    .payment-method-content {
+      margin-left: 8px;
+      flex-grow: 1;
+    }
+
+    .payment-action {
+      color: var(--global--color-primary-500);
+    }
+  }
+
+  @include media(desktop) {
+    width: 540px;
+  }
+}
+
+.add-payment-method-action {
+  margin: 36px 24px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  color: var(--global--color-primary-500);
+  cursor: pointer;
+
+  .payment-method-add-action {
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--global--color-primary-500);
+  }
+}
+
+.account-new-payment-method-form {
+  margin: 0;
+
+  .gethalal-payment {
+    display: flex;
+    flex-direction: column;
+    background: unset !important;
+
+    .woocommerce-PaymentMethod {
+      input[type=radio] {
+        display: none !important;
+      }
+
+      .woocommerce-PaymentBox {
+        background-color: unset;
+
+        &::before {
+          display: none !important;
+        }
+
+        .testmode-info {
+          display: none !important;
+        }
+      }
+    }
+  }
+
+  @include media(desktop) {
+    width: 540px;
+  }
+}
+

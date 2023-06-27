@@ -1,0 +1,583 @@
+.gethalal-checkout {
+
+  .checkout-header {
+    margin: 16px auto;
+    padding: 16px 0 16px 0;
+    background-color: #fff;
+
+    .header-content {
+      width: 540px;
+      position: relative;
+
+      .checkout-header-logo {
+        width: 540px;
+        height: 70px;
+        object-fit: contain;
+        margin-bottom: 20px;
+
+        @include media(mobile){
+          margin-bottom: 8px;
+        }
+      }
+
+      .checkout-header-titles {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .checkout-header-title {
+          color: var(--global--color-gray-200);
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 24px;
+          width: 30%;
+          text-align: center;
+
+          &.active {
+            color: var(--global--color-primary-500);
+          }
+        }
+      }
+    }
+  }
+
+  .new-address-container {
+    padding: 30px;
+    width: 540px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 40px auto;
+
+    .new-address-title {
+      color: var(--global--color-black-900);
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 32px;
+    }
+  }
+
+  .checkout-next .button-next {
+    width: 100%;
+    border-radius: 32px;
+    text-align: center;
+  }
+
+  #order_review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 0;
+
+    .gethalal-checkout-section {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 30px;
+
+      .checkout-form-section {
+        margin: 0;
+        background-color: #fff;
+      }
+
+      .section-content {
+        margin-top: 16px;
+      }
+
+      .delivery-time-input {
+        position: relative;
+
+        .delivery-time {
+          width: 100%;
+          margin: 0;
+          cursor: pointer;
+          min-width: 300px;
+        }
+
+        .input-right {
+          position: absolute;
+          right: 20px;
+          top: 28px;
+          color: rgba(157, 152, 152, 1);
+        }
+      }
+    }
+
+    #payment {
+
+      ul.payment_methods {
+        border-bottom: unset;
+        padding: unset;
+
+        li {
+          padding: 16px;
+          border-radius: 8px;
+          border: 0.5px solid #E2E2E2;
+          margin-bottom: 16px;
+        }
+      }
+    }
+
+    .gethalal-checkout-review-order {
+      margin-top: 30px;
+      flex-grow: 1;
+
+      .review-order-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .donate-icon {
+          width: 26px;
+          height: 26px;
+        }
+
+        .donate-text {
+          margin-left: 8px;
+          font-size: 16px;
+          line-height: 28px;
+          color: var(--global--color-primary-500);
+
+          .donate-price {
+            color: var(--global--color-green-400);
+          }
+        }
+      }
+
+      .review-form-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .add-coupon-action {
+        margin: 36px 24px;
+        display: flex;
+        align-items: center;
+        color: var(--global--color-primary-500);
+        cursor: pointer;
+
+        .coupon-add-action {
+          margin-left: 16px;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 24px;
+          color: var(--global--color-primary-500);
+        }
+      }
+    }
+
+    .place-order {
+      margin-top: 32px;
+
+      input[type=submit], button[type=submit] {
+        width: 100%;
+        text-align: center;
+        margin-top: 24px;
+        border-radius: 32px;
+      }
+    }
+  }
+
+  .checkout-success-form {
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 16px;
+    background-color: var(--global--color-white-50);
+
+    .woocommerce-thankyou-order-received {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 80px;
+        height: 80px;
+      }
+
+      span {
+        margin-top: 32px;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 26px;
+        color: var(--global--color-green-400)
+      }
+    }
+
+    .woocommerce-thankyou-order-details {
+      margin: 16px 0;
+
+      li {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 16px;
+        float: unset;
+        margin-right: 0;
+        border-right: unset;
+      }
+    }
+
+    .checkout-success-actions-container {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-around;
+
+      a {
+        border-radius: 32px;
+
+        &.button-secondary {
+          background-color: unset;
+          color: var(--global--color-primary-500);
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
+  @include media(wide) {
+    #order_review {
+      flex-direction: row;
+      align-items: flex-start;
+      .gethalal-checkout-review-order{
+        margin-top: 0;
+        margin-left: 30px;
+      }
+    }
+    .checkout-success-form {
+      padding: 30px;
+    }
+  }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Coupon Dialog
+
+.dialog-coupon-open {
+  overflow: hidden;
+
+  .site-dialog-coupon {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .dialog-coupon-content {
+    -webkit-animation-name: anim-open;
+    animation-name: anim-open;
+    opacity: 1;
+  }
+}
+
+.dialog-coupon-close .dialog-coupon-content {
+  -webkit-animation-name: anim-close;
+  animation-name: anim-close;
+}
+
+.dialog-coupon-open .dialog-coupon-content,
+.dialog-coupon-close .dialog-coupon-content {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.site-dialog-coupon {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  position: fixed;
+  z-index: 200;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(55, 58, 71, 0.9);
+  transition-duration: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .woocommerce-product-coupon.category-filter {
+    border-radius: 0;
+    background-color: #f1f3f5;
+  }
+
+  form {
+    margin: 0;
+  }
+}
+
+.dialog-coupon-content {
+  opacity: 0;
+  width: 50%;
+  max-width: 540px;
+  min-width: 290px;
+  background-color: #fff;
+  position: relative;
+  z-index: 5;
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 30px;
+
+  .dialog-coupon-header {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dialog-coupon-title {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .dialog-coupon-close-icon {
+    cursor: pointer;
+    font-weight: 700;
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+  }
+
+  .dialog-coupon-close-icon:hover {
+    color: var(--global--color-primary-500);
+  }
+
+  .dialog-coupon-main {
+    margin-top: 32px;
+    border-radius: 8px;
+
+    input.coupon-field {
+      flex-grow: 1;
+      border-width: 0;
+      background: var(--global--color-white-100);
+    }
+
+    button[type=submit] {
+      margin-top: 32px;
+      margin-right: 10px;
+      background: var(--global--color-primary-500);
+      border-radius: 32px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      padding: 10px 20px;
+      color: #fff;
+      width: 100%;
+    }
+  }
+
+  .dialog-error {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--global--color-error-900)
+  }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Delivery Time Dialog
+
+.dialog-delivery-time-open {
+  overflow: hidden;
+
+  .site-dialog-delivery-time {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .dialog-delivery-time-content {
+    -webkit-animation-name: anim-open;
+    animation-name: anim-open;
+    opacity: 1;
+  }
+}
+
+.dialog-delivery-time-close .dialog-delivery-time-content {
+  -webkit-animation-name: anim-close;
+  animation-name: anim-close;
+}
+
+.dialog-delivery-time-open .dialog-delivery-time-content,
+.dialog-delivery-time-close .dialog-delivery-time-content {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.site-dialog-delivery-time {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  position: fixed;
+  z-index: 200;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(55, 58, 71, 0.9);
+  transition-duration: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .woocommerce-product-delivery-time.category-filter {
+    border-radius: 0;
+    background-color: #f1f3f5;
+  }
+
+  form {
+    margin: 0;
+  }
+}
+
+.dialog-delivery-time-content {
+  opacity: 0;
+  background-color: #fff;
+  position: relative;
+  z-index: 5;
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 12px;
+  width: 94%;
+
+  .dialog-delivery-time-header {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dialog-delivery-time-title {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .dialog-delivery-time-close-icon {
+    cursor: pointer;
+    font-weight: 700;
+    height: 50px;
+    width: 50px;
+    padding: 12px;
+  }
+
+  .dialog-delivery-time-close-icon:hover {
+    color: var(--global--color-primary-500);
+  }
+
+  .dialog-delivery-time-main {
+    margin-top: 20px;
+    border-radius: 8px;
+
+    .form-delivery-time-header{
+      padding: 16px;
+      background-color: var(--global--color-primary-500);
+      border-radius: 8px;
+      .delivery-year, .delivery-date{
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+      }
+    }
+
+    .ui-datepicker{
+      width: 100%;
+      border: unset;
+      .ui-datepicker-header{
+        border: unset;
+        background: unset;
+      }
+      .ui-datepicker-year{
+        display: none;
+      }
+      .ui-datepicker-calendar{
+        thead tr th{
+          color: var(--global--color-primary-500);
+          font-size: 18px;
+          line-height: 24px;
+        }
+        .ui-state-default{
+          border: unset;
+          background: unset;
+          text-align: center;
+        }
+        .ui-state-active{
+          background: var(--global--color-primary-500);
+          border-radius: 32px;
+          color: #fff;
+        }
+        .ui-state-highlight{
+          background-color: var(--global--color-primary-50);
+          border-radius: 32px;
+          color: #555555 !important;
+        }
+      }
+    }
+    .delivery-cycles, .delivery-times {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .delivery-cycle-item, .delivery-time-item {
+      background-color: var(--global--color-gray-100);
+      color: var(--global--color-gray-600);
+      border-radius: 30px;
+      padding: 14px 12px;
+      margin: 4px;
+      cursor: pointer;
+
+      &.active {
+        background-color: var(--global--color-primary-500);
+        color: #fff;
+      }
+    }
+
+    .delivery-submit {
+      margin-top: 16px;
+      margin-right: 10px;
+      background: var(--global--color-primary-500);
+      border-radius: 32px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      padding: 13px 20px;
+      color: #fff;
+      width: 100%;
+    }
+  }
+
+  .dialog-error {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--global--color-error-900)
+  }
+
+  @include media(tablet){
+    width: 50%;
+    max-width: 540px;
+    min-width: 290px;
+    padding: 24px;
+  }
+}

@@ -1,0 +1,182 @@
+// Footer
+.site-footer {
+	padding-top: 0;
+	padding-bottom: 0;
+	background: var(--global--color-primary-500);
+
+	// Increase the top vertical spacing when there is no widget area.
+	.no-widgets & {
+		margin-top: calc(6 * var(--global--spacing-vertical));
+	}
+
+	@include media(mobile-only) {
+
+		.no-widgets & {
+			margin-top: calc(3 * var(--global--spacing-vertical));
+		}
+	}
+}
+
+// Footer Branding
+.site-footer > .site-info {
+	//padding-top: var(--global--spacing-vertical);
+	color: var(--footer--color-text);
+	@extend %responsive-alignwide-width;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap-reverse;
+
+	.site-name {
+		font-size: var(--branding--title--font-size);
+		margin: 0 auto;
+		max-width: 350px;
+		text-align: center;
+		min-width: 200px;
+
+		.site-logo .footer-logo{
+			width: 230px;
+			height: 230px;
+		}
+		.site-description {
+			margin-top: 24px;
+			font-size: 16px;
+			line-height: 30px;
+			font-weight: 500;
+		}
+		.social-links{
+			margin-top: 24px;
+			text-align: center;
+			a {
+				margin-right: 18px;
+			}
+		}
+	}
+
+	.powered-by {
+		margin-top: calc(0.5 * var(--global--spacing-vertical));
+	}
+
+	a {
+		color: var(--footer--color-link);
+
+		&:link,
+		&:visited,
+		&:active {
+			color: var(--footer--color-link);
+		}
+
+		&:hover {
+			color: var(--footer--color-link-hover);
+		}
+
+		&:focus {
+			color: var(--footer--color-link-hover);
+
+			.is-dark-theme & {
+				color: var(--wp--style--color--link, var(--global--color-background));
+			}
+
+			// Change colors when the body background is white.
+			.has-background-white & {
+				color: var(--wp--style--color--link, var(--global--color-white));
+			}
+		}
+	}
+
+	.footer-menu{
+		margin: 20px auto;
+		text-align: center;
+		min-width: 200px;
+		.footer-menu-title{
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 30px;
+		}
+		.footer-menus{
+			margin-top: 32px;
+			.footer-sub-menu {
+				margin-top: 16px;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 18px;
+			}
+			.halal-logo{
+				width: 65px;
+				height: 58px;
+			}
+		}
+		.footer-link-menus{
+			margin-top: 16px;
+			flex-direction: column;
+			display: flex;
+		}
+	}
+
+	.app-links{
+		text-align: center;
+	}
+
+	.app-download-link img{
+		margin-top: 16px;
+		width: 117px;
+		height: 40px;
+	}
+
+
+	@include media(desktop) {
+		.powered-by {
+			margin-top: initial;
+			margin-left: auto;
+		}
+		.site-name{
+			flex: 1.5;
+			.social-links{
+				text-align: left;
+			}
+		}
+		.footer-menu{
+			text-align: left;
+			flex: 1;
+		}
+	}
+}
+
+.site-footer > .site-copyright{
+	text-align: center;
+	color: #fff;
+	padding: 0 12px;
+
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: 0.41px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap-reverse;
+	margin: 0 0 60px 0;
+
+	.copyright-text {
+		margin: 12px 0;
+		@include media(tablet){
+			margin: 12px 24px 12px 0;
+		}
+	}
+
+	.terms-links{
+		margin: 12px 0;
+		display: flex;
+		align-items: center;
+		a{
+			text-decoration: unset;
+			color: #fff;
+		}
+	}
+
+	.copyright-divider {
+		width: 2px;
+		height: 100%;
+		background: #ffffff;
+		margin: 0 12px;
+	}
+}

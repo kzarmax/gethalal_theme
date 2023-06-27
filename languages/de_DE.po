@@ -1,0 +1,1566 @@
+# <!=Copyright (C) 2021 Automattic
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Gethalal 1.0.0\n"
+"POT-Creation-Date: 2021-12-07 21:07+0800\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-12-07 21:14+0800\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_html_x;_n\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: classes/class-gethalal-customize-notice-control.php:38
+#: classes/class-gethalal-dark-mode.php:176
+msgid "https://wordpress.org/support/article/gethalal/#dark-mode-support"
+msgstr "https://wordpress.org/support/article/gethalal/#dark-mode-support"
+
+#: classes/class-gethalal-customize.php:73
+msgid "Display Site Title & Tagline"
+msgstr "Website-Titel und Slogan anzeigen"
+
+#: classes/class-gethalal-customize.php:83
+msgid "Excerpt Settings"
+msgstr "Auszugseinstellungen"
+
+#: classes/class-gethalal-customize.php:104
+msgid "On Archive Pages, posts show:"
+msgstr "Auf Archivseiten zeigen die Beiträge:"
+
+#: classes/class-gethalal-customize.php:106
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#: classes/class-gethalal-customize.php:107
+msgid "Full text"
+msgstr "Vollständiger Text"
+
+#: classes/class-gethalal-customize.php:136
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: classes/class-gethalal-dark-mode.php:132
+msgid "Colors & Dark Mode"
+msgstr "Farben & Dunkelmodus"
+
+#: classes/class-gethalal-dark-mode.php:175
+#, php-format
+msgid ""
+"Dark Mode is a device setting. If a visitor to your site requests it, your "
+"site will be shown with a dark background and light text. <a href=\"%s"
+"\">Learn more about Dark Mode.</a>"
+msgstr ""
+"Der Dunkelmodus ist eine Geräteeinstellung. Wenn Besucher Ihrer Website dies wünschen, wird Ihre Website mit einem dunklen Hintergrund und hellem Text angezeigt. <a href=\"%s\">Erfahren Sie mehr über den Dunkelmodus.</a>"
+
+#: classes/class-gethalal-dark-mode.php:179
+msgid ""
+"Dark Mode can also be turned on and off with a button that you can find in "
+"the bottom right corner of the page."
+msgstr ""
+"Der Dunkelmodus kann auch über eine Schaltfläche in der rechten unteren Ecke der Seite ein- und ausgeschaltet werden."
+
+#: classes/class-gethalal-dark-mode.php:186
+msgid "Dark Mode support"
+msgstr "Unterstützung für Dunkelmodus"
+
+#: classes/class-gethalal-dark-mode.php:319
+#, php-format
+msgid "Dark Mode: %s"
+msgstr "Dunkelmodus: %s"
+
+#: classes/class-gethalal-dark-mode.php:376
+msgid "Get Halal uses LocalStorage when Dark Mode support is enabled."
+msgstr "Get Halal verwendet LocalStorage, wenn die Unterstützung des Dunkelmodus aktiviert ist."
+
+#: classes/class-gethalal-dark-mode.php:377
+msgid "Suggested text:"
+msgstr "Empfohlener Text:"
+
+#: classes/class-gethalal-dark-mode.php:378
+msgid ""
+"This website uses LocalStorage to save the setting when Dark Mode support is "
+"turned on or off.<br> LocalStorage is necessary for the setting to work and "
+"is only used when a user clicks on the Dark Mode button.<br> No data is "
+"saved in the database or transferred."
+msgstr ""
+"Diese Website verwendet LocalStorage zum Speichern der Einstellungen, wenn die Unterstützung für den Dunkelmodus ein- oder ausgeschaltet ist.<br> LocalStorage ist für die Einstellung erforderlich und wird nur verwendet, wenn ein Benutzer auf die Schaltfläche für den Dunkelmodus klickt.<br> In der Datenbank werden keine Daten gespeichert oder übertragen."
+
+#: classes/class-gethalal-utils.php:22
+msgid "Once Time"
+msgstr "Einmal"
+
+#: classes/class-gethalal-utils.php:23
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: classes/class-gethalal-utils.php:24
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: classes/class-gethalal-utils.php:31
+msgid "11-12 AM"
+msgstr "11:00-12:00"
+
+#: classes/class-gethalal-utils.php:32
+msgid "1-2 PM"
+msgstr "13:00-14:00"
+
+#: classes/class-gethalal-utils.php:33
+msgid "3-4 PM"
+msgstr "15:00-16:00"
+
+#: classes/class-gethalal-utils.php:34
+msgid "5-6 PM"
+msgstr "17:00-18:00"
+
+#: comments.php:60 inc/template-tags.php:226
+msgid "Page"
+msgstr "Seite"
+
+#: comments.php:65
+msgid "Older comments"
+msgstr "Ältere Kommentare"
+
+#: comments.php:69
+msgid "Newer comments"
+msgstr "Neuere Kommentare"
+
+#: comments.php:85
+msgid "Leave a comment"
+msgstr "Kommentar hinterlassen"
+
+#: footer.php:61
+msgid "Top Categories"
+msgstr "Wichtigste Kategorien"
+
+#: footer.php:75
+msgid "About GetHalal"
+msgstr "Informationen über GetHalal"
+
+#: footer.php:77
+msgid "About Us"
+msgstr "Informationen über uns"
+
+#: footer.php:78
+msgid "How it Works"
+msgstr "Wie es funktioniert"
+
+#: footer.php:79
+msgid "Blogger"
+msgstr "Blogger"
+
+#: footer.php:80
+msgid "Careers"
+msgstr "Karriere"
+
+#: footer.php:81
+msgid "Impressum"
+msgstr "Impressum"
+
+#: footer.php:85
+msgid "Need Help?"
+msgstr "Benötigen Sie Hilfe?"
+
+#: footer.php:87
+msgid "Call Us"
+msgstr "Rufen Sie uns an"
+
+#: footer.php:89
+msgid "Help Center"
+msgstr "Hilfecenter"
+
+#: footer.php:94
+msgid "Download GetHalal"
+msgstr "GetHalal herunterladen"
+
+#: functions.php:75 inc/starter-content.php:152
+msgid "Primary menu"
+msgstr "Primäres Menü"
+
+#: functions.php:76 inc/starter-content.php:163
+msgid "Secondary menu"
+msgstr "Sekundäres Menü"
+
+#: functions.php:149
+msgid "Extra small"
+msgstr "Extra schmal"
+
+#: functions.php:150
+msgid "XS"
+msgstr "XS"
+
+#: functions.php:155
+msgid "Small"
+msgstr "Schmal"
+
+#: functions.php:156
+msgid "S"
+msgstr "S"
+
+#: functions.php:161
+msgid "Normal"
+msgstr "Mittel"
+
+#: functions.php:162
+msgid "M"
+msgstr "M"
+
+#: functions.php:167
+msgid "Large"
+msgstr "Groß"
+
+#: functions.php:168
+msgid "L"
+msgstr "L"
+
+#: functions.php:173
+msgid "Extra large"
+msgstr "Extra groß"
+
+#: functions.php:174
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:179
+msgid "Huge"
+msgstr "Extra extra groß"
+
+#: functions.php:180
+msgid "XXL"
+msgstr "XXL"
+
+#: functions.php:185
+msgid "Gigantic"
+msgstr "Extra extra extra groß"
+
+#: functions.php:186
+msgid "XXXL"
+msgstr "XXXL"
+
+#: functions.php:217
+msgid "Black"
+msgstr "Schwarz"
+
+#: functions.php:222 inc/block-styles.php:105
+msgid "Dark gray"
+msgstr "Dunkelgrau"
+
+#: functions.php:227
+msgid "Gray"
+msgstr "Grau"
+
+#: functions.php:232
+msgid "Green"
+msgstr "Grün"
+
+#: functions.php:237
+msgid "Blue"
+msgstr "Blau"
+
+#: functions.php:242
+msgid "Purple"
+msgstr "Lila"
+
+#: functions.php:247
+msgid "Red"
+msgstr "Rot"
+
+#: functions.php:252
+msgid "Orange"
+msgstr "Orange"
+
+#: functions.php:257
+msgid "Yellow"
+msgstr "Gelb"
+
+#: functions.php:262
+msgid "White"
+msgstr "Weiß"
+
+#: functions.php:273
+msgid "Purple to yellow"
+msgstr "Lila zu Gelb"
+
+#: functions.php:278
+msgid "Yellow to purple"
+msgstr "Gelb zu Lila"
+
+#: functions.php:283
+msgid "Green to yellow"
+msgstr "Grün zu Gelb"
+
+#: functions.php:288
+msgid "Yellow to green"
+msgstr "Gelb zu Grün"
+
+#: functions.php:293
+msgid "Red to yellow"
+msgstr "Rot zu Gelb"
+
+#: functions.php:298
+msgid "Yellow to red"
+msgstr "Gelb zu Rot"
+
+#: functions.php:303
+msgid "Purple to red"
+msgstr "Lila zu Rot"
+
+#: functions.php:308
+msgid "Red to purple"
+msgstr "Rot zu Lila"
+
+#: functions.php:361
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: functions.php:363
+msgid "Add widgets here to appear in your footer."
+msgstr "Fügen Sie hier Widgets hinzu, die in Ihrer Fußzeile erscheinen sollen."
+
+#: functions.php:837
+msgid "Join Now"
+msgstr "Jetzt anmelden"
+
+#: functions.php:854 inc/menu-functions.php:115
+#: woocommerce/myaccount/form-edit-account.php:29
+msgid "My Account"
+msgstr "Mein Konto"
+
+#: functions.php:858 inc/menu-functions.php:116
+#: woocommerce/myaccount/orders.php:32
+msgid "My Orders"
+msgstr "Meine Bestellungen"
+
+#: functions.php:862
+msgid "My payment options"
+msgstr "Meine Zahlungsoptionen"
+
+#: functions.php:866 woocommerce/checkout/form-checkout-address.php:35
+#: woocommerce/checkout/form-checkout-payment.php:30
+#: woocommerce/checkout/thankyou.php:28
+#: woocommerce/myaccount/form-edit-address.php:27
+msgid "My Address"
+msgstr "Meine Adresse"
+
+#: functions.php:870 inc/menu-functions.php:119
+#: woocommerce/myaccount/form-notifications.php:35
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: functions.php:874
+msgid "Change Passwords"
+msgstr "Passwörter ändern"
+
+#: functions.php:878 inc/menu-functions.php:121
+#: woocommerce/myaccount/form-terms-policy.php:34
+msgid "Terms & Policy"
+msgstr "Geschäftsbedingungen"
+
+#: functions.php:882
+msgid "Logout"
+msgstr "Abmeldung"
+
+#: functions.php:921
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#: functions.php:929
+msgid "Email"
+msgstr "E-Mail"
+
+#: functions.php:937
+msgid "Phone"
+msgstr "Telefon"
+
+#: functions.php:945
+msgid "Country / Region"
+msgstr "Land / Region"
+
+#: functions.php:952 inc/api-functions.php:44
+msgid "Address"
+msgstr "Adresse"
+
+#: functions.php:961 inc/api-functions.php:46
+msgid "Apartment"
+msgstr "Wohnung"
+
+#: functions.php:968 inc/api-functions.php:47
+msgid "Floor"
+msgstr "Etage"
+
+#: functions.php:976 functions.php:1050
+msgid "Land Mark"
+msgstr "Grundstücksmarkierung"
+
+#: functions.php:984
+msgid "Postcode / ZIP"
+msgstr "Postleitzahl / PLZ"
+
+#: functions.php:1007 woocommerce/myaccount/form-edit-account.php:34
+msgid "Personal  Information"
+msgstr "Persönliche Daten"
+
+#: functions.php:1011
+msgid "Name*"
+msgstr "Name*"
+
+#: functions.php:1016
+msgid "Phone Number*"
+msgstr "Telefonnummer*"
+
+#: functions.php:1024
+msgid "Delivery Address"
+msgstr "Lieferadresse"
+
+#: functions.php:1028
+msgid "Address*"
+msgstr "Adresse*"
+
+#: functions.php:1033
+msgid "Enter Your zip code*"
+msgstr "Geben Sie Ihre Postleitzahl ein*"
+
+#: functions.php:1039
+msgid "Apartment*"
+msgstr "Wohnung*"
+
+#: functions.php:1044
+msgid "Floor*"
+msgstr "Etage*"
+
+#: functions.php:1059
+msgid "Set is as Default"
+msgstr "Als Standard einstellen"
+
+#: functions.php:1065
+msgid "Save"
+msgstr "Speichern"
+
+#: functions.php:1123
+msgid "Placed"
+msgstr "Aufgegeben"
+
+#: functions.php:1124
+msgid "Preparing"
+msgstr "Vorbereitung"
+
+#: functions.php:1125
+msgid "Shipping"
+msgstr "Versand"
+
+#: functions.php:1126
+msgid "Delivered"
+msgstr "Geliefert"
+
+#: functions.php:1155 functions.php:1160
+msgid "Default"
+msgstr "Standard"
+
+#: functions.php:1170
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: functions.php:1219
+msgid "Change Your Location"
+msgstr "Standort ändern"
+
+#: functions.php:1227
+msgid "Enter Your Zip code"
+msgstr "Postleitzahl eingeben"
+
+#: functions.php:1255
+msgid "English"
+msgstr "Englisch"
+
+#: functions.php:1256
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#: functions.php:1257
+msgid "Turkish"
+msgstr "Türkisch"
+
+#: functions.php:1258
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: functions.php:1416
+msgid "Categories"
+msgstr "Kategorien"
+
+#: functions.php:1439 woocommerce/cart/cart-empty.php:38
+msgid "Shop Now"
+msgstr "Jetzt einkaufen"
+
+#: functions.php:1495
+msgid "Add a Coupon"
+msgstr "Gutschein hinzufügen"
+
+#: functions.php:1530 woocommerce/checkout/form-checkout-payment.php:68
+msgid "Delivery Date & Time"
+msgstr "Datum und Uhrzeit der Lieferung"
+
+#: functions.php:1649
+msgid "Invalid Delivery Time."
+msgstr "Ungültige Lieferzeit."
+
+#: functions.php:1769
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
+
+#: functions.php:1773
+#, php-format
+msgid "Recovery Mode &#8212; %s"
+msgstr "Wiederherstellungsmodus &#8212; %s"
+
+#: functions.php:1831
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: functions.php:1857
+msgid ""
+"Usage of the title attribute on the login logo is not recommended for "
+"accessibility reasons. Use the link text instead."
+msgstr ""
+"Die Verwendung des Attributs title für das Anmeldelogo wird aus Gründen der Barrierefreiheit nicht empfohlen. Verwenden Sie stattdessen den Linktext."
+
+#: functions.php:1860
+msgid "Powered by WordPress"
+msgstr "Powered by WordPress"
+
+#: image.php:46 template-parts/content/content-page.php:34
+#: template-parts/content/content-single.php:28
+#: template-parts/content/content.php:34
+msgid "Page %"
+msgstr "Seite %"
+
+#: image.php:59
+#, php-format
+msgid "Published in %s"
+msgstr "Veröffentlicht in %s"
+
+#: image.php:68 image.php:93 inc/template-tags.php:90 inc/template-tags.php:133
+#, php-format
+msgid "Edit %s"
+msgstr "%s bearbeiten"
+
+#: image.php:81
+msgid "Full size"
+msgstr "Volle Größe"
+
+#: inc/api-functions.php:41 inc/api-functions.php:180
+msgid "Display name"
+msgstr "Anzeigename"
+
+#: inc/api-functions.php:42 inc/api-functions.php:181
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: inc/api-functions.php:43 inc/api-functions.php:194
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: inc/api-functions.php:45
+msgid "Zip Code"
+msgstr "Postleitzahl"
+
+#: inc/api-functions.php:54 inc/api-functions.php:188
+#, php-format
+msgid "%s is a required field."
+msgstr "%s ist ein erforderliches Feld."
+
+#: inc/api-functions.php:62
+msgid "Zip Code is a not valid."
+msgstr "Die Postleitzahl ist ungültig."
+
+#: inc/api-functions.php:118
+msgid "Account address saved successfully."
+msgstr "Die Kontoadresse wurde erfolgreich gespeichert."
+
+#: inc/api-functions.php:173
+msgid "Display name cannot be changed to email address due to privacy concern."
+msgstr "Als Anzeigename kann aus Gründen des Datenschutzes keine E-Mail-Adresse angegeben werden."
+
+#: inc/api-functions.php:194
+#, php-format
+msgid "%s is not a valid phone number."
+msgstr "%s ist keine gültige Telefonnummer."
+
+#: inc/api-functions.php:200
+msgid "Please provide a valid email address."
+msgstr "Bitte geben Sie eine gültige E-Mail Adresse an."
+
+#: inc/api-functions.php:202
+msgid "This email address is already registered."
+msgstr "Diese E-Mail Adresse ist bereits registriert."
+
+#: inc/api-functions.php:211
+msgid "Account details changed successfully."
+msgstr "Die Kontodaten wurden erfolgreich geändert."
+
+#: inc/api-functions.php:236
+msgid "This address is not registered."
+msgstr "Diese Adresse ist nicht registriert."
+
+#: inc/api-functions.php:401
+msgid "Details"
+msgstr "Details"
+
+#: inc/api-functions.php:405
+msgid "Description"
+msgstr "Beschreibung"
+
+#: inc/api-functions.php:473
+msgid "Please input valid postcode"
+msgstr "Bitte geben Sie eine gültige Postleitzahl ein"
+
+#: inc/api-functions.php:476
+msgid "Please input postcode"
+msgstr "Bitte Postleitzahl eingeben"
+
+#: inc/api-functions.php:513
+msgid "Why you need to cancel?"
+msgstr "Warum müssen Sie stornieren?"
+
+#: inc/api-functions.php:518
+msgid "Other"
+msgstr "Sonstiges"
+
+#: inc/api-functions.php:523
+msgid "Yes, Cancel the Order"
+msgstr "Ja, die Bestellung stornieren"
+
+#: inc/api-functions.php:524
+msgid "No, i need the order"
+msgstr "Nein, ich benötigte die Bestellung"
+
+#: inc/back-compat.php:40 inc/back-compat.php:59 inc/back-compat.php:84
+#, php-format
+msgid ""
+"This theme requires WordPress 5.3 or newer. You are running version %s. "
+"Please upgrade."
+msgstr ""
+"Dieses Thema erfordert WordPress 5.3 oder eine neuere Version. Sie verwenden die Version %s. Bitte aktualisieren Sie Ihr Thema."
+
+#: inc/block-patterns.php:18
+msgid "Get Halal"
+msgstr "Get Halal"
+
+#: inc/block-patterns.php:31
+msgid "Large text"
+msgstr "Großer Text"
+
+#: inc/block-patterns.php:34
+msgid "A new portfolio default theme for WordPress"
+msgstr "Ein neues Standardthema für das Portfolio von WordPress"
+
+#: inc/block-patterns.php:42
+msgid "Links area"
+msgstr "Bereich Links"
+
+#: inc/block-patterns.php:45
+msgid "A huge text followed by social networks and email address links."
+msgstr "Ein großer Text sowie Links zu sozialen Netzwerken und E-Mail-Adressen."
+
+#: inc/block-patterns.php:46
+msgid "Let&#8217;s Connect."
+msgstr "Verbinden."
+
+#: inc/block-patterns.php:46
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/block-patterns.php:46
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/block-patterns.php:46
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/block-patterns.php:46 inc/block-patterns.php:115
+msgid "example@example.com"
+msgstr "example@example.com"
+
+#: inc/block-patterns.php:54
+msgid "Media and text article title"
+msgstr "Titel des Medien- und Textartikels"
+
+#: inc/block-patterns.php:57
+msgid ""
+"A Media & Text block with a big image on the left and a heading on the "
+"right. The heading is followed by a separator and a description paragraph."
+msgstr ""
+"Ein Medien- und Textblock mit einem großen Bild auf der linken Seite und einer Überschrift auf der rechten Seite. Auf die Überschrift folgen ein Trennzeichen und ein Beschreibungsabsatz."
+
+#: inc/block-patterns.php:58
+msgid "Playing in the Sand"
+msgstr "Im Sand spielen"
+
+#: inc/block-patterns.php:58
+msgid "Berthe Morisot<br>(French, 1841-1895)"
+msgstr "Berthe Morisot<br>(Französisch, 1841-1895)"
+
+#: inc/block-patterns.php:66
+msgid "Overlapping images"
+msgstr "Überschneidende Bilder"
+
+#: inc/block-patterns.php:69
+msgid "Three images inside an overlapping columns block."
+msgstr "Drei Bilder innerhalb eines sich überschneidenden Spaltenblocks."
+
+#: inc/block-patterns.php:78
+msgid "Two images showcase"
+msgstr "Zwei Bilder zeigen"
+
+#: inc/block-patterns.php:81
+msgid ""
+"A media & text block with a big image on the left and a smaller one with "
+"bordered frame on the right."
+msgstr ""
+"Ein Medien- und Textblock mit einem großen Bild auf der linken Seite und einem kleineren Bild mit Rahmen auf der rechten Seite."
+
+#: inc/block-patterns.php:90
+msgid "Overlapping images and text"
+msgstr "Sich überschneidende Bilder und Texte"
+
+#: inc/block-patterns.php:93
+msgid "An overlapping columns block with two images and a text description."
+msgstr "Ein sich überschneidender Spaltenblock mit zwei Bildern und einer Textbeschreibung."
+
+#: inc/block-patterns.php:94
+msgid "Beautiful gardens painted by Berthe Morisot in the late 1800s"
+msgstr "Schöne Gärten, gemalt von Berthe Morisot in den späten 1800er Jahren"
+
+#: inc/block-patterns.php:102
+msgid "Portfolio list"
+msgstr "Portfolioliste"
+
+#: inc/block-patterns.php:104
+msgid "A list of projects with thumbnail images."
+msgstr "Eine Liste von Projekten mit Miniaturansichten."
+
+#: inc/block-patterns.php:105
+msgid "Roses Trémières"
+msgstr "Roses Trémières"
+
+#: inc/block-patterns.php:105
+msgid "Villa with Orange Trees, Nice"
+msgstr "Villa mit Orangenbäumen, Nizza"
+
+#: inc/block-patterns.php:105
+msgid "In the Bois de Boulogne"
+msgstr "Im Bois de Boulogne"
+
+#: inc/block-patterns.php:105
+msgid "The Garden at Bougival"
+msgstr "Der Garten von Bougival"
+
+#: inc/block-patterns.php:105
+msgid "Young Woman in Mauve"
+msgstr "Junge Frau in Mauve"
+
+#: inc/block-patterns.php:105
+msgid "Reading"
+msgstr "Lesen"
+
+#: inc/block-patterns.php:112
+msgid "Contact information"
+msgstr "Kontaktinformationen"
+
+#: inc/block-patterns.php:114
+msgid ""
+"A block with 3 columns that display contact information and social media "
+"links."
+msgstr ""
+"Ein Block mit 3 Spalten für Kontaktinformationen und Links zu sozialen Medien."
+
+#: inc/block-patterns.php:115
+msgid "123-456-7890"
+msgstr "123-456-7890"
+
+#: inc/block-patterns.php:115
+msgid "123 Main Street"
+msgstr "123 Main Street"
+
+#: inc/block-patterns.php:115
+msgid "Cambridge, MA, 02139"
+msgstr "Cambridge, MA, 02139"
+
+#: inc/block-styles.php:24
+msgid "Overlap"
+msgstr "Überschneidung"
+
+#: inc/block-styles.php:33 inc/block-styles.php:42 inc/block-styles.php:51
+#: inc/block-styles.php:78 inc/block-styles.php:87
+msgid "Borders"
+msgstr "Grenzen"
+
+#: inc/block-styles.php:60
+msgid "Frame"
+msgstr "Rahmen"
+
+#: inc/block-styles.php:69
+msgid "Dividers"
+msgstr "Unterteiler"
+
+#: inc/block-styles.php:96
+msgid "Thick"
+msgstr "Dick"
+
+#: inc/main-functions.php:35
+msgid "<strong>Error</strong>: Please enter a username."
+msgstr "<strong>Fehler</strong>: Bitte geben Sie einen Benutzernamen ein."
+
+#: inc/main-functions.php:37
+msgid ""
+"<strong>Error</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+"<strong>Fehler</strong>: Dieser Benutzername ist ungültig, da er unzulässige Zeichen enthält. Bitte geben Sie einen gültigen Benutzernamen ein."
+
+#: inc/main-functions.php:40
+msgid ""
+"<strong>Error</strong>: This username is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>Fehler</strong>: Dieser Benutzername ist bereits registriert. Bitte wählen Sie einen anderen."
+
+#: inc/main-functions.php:46
+msgid "<strong>Error</strong>: Sorry, that username is not allowed."
+msgstr "<strong>Fehler</strong>: Leider ist dieser Benutzername nicht zulässig."
+
+#: inc/main-functions.php:52
+msgid "<strong>Error</strong>: Please type your email address."
+msgstr "<strong>Fehler</strong>: Bitte geben Sie Ihre E-Mail Adresse ein."
+
+#: inc/main-functions.php:54
+msgid "<strong>Error</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>Fehler</strong>: Die E-Mail Adresse ist nicht richtig."
+
+#: inc/main-functions.php:57
+msgid ""
+"<strong>Error</strong>: This email is already registered. Please choose "
+"another one."
+msgstr ""
+"<strong>Fehler</strong>: Diese E-Mail ist bereits registriert. Bitte wählen Sie eine andere."
+
+#: inc/main-functions.php:101
+#, php-format
+msgid ""
+"<strong>Error</strong>: Couldn&#8217;t register you&hellip; please contact "
+"the <a href=\"mailto:%s\">site admin</a>!"
+msgstr ""
+"<strong>Fehler</strong>: Sie konnten nicht registriert werden&hellip; bitte wenden Sie sich an den <a href=\"mailto:%s\">Seitenadministrator</a>!"
+
+#: inc/menu-functions.php:32
+msgid "Open menu"
+msgstr "Menü öffnen"
+
+#: inc/menu-functions.php:117
+msgid "Payment methods"
+msgstr "Zahlungsmethoden"
+
+#: inc/menu-functions.php:118
+msgid "My Addresses"
+msgstr "Meine Adressen"
+
+#: inc/menu-functions.php:120 woocommerce/myaccount/form-change-password.php:23
+msgid "Change Password"
+msgstr "Passwort ändern"
+
+#: inc/starter-content.php:28 inc/starter-content.php:31
+msgid "Create your website with blocks"
+msgstr "Erstellen Sie Ihre Website mit Blöcken"
+
+#: inc/starter-content.php:71
+msgid "Add block patterns"
+msgstr "Blockmuster hinzufügen"
+
+#: inc/starter-content.php:75
+msgid ""
+"Block patterns are pre-designed groups of blocks. To add one, select the Add "
+"Block button [+] in the toolbar at the top of the editor. Switch to the "
+"Patterns tab underneath the search bar, and choose a pattern."
+msgstr ""
+"Blockmuster sind vordefinierte Gruppen von Blöcken. Wählen Sie zum Hinzufügen eines Blocks die Schaltfläche Block hinzufügen [+] in der Symbolleiste am oberen Rand des Editors. Wechseln Sie zur Registerkarte Muster unterhalb der Suchleiste und wählen Sie ein Muster aus."
+
+#: inc/starter-content.php:81
+msgid "Frame your images"
+msgstr "Rahmen Sie Ihre Bilder"
+
+#: inc/starter-content.php:85
+msgid ""
+"Get Halal includes stylish borders for your content. With an Image block "
+"selected, open the \"Styles\" panel within the Editor sidebar. Select the "
+"\"Frame\" block style to activate it."
+msgstr ""
+"Get Halal bietet stilvolle Rahmen für Ihre Inhalte. Öffnen Sie bei ausgewähltem Bildblock das Bedienfeld \"Stile\" in der Seitenleiste des Editors. Wählen Sie den Blockstil \"Rahmen\", um diesen zu aktivieren."
+
+#: inc/starter-content.php:91
+msgid "Overlap columns"
+msgstr "Überschneidende Spalten"
+
+#: inc/starter-content.php:95
+msgid ""
+"Get Halal also includes an overlap style for column blocks. With a Columns "
+"block selected, open the \"Styles\" panel within the Editor sidebar. Choose "
+"the \"Overlap\" block style to try it out."
+msgstr ""
+"Get Halal bietet auch einen Überschneidungsstil für Spaltenblöcke. Öffnen Sie bei ausgewähltem Spaltenblock das Bedienfeld \"Stile\" in der Seitenleiste des Editors. Wählen Sie den Blockstil \"Überschneidung\", um diesen auszuprobieren."
+
+#: inc/starter-content.php:110
+msgid "Need help?"
+msgstr "Benötigen Sie Hilfe?"
+
+#: inc/starter-content.php:120
+msgid "Read the Theme Documentation"
+msgstr "Lesen Sie die Dokumentation für die Themen"
+
+#: inc/starter-content.php:126
+msgid "Check out the Support Forums"
+msgstr "Besuchen Sie die Supportforen"
+
+#: inc/template-functions.php:136
+#, php-format
+msgid "Continue reading %s"
+msgstr "%s weiterlesen"
+
+#: inc/template-functions.php:181
+msgid "Untitled"
+msgstr "Unbenannt"
+
+#: inc/template-functions.php:434
+msgid "This content is password protected. Please enter a password to view."
+msgstr "Dieser Inhalt ist passwortgeschützt. Bitte geben Sie zum Anzeigen das Passwort ein."
+
+#: inc/template-functions.php:436
+msgid "Password"
+msgstr "Passwort"
+
+#: inc/template-tags.php:27
+#, php-format
+msgid "Published %s"
+msgstr "%s veröffentlicht"
+
+#: inc/template-tags.php:47 template-parts/post/author-bio.php:17
+#, php-format
+msgid "By %s"
+msgstr "Von %s"
+
+#: inc/template-tags.php:75
+msgid "Featured post"
+msgstr "Ausgewählter Beitrag"
+
+#: inc/template-tags.php:102 inc/template-tags.php:112
+#: inc/template-tags.php:146 inc/template-tags.php:156
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:106 inc/template-tags.php:150
+#, php-format
+msgid "Categorized as %s"
+msgstr "Kategorisiert als %s"
+
+#: inc/template-tags.php:116 inc/template-tags.php:160
+#, php-format
+msgid "Tagged %s"
+msgstr "Mit %s markiert"
+
+#: inc/template-tags.php:232
+msgid "Newer <span class=\"nav-short\">posts</span>"
+msgstr "Neuere <span class=\"nav-short\">Beiträge</span>"
+
+#: inc/template-tags.php:243
+msgid "Older <span class=\"nav-short\">posts</span>"
+msgstr "Ältere <span class=\"nav-short\">Beiträge</span>"
+
+#: login.php:231
+msgid "Confirm your administration email"
+msgstr "Bestätigen Sie Ihre Administrator-E-Mail"
+
+#: login.php:267
+msgid ""
+"https://wordpress.org/support/article/settings-general-screen/#email-address"
+msgstr ""
+"https://wordpress.org/support/article/settings-general-screen/#email-address"
+
+#: login.php:270
+msgid "(opens in a new tab)"
+msgstr "(wird in einer neuen Registerkarte geöffnet)"
+
+#: login.php:275
+msgid "Why is this important?"
+msgstr "Warum ist das wichtig?"
+
+#: login.php:286
+#, php-format
+msgid "Current administration email: %s"
+msgstr "Aktuelle Administrator-E-Mail: %s"
+
+#: login.php:415
+msgid ""
+"<strong>Error</strong>: Your password reset link appears to be invalid. "
+"Please request a new link below."
+msgstr ""
+"<strong>Fehler</strong>: Der Link zum Zurücksetzen Ihres Passworts scheint ungültig zu sein. Bitte fordern Sie unten einen neuen Link an."
+
+#: login.php:417
+msgid ""
+"<strong>Error</strong>: Your password reset link has expired. Please request "
+"a new link below."
+msgstr ""
+"<strong>Fehler</strong>: Der Link zum Zurücksetzen Ihres Passworts ist abgelaufen. Bitte fordern Sie unten einen neuen Link an."
+
+#: login.php:442
+msgid "Lost Password"
+msgstr "Verlorenes Passwort"
+
+#: login.php:442
+msgid ""
+"Please enter your username or email address. You will receive an email "
+"message with instructions on how to reset your password."
+msgstr ""
+"Bitte geben Sie Ihren Benutzernamen oder Ihre E-Mail-Adresse ein. Sie erhalten eine E-Mail-Nachricht mit Anweisungen zum Zurücksetzen Ihres Passworts."
+
+#: login.php:455
+msgid "Forgot your Password?"
+msgstr "Passwort vergessen?"
+
+#: login.php:471
+msgid "We’ll send you a link to reset your password"
+msgstr "Wir senden Ihnen einen Link zum Zurücksetzen Ihres Passworts"
+
+#: login.php:475
+msgid "Enter Your Email Address"
+msgstr "E-Mail-Adresse eingeben"
+
+#: login.php:500 login.php:771 login.php:1153
+msgid "Don`t have an account?"
+msgstr "Noch kein Konto?"
+
+#: login.php:500 login.php:1153
+msgid "SignUp"
+msgstr "Registrieren"
+
+#: login.php:548
+msgid "<strong>Error</strong>: The passwords do not match."
+msgstr "<strong>Fehler</strong>: Die Passwörter stimmen nicht überein."
+
+#: login.php:564
+msgid "Password Reset"
+msgstr "Passwort zurücksetzen"
+
+#: login.php:564
+msgid "Your password has been reset."
+msgstr "Ihr Passwort wurde zurückgesetzt."
+
+#: login.php:564
+msgid "Log in"
+msgstr "Anmelden"
+
+#: login.php:572
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+#: login.php:572
+msgid "Enter your new password below or generate one."
+msgstr "Geben Sie unten Ihr neues Passwort ein oder erstellen Sie eines."
+
+#: login.php:629
+msgid "Register"
+msgstr "Registrieren"
+
+#: login.php:694
+msgid "Registration Form"
+msgstr "Registrierungsformular"
+
+#: login.php:694
+msgid "Register For This Site"
+msgstr "Registrierung für diese Website"
+
+#: login.php:699
+msgid "Sign Up"
+msgstr "Registrieren"
+
+#: login.php:715
+msgid "Welcome to Get Halal"
+msgstr "Willkommen bei Get Halal"
+
+#: login.php:721 login.php:1086
+msgid "Continue with Facebook"
+msgstr "Weiter mit Facebook"
+
+#: login.php:725 login.php:1090
+msgid "Continue with Google"
+msgstr "Weiter mit Google"
+
+#: login.php:731 login.php:1096
+msgid "OR"
+msgstr "ODER"
+
+#: login.php:750 login.php:1115
+msgid "Forgot Password?"
+msgstr "Passwort vergessen?"
+
+#: login.php:771 login.php:1065
+msgid "Login"
+msgstr "Anmeldung"
+
+#: login.php:789
+#, php-format
+msgid ""
+"Check your email for the confirmation link, then visit the <a href=\"%s"
+"\">login page</a>."
+msgstr ""
+"Suchen Sie in Ihrer E-Mail nach dem Bestätigungslink und öffnen Sie dann die <a href=\"%s\">Anmeldeseite</a>."
+
+#: login.php:799
+#, php-format
+msgid ""
+"Registration complete. Please check your email, then visit the <a href=\"%s"
+"\">login page</a>."
+msgstr ""
+"Registrierung abgeschlossen. Bitte prüfen Sie Ihre E-Mail und öffnen Sie dann die <a href=\"%s\">Anmeldeseite</a>."
+
+#: login.php:809
+msgid "Check your email"
+msgstr "Prüfen Sie Ihre E-Mail"
+
+#: login.php:815
+msgid "Missing request ID."
+msgstr "Fehlende Anfrage-ID."
+
+#: login.php:819
+msgid "Missing confirm key."
+msgstr "Fehlende Bestätigungstaste."
+
+#: login.php:847
+msgid "User action confirmed."
+msgstr "Benutzeraktion bestätigt."
+
+#: login.php:897
+#, php-format
+msgid ""
+"<strong>Error</strong>: Cookies are blocked due to unexpected output. For "
+"help, please see <a href=\"%1$s\">this documentation</a> or try the <a href="
+"\"%2$s\">support forums</a>."
+msgstr ""
+"<strong>Fehler</strong>: Cookies werden aufgrund einer unerwarteten Ausgabe blockiert. Hilfe finden Sie in <a href=\"%1$s\">dieser Dokumentation</a> oder in den <a href=\"%2$s\">Supportforen</a>."
+
+#: login.php:898
+msgid "https://wordpress.org/support/article/cookies/"
+msgstr "https://wordpress.org/support/article/cookies/"
+
+#: login.php:899
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://wordpress.org/support/forums/"
+
+#: login.php:908
+#, php-format
+msgid ""
+"<strong>Error</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr ""
+"<strong>Fehler</strong>: Cookies sind blockiert oder werden von Ihrem Browser nicht unterstützt. Sie müssen <a href=\"%s\">Cookies aktivieren</a>, um WordPress nutzen zu können."
+
+#: login.php:909
+msgid ""
+"https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+msgstr ""
+"https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+
+#: login.php:929
+msgid "You have logged in successfully."
+msgstr "Sie haben sich erfolgreich angemeldet."
+
+#: login.php:1003
+msgid "Your session has expired. Please log in to continue where you left off."
+msgstr "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich wieder an, um dort fortzufahren, wo Sie aufgehört haben."
+
+#: login.php:1008
+msgid "You are now logged out."
+msgstr "Sie sind jetzt abgemeldet."
+
+#: login.php:1010
+msgid "<strong>Error</strong>: User registration is currently not allowed."
+msgstr "<strong>Fehler</strong>: Eine Benutzerregistrierung ist derzeit nicht möglich."
+
+#: login.php:1012
+msgid ""
+"<strong>You have successfully updated WordPress!</strong> Please log back in "
+"to see what&#8217;s new."
+msgstr ""
+"<strong>Sie haben WordPress erfolgreich aktualisiert!</strong> Bitte melden Sie sich wieder an, um die Neuerungen zu sehen."
+
+#: login.php:1014
+msgid "Recovery Mode Initialized. Please log in to continue."
+msgstr "Wiederherstellungsmodus initialisiert. Bitte melden Sie sich an, um fortzufahren."
+
+#: login.php:1046
+msgid "Log In"
+msgstr "Anmelden"
+
+#: single.php:24
+#, php-format
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</"
+"span>"
+msgstr ""
+"<span class=\"meta-nav\">Veröffentlicht in</span><span class=\"post-title\">%s</span>"
+
+#: single.php:38
+msgid "Next post"
+msgstr "Nächster Beitrag"
+
+#: single.php:39
+msgid "Previous post"
+msgstr "Vorheriger Beitrag"
+
+#: template-parts/content/content-none.php:16
+msgid "Sorry , no result about"
+msgstr "Leider kein Ergebnis zu"
+
+#: template-parts/content/content-none.php:26
+msgid "Continue shopping"
+msgstr "Weiter einkaufen"
+
+#: template-parts/post/author-bio.php:29
+#, php-format
+msgid "View all of %s's posts."
+msgstr "Alle Beiträge von %s anzeigen."
+
+#: woocommerce/cart/cart-empty.php:28
+msgid "Your cart is empty."
+msgstr "Ihr Warenkorb ist leer."
+
+#: woocommerce/cart/cart-empty.php:44
+msgid "Most sold Products"
+msgstr "Meistverkaufte Produkte"
+
+#: woocommerce/cart/cart-shipping.php:56
+#, php-format
+msgid "Shipping to %s."
+msgstr "Lieferung an %s."
+
+#: woocommerce/cart/cart-shipping.php:57
+msgid "Change address"
+msgstr "Adresse ändern"
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Shipping options will be updated during checkout."
+msgstr "Die Lieferoptionen werden an der Kasse aktualisiert."
+
+#: woocommerce/cart/cart-shipping.php:68
+msgid "Shipping costs are calculated during checkout."
+msgstr "Die Lieferkosten werden an der Kasse berechnet."
+
+#: woocommerce/cart/cart-shipping.php:70
+msgid "Enter your address to view shipping options."
+msgstr "Geben Sie Ihre Adresse ein, um die Lieferoptionen anzuzeigen."
+
+#: woocommerce/cart/cart-shipping.php:73
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+"Es sind keine Lieferoptionen verfügbar. Bitte achten Sie darauf, dass Ihre Adresse korrekt eingegeben wurde, oder kontaktieren Sie uns, wenn Sie Hilfe benötigen."
+
+#: woocommerce/cart/cart-shipping.php:76
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr "Es wurden keine Lieferoptionen für %s gefunden."
+
+#: woocommerce/cart/cart-shipping.php:77
+msgid "Enter a different address"
+msgstr "Eine andere Adresse eingeben"
+
+#: woocommerce/cart/cart-totals.php:70
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(geschätzt für %s)"
+
+#: woocommerce/cart/cart.php:94
+msgid "Available on backorder"
+msgstr "Auf Rückbestellung verfügbar"
+
+#: woocommerce/checkout/form-checkout-address.php:36
+#: woocommerce/checkout/form-checkout-payment.php:31
+#: woocommerce/checkout/thankyou.php:29
+msgid "Payment"
+msgstr "Zahlung"
+
+#: woocommerce/checkout/form-checkout-address.php:37
+#: woocommerce/checkout/form-checkout-payment.php:32
+#: woocommerce/checkout/thankyou.php:30
+msgid "Order Placed"
+msgstr "Bestellung aufgegeben"
+
+#: woocommerce/checkout/form-checkout-address.php:47
+msgid "Add a new address"
+msgstr "Eine neue Adresse hinzufügen"
+
+#: woocommerce/checkout/form-checkout-address.php:66
+#: woocommerce/myaccount/my-address.php:35
+msgid "Add a new Address"
+msgstr "Eine neue Adresse hinzufügen"
+
+#: woocommerce/checkout/form-checkout-address.php:69
+msgid "Next"
+msgstr "Weiter"
+
+#: woocommerce/checkout/form-checkout-payment.php:82
+msgid "Schedule a time"
+msgstr "Einen Termin planen"
+
+#: woocommerce/checkout/form-checkout.php:24
+msgid "You must be logged in to checkout."
+msgstr "Sie müssen angemeldet sein, um zur Kasse zu gehen."
+
+#: woocommerce/checkout/form-coupon.php:27
+msgid "Add Coupon"
+msgstr "Gutschein hinzufügen"
+
+#: woocommerce/checkout/form-login.php:26
+msgid "Returning customer?"
+msgstr "Stammkunde?"
+
+#: woocommerce/checkout/form-login.php:26
+msgid "Click here to login"
+msgstr "Klicken Sie hier zum Anmelden"
+
+#: woocommerce/checkout/form-login.php:32
+msgid ""
+"If you have shopped with us before, please enter your details below. If you "
+"are a new customer, please proceed to the Billing section."
+msgstr ""
+"Wenn Sie bereits bei uns eingekauft haben, geben Sie bitte unten Ihre Daten ein. Wenn Sie ein neuer Kunde sind, fahren Sie bitte mit dem Abschnitt Rechnung fort."
+
+#: woocommerce/checkout/form-pay.php:79
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Leider scheint es für Ihren Standort keine verfügbaren Zahlungsarten zu geben. Bitte kontaktieren Sie uns, wenn Sie Hilfe benötigen oder Alternativen nutzen möchten."
+
+#: woocommerce/checkout/payment.php:28
+msgid "Payment Method"
+msgstr "Zahlungsmethode"
+
+#: woocommerce/checkout/payment.php:37
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Leider scheint es für Ihr Land keine Zahlungsmöglichkeiten zu geben. Bitte kontaktieren Sie uns, wenn Sie Hilfe benötigen oder Alternativen nutzen möchten."
+
+#: woocommerce/checkout/payment.php:37
+msgid "Please fill in your details above to see available payment methods."
+msgstr "Bitte geben Sie oben Ihre Daten ein, um die verfügbaren Zahlungsmethoden anzuzeigen."
+
+#: woocommerce/checkout/review-order.php:23
+#, php-format
+msgid "For every purchase over %s GetHalal will donate %s to Chairty"
+msgstr "Für jeden Einkauf über %s spendet GetHalal %s an Chairty"
+
+#: woocommerce/checkout/review-order.php:31
+msgid "Purchase Summary"
+msgstr "Kaufzusammenfassung"
+
+#: woocommerce/checkout/review-order.php:96
+msgid "Place Order"
+msgstr "Bestellung aufgeben"
+
+#: woocommerce/checkout/thankyou.php:58
+msgid "Your order has been placed succuessfully"
+msgstr "Ihre Bestellung wurde erfolgreich aufgegeben"
+
+#: woocommerce/checkout/thankyou.php:98
+msgid "Shop again"
+msgstr "Erneut einkaufen"
+
+#: woocommerce/checkout/thankyou.php:100
+msgid "Track Your order"
+msgstr "Bestellung verfolgen"
+
+#: woocommerce/checkout/thankyou.php:111
+msgid "Thank you. Your order has been received."
+msgstr "Vielen Dank. Ihre Bestellung ist eingegangen."
+
+#: woocommerce/myaccount/form-add-payment-method.php:22
+msgid "Add a new card/Debit"
+msgstr "Eine neue Karte hinzufügen"
+
+#: woocommerce/myaccount/form-add-payment-method.php:60
+msgid "Save your card for future purchase"
+msgstr "Karte für zukünftige Einkäufe speichern"
+
+#: woocommerce/myaccount/form-change-password.php:30
+msgid "Current password"
+msgstr "Aktuelles Passwort"
+
+#: woocommerce/myaccount/form-change-password.php:33
+msgid "New password"
+msgstr "Neues Passwort"
+
+#: woocommerce/myaccount/form-change-password.php:36
+msgid "Confirm new password"
+msgstr "Neues Passwort bestätigen"
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Passwort vergessen? Bitte geben Sie Ihren Benutzernamen oder Ihre E-Mail-Adresse ein. Sie erhalten dann per E-Mail einen Link zur Erstellung eines neuen Passworts."
+
+#: woocommerce/myaccount/form-notifications.php:25
+#: woocommerce/myaccount/form-terms-policy.php:25
+msgid "Billing address"
+msgstr "Rechnungsadresse"
+
+#: woocommerce/myaccount/form-notifications.php:44
+msgid "No Notifications Yet."
+msgstr "Noch keine Benachrichtigungen."
+
+#: woocommerce/myaccount/form-notifications.php:46
+msgid "When you got noitigications ,they’ll show up here"
+msgstr "Wenn Sie Benachrichtigungen erhalten, werden sie hier angezeigt."
+
+#: woocommerce/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr "Geben Sie unten ein neues Passwort ein."
+
+#: woocommerce/myaccount/lost-password-confirmation.php:20
+msgid "Password reset email has been sent."
+msgstr "Die E-Mail zum Zurücksetzen des Passworts wurde gesendet."
+
+#: woocommerce/myaccount/lost-password-confirmation.php:25
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+"Eine E-Mail zum Zurücksetzen des Passworts wurde an die für Ihr Konto hinterlegte E-Mail-Adresse gesendet. Es kann jedoch einige Minuten dauern, bis sie in Ihrem Posteingang erscheint. Bitte warten Sie mindestens 10 Minuten, bevor Sie erneut versuchen, Ihr Passwort zurückzusetzen."
+
+#: woocommerce/myaccount/my-downloads.php:29
+msgid "Available downloads"
+msgstr "Verfügbare Downloads"
+
+#: woocommerce/myaccount/my-downloads.php:39
+#, php-format
+msgid "%s download remaining"
+msgstr "%s Download verbleibend"
+
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Order"
+msgstr "Bestellung"
+
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Date"
+msgstr "Datum"
+
+#: woocommerce/myaccount/my-orders.php:16
+msgid "Status"
+msgstr "Status"
+
+#: woocommerce/myaccount/my-orders.php:17
+msgid "Total"
+msgstr "Gesamt"
+
+#: woocommerce/myaccount/my-orders.php:40
+msgid "Recent orders"
+msgstr "Aktuelle Bestellungen"
+
+#: woocommerce/myaccount/my-orders.php:45 woocommerce/myaccount/orders.php:40
+msgid "Upcoming"
+msgstr "Demnächst"
+
+#: woocommerce/myaccount/my-orders.php:46 woocommerce/myaccount/orders.php:41
+msgid "History"
+msgstr "Verlauf"
+
+#: woocommerce/myaccount/my-orders.php:67
+#, php-format
+msgid "%1$s for %2$s item"
+msgstr "%1$s für %2$s Artikel"
+
+#: woocommerce/myaccount/orders.php:71
+msgid "R-Order"
+msgstr "R-Bestellung"
+
+#: woocommerce/myaccount/payment-methods.php:32
+msgid "Payment Methods"
+msgstr "Zahlungsmethoden"
+
+#: woocommerce/myaccount/payment-methods.php:41
+#, php-format
+msgid "%1$s card ......%2$s"
+msgstr "%1$s Karte ......%2$s"
+
+#: woocommerce/myaccount/payment-methods.php:65
+msgid "Add a new Card"
+msgstr "Eine neue Karte hinzufügen"
+
+#: woocommerce/myaccount/view-order.php:30
+#: woocommerce/myaccount/view-order.php:36 woocommerce/order/tracking.php:25
+msgid "Order status"
+msgstr "Bestellstatus"
+
+#: woocommerce/myaccount/view-order.php:42 woocommerce/order/tracking.php:30
+msgid "Order Information"
+msgstr "Bestellinformationen"
+
+#: woocommerce/myaccount/view-order.php:47 woocommerce/order/tracking.php:35
+#, php-format
+msgid "Order id:#%1$s"
+msgstr "Bestellnummer:#%1$s"
+
+#: woocommerce/myaccount/view-order.php:56 woocommerce/order/tracking.php:44
+#, php-format
+msgid "Date: %1$s"
+msgstr "Datum: %1$s"
+
+#: woocommerce/myaccount/view-order.php:65 woocommerce/order/tracking.php:53
+#, php-format
+msgid "Payment method:#%1$s"
+msgstr "Zahlungsmethode:#%1$s"
+
+#: woocommerce/myaccount/view-order.php:90 woocommerce/order/tracking.php:78
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr "l jS \\o\\f F Y, h:ia"
+
+#: woocommerce/order/order-details-customer.php:30
+#, php-format
+msgid "Customer name:%1$s"
+msgstr "Kundenname:%1$s"
+
+#: woocommerce/order/order-details-customer.php:37
+msgid "N/A"
+msgstr "N. z."
+
+#: woocommerce/order/order-details-customer.php:46
+#, php-format
+msgid "Mobile no: %1$s"
+msgstr "Mobilnummer: %1$s"
+
+#: woocommerce/order/order-details.php:104
+msgid "Cancel Your Order"
+msgstr "Bestellung stornieren"
+
+#: woocommerce/order/order-downloads.php:56
+msgid "&infin;"
+msgstr "&infin;"

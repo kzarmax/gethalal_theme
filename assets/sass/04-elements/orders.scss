@@ -1,0 +1,231 @@
+.my_account_orders {
+  max-width: 540px;
+
+  .table-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+
+    a, span {
+      margin-right: 16px;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 12px 40px;
+      background: #F3F2F2;
+      color: var(--global--color-gray-400);
+
+      &.inactive {
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  .orders-content {
+    .order {
+      border-radius: 8px;
+      padding: 16px;
+      background-color: #fff;
+      cursor: pointer;
+      margin-bottom: 16px;
+
+      .order-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        time {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: var(--global--color-black-900)
+        }
+
+        .order-number {
+          font-size: 14px;
+          line-height: 18px;
+          color: var(--global--color-gray-600)
+        }
+
+        .order-price {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 24px;
+          color: var(--global--color-primary-500)
+        }
+
+        .order-action {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 18px;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}
+
+.gethalal-order-detail{
+  .woocommerce-customer-details{
+    margin-bottom: unset !important;
+  }
+  .woocommerce-order-details{
+    margin-bottom: unset !important;
+    .woocommerce-table__line-item{
+      border-bottom: 0.5px solid rgba(203, 202, 202, 0.4);
+      padding: 8px 0;
+      .woocommerce-table__product-quantity{
+        width: 56px;
+      }
+      .woocommerce-table__product-name{
+        flex-grow: 1;
+      }
+
+    }
+  }
+  .details-footer{
+    margin-top: 8px;
+  }
+  .form-section-title{
+    margin-bottom: 8px;
+  }
+  .form-section-row, .form-row-between{
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--global--color-gray-600)
+  }
+  .order-total{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--global--color-black-900)
+  }
+  .order-action{
+    margin-top: 32px !important;
+    border-radius: 32px !important;
+    background-color: var(--global--color-primary-500) !important;
+    color: #fff !important;
+    width: 100%;
+    text-align: center;
+  }
+  .order-status-container{
+    .order-status-icon-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 24px;
+
+      .order-status-line {
+        width: 60px;
+        height: 4px;
+      }
+
+      .order-status-check {
+        width: 25px;
+        height: 25px;
+      }
+    }
+    .order-status-label-container{
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .order-status-label-item{
+        text-align: center;
+        .order-status-label{
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+        }
+        .order-status-label-date{
+          font-size: 14px;
+          line-height: 18px;
+          margin-top: 8px;
+        }
+        .order-status-label-time{
+          font-size: 12px;
+          line-height: 16px;
+          margin-top: 4px;
+          color: var(--global--color-gray-600)
+        }
+      }
+    }
+  }
+
+  @include media(mobile) {
+    .order-status-container {
+      .order-status-line {
+        width: 110px;
+        height: 4px;
+      }
+    }
+  }
+}
+
+mark{
+  &.status-cancelled, &.status-failed, &.status-refunded {
+    background-color: rgba(233, 60, 60, 0.15);
+    font-size: 14px;
+    line-height: 18px;
+    padding: 4px 12px;
+    color: rgba(233, 60, 60, 1);
+    border-radius: 8px;
+  }
+  &.status-pending, &.status-draft, &.status-on-hold, &.status-processing, &.status-shipped, &.status-delivered, &.status-completed{
+    background-color: rgba(230, 246, 234, 1);
+    font-size: 14px;
+    line-height: 18px;
+    padding: 4px 12px;
+    color: rgba(0, 101, 35, 1);
+    border-radius: 8px;
+  }
+}
+
+.dialog-order-cancel-content{
+  width: 480px;
+
+  .cancel-header {
+    position: relative;
+    text-align: center;
+
+    .dialog-close-icon {
+      position: absolute;
+      top: 8px;
+      right: 0;
+    }
+
+    .dialog-title {
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+  .cancel_reason_type{
+    width: 100%;
+    margin-top: 32px;
+  }
+  .cancel-reason-text{
+    margin-top: 16px;
+    height: 130px;
+  }
+  .cancel-actions{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    a{
+      border-radius: 32px;
+      margin-bottom: 16px;
+      text-align: center;
+      &.button-primary{
+        background-color: var(--global--color-primary-500);
+        color: #fff
+      }
+      &.button-secondary{
+        background-color: unset;
+        color: var(--global--color-primary-500);
+      }
+    }
+  }
+}
+

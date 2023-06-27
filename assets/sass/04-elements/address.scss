@@ -1,0 +1,89 @@
+.addresses {
+  &.checkout-addresses{
+    margin: 24px auto;
+  }
+
+  .address-container {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 16px;
+
+    .address-check {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+
+      .check-label {
+        margin-top: 12px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0 12px;
+      }
+
+      .check-btn.active {
+        color: var(--global--color-primary-500)
+      }
+    }
+
+    .address-content {
+      flex-grow: 1;
+      margin: 16px;
+
+      .full-name {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 4px;
+      }
+
+      .address-text, .address-country {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 4px;
+      }
+    }
+
+    .address-action {
+      margin: 16px;
+      .address-edit-action {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .add-address-action {
+    margin: 36px 24px;
+    display: flex;
+    align-items: center;
+    color: var(--global--color-primary-500);
+    cursor: pointer;
+
+    .address-add-action {
+      margin-left: 16px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      color: var(--global--color-primary-500);
+    }
+  }
+  @include media(mobile){
+    max-width: 540px;
+    margin: 0;
+    .address-container{
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      .address-content{
+        margin: 0 16px;
+      }
+      .address-action {
+        margin: 0;
+      }
+    }
+  }
+}
